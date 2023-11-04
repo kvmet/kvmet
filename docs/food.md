@@ -1,0 +1,21 @@
+- Pantry
+    - Mochiko (rice flour)
+    - White sugar
+    - Brown sugar
+    - Pan (corn meal)
+    - Aardvark Sauce
+    - Sriracha
+    - Jasmine rice
+    - Short grain rice?
+    - Pasta
+    - Pasta sauce
+    - Curry mix
+    - Potatoes
+    - Onions
+    - Carrots
+    - Tofu
+    - Yogurt
+    - Coffee
+    - PB
+    - Grape Jelly
+    - Cheese
