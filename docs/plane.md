@@ -6,3 +6,4 @@
 - should be able to hold a camera.
 - FPV?
 - must be under FAA weight limits. 
+- Tail sitter?
