@@ -12,7 +12,7 @@ $$
 \text{Cosine Similarity}
 = S_{\cos}(A,B)
 := \frac{A \cdot B}{||A|| \space ||B||}
-= \frac{\sum_{i=1}^{n} a_i b_i}{\sqrt{\sum_{i=1}^n a_i^2}\cdot \sqrt{\sum_{i=1}^n b_i^2}}
+= \frac{\sum_{i=1}^{n} {a_i b_i}}{\sqrt{\sum_{i=1}^n a_i^2}\cdot \sqrt{\sum_{i=1}^n b_i^2}}
 $$
 $$
 \text{Cosine Distance} = D_{\cos}(A,B) := 1 - S_C(A,B)
