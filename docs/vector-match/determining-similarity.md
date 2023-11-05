@@ -62,5 +62,5 @@ If you have a graph of nearest neighbors, you can rank them by similarity to eac
 
 # Searching for Similar Vectors
 
-Index and sort vectors by similarity to "Landmark" vectors?
+Index and sort vectors by similarity to "Landmark" vectors? (What I was looking for is Random Projection. More notes will follow.)
  
