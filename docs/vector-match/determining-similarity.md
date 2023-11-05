@@ -23,7 +23,7 @@ $$
 The sum of the amount of travel required in each dimension in order to move from one vector to the other. Simplistic version of distance but also a bit easier to compute than `Euclidian Distance`.
 
 $$
-\text{Taxicab Distance} = D_1(A,B) := ||A - B||_T = {\sum_{i=1}^n |a_i - b_i|}
+\text{Taxicab Distance} = D_1(A,B) := {{||A - B||}_T} = {\sum_{i=1}^n {|a_i - b_i|}}
 $$
 
 # Euclidian Distance (Pythagorean Theorem)
