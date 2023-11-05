@@ -26,6 +26,13 @@ $$
 \text{Taxicab Distance} = D_1(A,B) := {{||A - B||}_T} = {\sum_{i=1}^n {|a_i - b_i|}}
 $$
 
+$$
+\text{Taxicab Distance} = D_1(A,B) := ||A - B||_T
+$$
+$$
+\text{Taxicab Distance} = D_1(A,B)
+$$
+
 # Euclidian Distance (Pythagorean Theorem)
 
 The shortest possible path is a straight line. Effective similarity metric but somewhat expensive to compute.
