@@ -27,10 +27,7 @@ $$
 $$
 
 $$
-\text{Taxicab Distance} = D_1(A,B) := ||A - B||_T
-$$
-$$
-\text{Taxicab Distance} = D_1(A,B)
+\text{Taxicab Distance} = D_1(A,B) := ||A - B||_T = \displaystyle{\sum_{i=1}^n}
 $$
 
 # Euclidian Distance (Pythagorean Theorem)
