@@ -1,31 +1,81 @@
 # kvmet
 
-## Tools I am currently using
+# Tools I am currently using
 
-### Hardware
+## Software
+
+- Web Browser – Firefox
+- Git Client – GitKraken
+- Photography
+    - Raw Processing
+        - Capture One
+        - Lightroom
+    - Photo Manipulation
+        - GIMP
+        - Photoshop
+- Text editor
+    - Markdown Editor – Zettlr
+    - General Editing – VS Code
+    - Ultralight Editor – Geany
+- 2D Design
+    - Vector Graphics
+        - Inkscape
+        - Affinity Designer
+- 3D Design
+    - Modeling – Blender
+    - Parametric CAD – OpenSCAD
+- PCB Design – KiCad
+- Circuit Simulation – LTSpice
+- Barcode Generator – Zint
+- Password Manager – KeePass
+- Game Engine – Godot
+- Fonts
+    - IBM Plex
+    - FiraMath
+    - Dank Mono
+    - TODO
+
+### Windows
+
+- Cursors – Posy's Cursors
+
+### MacOS
+
+- Window management – Rectangle
+- Middle click on Touchpad – MiddleClick
+- Quick notes – Tyke
+
+### iOS
+
+- Notetaking – Notability
+
+### Android
+
+## Services
+
+- Domain Registrar – CloudFlare
+- Static Hosting – GitHub Pages
+- Search Engine – [Kagi](kagi.com)
+ 
+## Hardware
+
 - 3D Printing
     - AnyCubic Photon D2
     - AnyCubic Wash & Cure 2.0
+- Phone – Sony Xperia I V
+- Camera – Nikon Z50
+    - Lenses – TODO
 
-### Software
-- Search
-    - Kagi
-- Domain Registrar
-    - Cloudflare
+---
+
+- $\LaTeX$ rendering – XeLaTex / Live TeX
 - Databases
     - SQLite
     - PostgreSQL
     - TimescaleDB
-- Misc Utilities
-    - Barcode Generator – Zint
-    - Password Manager – KeePass
-- Text editors
-    - Zettlr
-    - VS Code
-    - Geany – Super lightweight
 - Markdown
     - Mermaid
-    - Latex
+    - $\LaTeX$
     - MkDocs – For static website generation
         - MkDocs Material
         - MkDocs Mermaid
@@ -34,20 +84,5 @@
 - PLC Development
     - TwinCAT 3
     - Ignition by Inductive Automation
-- Design Software
-    - OpenSCAD
-    - Adobe Illustrator
-    - Adobe Photoshop
-    - Godot
-    - Blender
-    - Inkscape
-    - GIMP
-    - Capture One
-    - Adobe Lightroom
 - Android Apps
     - KISS Launcher
-    - Firefox
-- iOS Apps
-    - Notability
-
- 
