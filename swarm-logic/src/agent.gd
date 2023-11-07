@@ -2,8 +2,10 @@ extends RigidBody2D
 
 @export var speed = 130
 @export var curve = 0.1 # Alter direction
+@export var juke_interval = 100
 
 var goal = 0
+var juke_counter = 0
 var step_counts = [1000000,1000000]
 var direction = Vector2(0,1)
 var rd = RandomNumberGenerator.new()
@@ -34,6 +36,12 @@ func _process(delta):
 			direction = -direction
 		else:
 			direction = direction.bounce(coll.get_normal())
+			
+	juke_counter += 1
+	if juke_counter > juke_interval:
+		direction = Vector2(direction.x + rd.randfn(0,curve), direction.y + rd.randfn(0,curve))
+		direction = direction.normalized()
+		juke_counter = 0
 	
 func shout_at(node : RigidBody2D, steps : Array, range : float):
 	var chase = false
@@ -51,8 +59,3 @@ func shout_at(node : RigidBody2D, steps : Array, range : float):
 	if chase:
 		direction = self.position.direction_to(node.position) + direction
 		direction = direction.normalized()
-		
-
-func _on_step_timer_timeout():
-	direction = Vector2(direction.x + rd.randfn(0,curve), direction.y + rd.randfn(0,curve))
-	direction = direction.normalized()
