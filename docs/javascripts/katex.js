@@ -7,4 +7,4 @@ document$.subscribe(({ body }) => {
       { left: "\\[", right: "\\]", display: true }
     ],
   })
-})
+});
