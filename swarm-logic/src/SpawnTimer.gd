@@ -27,5 +27,5 @@ func _on_timeout():
 	
 	count += 1
 	
-	if count > 250:
+	if count > 300:
 		self.stop()

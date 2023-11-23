@@ -1,9 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://68pmb4r7im1p"]
+[gd_scene load_steps=6 format=3 uid="uid://68pmb4r7im1p"]
 
 [ext_resource type="PackedScene" uid="uid://b1o5sn4oqry7v" path="res://agent.tscn" id="1_meybq"]
 [ext_resource type="Script" path="res://agents_node.gd" id="1_sdalw"]
 [ext_resource type="Script" path="res://SpawnTimer.gd" id="3_gr8cv"]
-[ext_resource type="Script" path="res://StepTimer.gd" id="4_aix50"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0m54j"]
 size = Vector2(1200, 30)
@@ -128,11 +127,5 @@ script = ExtResource("3_gr8cv")
 agent_scene = ExtResource("1_meybq")
 spawn_point = NodePath("../AgentSpawn")
 
-[node name="StepTimer" type="Timer" parent="Agents"]
-wait_time = 0.25
-autostart = true
-script = ExtResource("4_aix50")
-
-[connection signal="spawn" from="Agents/SpawnTimer" to="Agents/StepTimer" method="_on_spawn_timer_spawn"]
+[connection signal="spawn" from="Agents/SpawnTimer" to="Agents" method="_on_spawn_timer_spawn"]
 [connection signal="timeout" from="Agents/SpawnTimer" to="Agents/SpawnTimer" method="_on_timeout"]
-[connection signal="timeout" from="Agents/StepTimer" to="Agents/StepTimer" method="_on_timeout"]

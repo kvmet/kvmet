@@ -1,4 +1,11 @@
+---
+title: kvmet
+lang: en-US
+---
+
 # kvmet
+
+I use my main repo for most projects and the documentation is available through a more user-friendly format at [kvmet.com](kvmet.com).
 
 # Tools I am currently using
 
@@ -33,7 +40,7 @@
     - IBM Plex
     - FiraMath
     - Dank Mono
-    - TODO
+    - [B612](https://b612-font.com/)
 
 ### Windows
 

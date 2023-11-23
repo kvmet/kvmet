@@ -1,3 +1,5 @@
 /mkdocs/site
 /mkdocs/site/*
 .ztr-directory
+.DS_Store
+*.swp
