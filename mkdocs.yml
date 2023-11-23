@@ -129,6 +129,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: README.md
+  - Home: index.md
+  - Radio: index.md
   - Toki Pona:
     - Writing System: luka-tu-suno/luka-tu-suno.md
