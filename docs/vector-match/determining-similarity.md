@@ -26,6 +26,7 @@ The sum of the amount of travel required in each dimension in order to move from
 $$
 \text{Taxicab Distance} = D_1(A,B) := {{||A - B||}_T}
 $$
+
 $$
 = {\sum_{i=1}^n {|a_i - b_i|}}
 $$
