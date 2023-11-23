@@ -10,7 +10,7 @@
 7. include as much punctuation as possible for 7-segment displays
 
 ---
-!!! note A Quick Note
+!!! note "A Quick Note"
 	The summaries are presented at the top as a matter of convenience. I highly recommend reading the explanations that follow in order to understand how the system is put together. Rote memorization would require knowing 69 symbols while understanding the system only really requires 14 (+2 for the flipped variants).
 
 ---
