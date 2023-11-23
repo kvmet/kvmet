@@ -8,6 +8,7 @@ site_description: >-
 # Repository
 repo_name: kvmet/kvmet
 repo_url: https://github.com/kvmet/kvmet
+edit_uri: ./edit/main
 
 # Copyright
 copyright: Copyright &copy; Kristen Metcalfe
@@ -131,5 +132,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Radio: index.md
+  - Vector:
+    - Similarity: vector-match/determining-similarity.md
   - Toki Pona:
-    - Writing System: luka-tu-suno/luka-tu-suno.md
+    - Writing System: toki-pona/luka-tu-suno.md
