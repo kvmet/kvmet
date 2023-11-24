@@ -25,7 +25,7 @@ jobs:
           
           # Read the template and replace the placeholder with the changelog content
           while IFS= read -r line; do
-            if [[ "$line" == "<!-- CHANGELOG TEMPLATE -->" ]]; then
+            if [[ "$line" == "<!-- CHANGELOG PLACEHOLDER -->" ]]; then
               printf '%s\n' "$changelog"
             else
               printf '%s\n' "$line"
