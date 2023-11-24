@@ -11,7 +11,7 @@ repo_url: null # https://github.com/kvmet/kvmet
 edit_uri: null # ./edit/main
 
 # Copyright
-copyright: Copyright &copy; Kristen Metcalfe
+copyright: Copyright &copy; Kristen Metcalfe 2023
 
 # Configuration
 theme:
@@ -152,4 +152,4 @@ nav:
       - Similarity: vector-match/determining-similarity.md
     - Toki Pona:
       - Writing System: toki-pona/luka-tu-suno.md
-  - Meta: index.md
+  - Meta: meta/meta.md
