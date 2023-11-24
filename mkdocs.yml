@@ -139,10 +139,13 @@ extra_css:
 # Page tree
 nav:
   - Home: index.md
-  - Radio: index.md
-  - Music: index.md
-  - Math:
-    - Similarity: vector-match/determining-similarity.md
-  - Toki Pona:
-    - Writing System: toki-pona/luka-tu-suno.md
+  - Hobbies:
+    - Radio: index.md
+    - Music: index.md
+  - Projects:
+    - Math:
+      - Voting: voting/voting.md
+      - Similarity: vector-match/determining-similarity.md
+    - Toki Pona:
+      - Writing System: toki-pona/luka-tu-suno.md
   - Meta: index.md
