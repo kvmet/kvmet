@@ -21,7 +21,7 @@ jobs:
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - run: |
           changelog="$(git log -n 10 --pretty=format:'# [%h](https://github.com/${{ github.repository }}/commit/%H) - %ad%n%n  **%s**%n%n' --date=short)"
-	  echo $changelog >> docs/CHANGELOG.md
+          echo $changelog >> docs/CHANGELOG.md
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
