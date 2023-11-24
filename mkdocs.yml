@@ -82,10 +82,14 @@ extra:
   #analytics:
     #provider: google
     #property: !ENV GOOGLE_ANALYTICS_KEY
-  #social:
-    #- icon: fontawesome/brands/github
-    #  link: https://github.com/squidfunk
-
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kvmet
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/kvmet
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/kvmet/
+      
 # Extensions
 markdown_extensions:
   - abbr
