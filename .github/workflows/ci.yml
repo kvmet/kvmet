@@ -20,14 +20,17 @@ jobs:
           python-version: 3.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - run: |
-          # Escape special characters for sed
-          changelog="$(git log -n 10 --pretty=format:'- [%h](https://github.com/${{ github.repository }}/commit/%H) - %ad%n  * %s%n%n' --date=short --name-status | sed 's/[&/\]/\\&/g')"
+        # Generate the changelog from git log without filenames
+        changelog=$(git log -n 10 --pretty=format:'# [%h](https://github.com/${{ github.repository }}/commit/%H) - %ad%n%n  **%s%n%n**' --date=short)
     
-          # Use awk to replace the placeholder with the changelog
-          awk -v changelog="$changelog" '{
-            sub(/<!-- CHANGELOG_PLACEHOLDER -->/, changelog);
-            print;
-          }' docs/CHANGELOG_TEMPLATE.md > docs/CHANGELOG.md
+        # Use awk to replace the placeholder and prepend the changelog content
+        awk -v changelog="$changelog" '
+          /<!-- CHANGELOG_PLACEHOLDER -->/ {
+            print changelog
+            next
+          }
+          { print }
+        ' docs/CHANGELOG_TEMPLATE.md > docs/CHANGELOG.md
 
       - uses: actions/cache@v3
         with:
