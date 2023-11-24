@@ -5,5 +5,5 @@ lang: en-US
 
 # Changelog
 
-<!-- CHANGELOG PLACEHOLDER -->
+<!-- CHANGELOG_PLACEHOLDER -->
 
