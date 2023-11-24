@@ -20,7 +20,8 @@ jobs:
           python-version: 3.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - run: |
-          changelog="$(git log -n 25 --pretty=format:\'# [%h]\(https://github.com/${{ github.repository }}/commit/%H\) - %ad%n%n  **%s**%n%n\' --date=shor)"
+          #changelog="$(git log -n 25 --pretty=format:\'# [%h]\(https://github.com/${{ github.repository }}/commit/%H\) - %ad%n%n  **%s**%n%n\' --date=shor)"
+          changelog="TEST!"
           echo $changelog >> docs/CHANGELOG.md
       - uses: actions/cache@v3
         with:
