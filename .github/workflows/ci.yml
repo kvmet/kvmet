@@ -26,7 +26,7 @@ jobs:
           # Use awk to replace the placeholder and output to the new changelog file
           awk -v changelog="$changelog" '
             { 
-              if ($0 ~ /<!-- CHANGELOG TEMPLATE -->/) {
+              if ($0 ~ /<!-- CHANGELOG PLACEHOLDER -->/) {
                 print changelog
               } else {
                 print $0
