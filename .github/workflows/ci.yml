@@ -19,8 +19,10 @@ jobs:
         with:
           python-version: 3.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - run: cat docs/CHANGELOG_TEMPLATE.md > docs/CHANGELOG.md
-      - run: git log -n 25 --pretty=format:'%n## %ad -- [%h](https://github.com/${{ github.repository }}/commit/%H)%n%n%s%n' --date=short >> docs/CHANGELOG.md
+      - run: |
+          cat docs/CHANGELOG_TEMPLATE.md > docs/CHANGELOG.md
+          git log -10 --pretty=format:"%cd - %s (%h)" --date=short >> CHANGELOG.md
+          #git log -n 25 --pretty=format:'%n## %ad -- [%h](https://github.com/${{ github.repository }}/commit/%H)%n%n%s%n' --date=short >> docs/CHANGELOG.md
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
