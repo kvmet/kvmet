@@ -5,6 +5,4 @@ lang: en-US
 
 # Changelog
 
-```
 <!-- CHANGELOG_PLACEHOLDER -->
-```
