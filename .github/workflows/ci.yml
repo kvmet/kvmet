@@ -21,21 +21,18 @@ jobs:
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
 
       - run: |
-        # Use awk to process the git log and replace the placeholder with the changelog content
-        awk '
-          BEGIN {
-            cmd = "git log -n 10 --pretty=format:\x27- **%s** -- [%h](https://github.com/${{ github.repository }}/commit/%H) - %ad%n%n\x27 --date=short"
-            while ((cmd | getline line) > 0) {
-              changelog = (changelog ? changelog "\n" : "") line
-            }
-            close(cmd)
-          }
+        # Generate the changelog from git log without filenames
+        changelog="$(git log -n 10 --pretty=format:'- **%s** -- [%h](https://github.com/${{ github.repository }}/commit/%H) - %ad%n%n' --date=short)"
+
+        # Use awk with 'printf' to replace the placeholder in the template
+        awk -v changelog="$changelog" '
           /<!-- CHANGELOG_PLACEHOLDER -->/ {
-            print changelog
+            printf "%s", changelog
             next
           }
           { print }
         ' docs/CHANGELOG_TEMPLATE.md > docs/CHANGELOG.md
+
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
