@@ -3,3 +3,4 @@
 .ztr-directory
 .DS_Store
 *.swp
+*.geany
