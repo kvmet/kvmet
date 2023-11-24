@@ -6,9 +6,9 @@ site_description: >-
    kvmet
 
 # Repository
-repo_name: kvmet/kvmet
-repo_url: https://github.com/kvmet/kvmet
-edit_uri: ./edit/main
+repo_name: null # kvmet/kvmet
+repo_url: null # https://github.com/kvmet/kvmet
+edit_uri: null # ./edit/main
 
 # Copyright
 copyright: Copyright &copy; Kristen Metcalfe
@@ -140,7 +140,9 @@ extra_css:
 nav:
   - Home: index.md
   - Radio: index.md
-  - Vector:
+  - Music: index.md
+  - Math:
     - Similarity: vector-match/determining-similarity.md
   - Toki Pona:
     - Writing System: toki-pona/luka-tu-suno.md
+  - Meta: index.md
