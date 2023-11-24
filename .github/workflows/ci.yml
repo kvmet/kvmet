@@ -20,9 +20,19 @@ jobs:
           python-version: 3.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - run: |
-          #changelog="$(git log -n 25 --pretty=format:\'# [%h]\(https://github.com/${{ github.repository }}/commit/%H\) - %ad%n%n  **%s**%n%n\' --date=shor)"
-          changelog="TEST!"
-          echo $changelog >> docs/CHANGELOG.md
+          # Generate the changelog content from git logs
+          changelog=$(git log -n 25 --pretty=format:'# [%h](https://github.com/${{ github.repository }}/commit/%H) - %ad%n%n  **%s**%n%n' --date=short)
+          
+          # Use awk to replace the placeholder and output to the new changelog file
+          awk -v changelog="$changelog" '
+            { 
+              if ($0 ~ /<!-- CHANGELOG TEMPLATE -->/) {
+                print changelog
+              } else {
+                print $0
+              }
+            }
+          ' docs/CHANGELOG_TEMPLATE.md > docs/CHANGELOG.md
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
