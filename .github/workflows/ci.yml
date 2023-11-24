@@ -22,7 +22,7 @@ jobs:
       - run: |
           # Use awk to replace the placeholder with the git log within the template file
           awk '
-            /<!-- CHANGELOG TEMPLATE -->/ {
+            /<!-- CHANGELOG PLACEHOLDER -->/ {
               system("git log -n 25 --pretty=format:\"# [%h](https://github.com/${{ github.repository }}/commit/%H) - %ad%n%n  **%s**%n%n\" --date=short")
               next
             }
