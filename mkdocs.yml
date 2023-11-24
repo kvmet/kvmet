@@ -143,14 +143,16 @@ extra_css:
 # Page tree
 nav:
   - Home: index.md
-  - CV: index.md
+  - CV: cv/cv.md
   - Hobbies:
     - Radio: index.md
     - Music: index.md
   - Projects:
+    - Projects: projects.md
     - Math:
       - Voting: voting/voting.md
       - Similarity: vector-match/determining-similarity.md
     - Toki Pona:
       - Writing System: toki-pona/luka-tu-suno.md
   - Meta: meta/meta.md
+  - Changelog: CHANGELOG.md
