@@ -23,7 +23,7 @@ jobs:
         run: |
           git fetch --depth 10 origin main
           cat docs/CHANGELOG_TEMPLATE.md > docs/CHANGELOG.md
-          git log -n 10 --pretty=format:'%n## [%s](https://github.com/${{ github.repository }}/commit/%H)%n%n%ad%n' --date=short --stat >> docs/CHANGELOG.md
+          git log -n 10 --pretty=format:'%n## %s%n%nDate: [%ad](https://github.com/${{ github.repository }}/commit/%H)%n' --date=short --stat | sed 's/$/  /' >> docs/CHANGELOG.md
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
