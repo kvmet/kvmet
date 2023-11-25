@@ -148,6 +148,7 @@ nav:
     #- Radio: index.md
     #- Music: index.md
   - Projects:
+    - Index: projects/index.md
     - Math:
       - Voting: voting/voting.md
       - Similarity: vector-match/determining-similarity.md
@@ -156,5 +157,5 @@ nav:
     - Website:
       - Changelog: projects/website/changelog.md
   - About: 
-    - About: about/about.md
+    - About This Website: about/index.md
     - Changelog: about/CHANGELOG.md
