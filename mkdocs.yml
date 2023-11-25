@@ -144,9 +144,9 @@ extra_css:
 nav:
   - Home: index.md
   - CV: cv/cv.md
-  - Hobbies:
-    - Radio: index.md
-    - Music: index.md
+  #- Hobbies:
+    #- Radio: index.md
+    #- Music: index.md
   - Projects:
     - Math:
       - Voting: voting/voting.md
@@ -155,6 +155,6 @@ nav:
       - Writing System: toki-pona/luka-tu-suno.md
     - Website:
       - Changelog: projects/website/changelog.md
-  - Meta: 
-    - This Website: meta/meta.md
-    - Changelog: CHANGELOG.md
+  - About: 
+    - About: about/about.md
+    - Changelog: about/CHANGELOG.md
