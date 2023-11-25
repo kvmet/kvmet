@@ -9,9 +9,10 @@ Well, this isn't something that I thought would have been worth writing down but
 The deployment workflow for this website is currently automated and, since I plan to change the layout of this site on a whim, I thought that it would be useful to have an automatically-updating changelog that shows what files changed recently within the repo.
 Little did I know that I was going to spend 5 hours troubleshooting GitHub Actions scripts.
 
-I started by just asking GPT4 to generate a script. The first iteration didn't quite do what I wanted but I was able to tweak it to make it work. It was pretty functional but I wanted to change the formatting. I kept trying to tweak it to get it to function but I kept running into issues with the formatting not surviving the different stages of the build pipeline or other mysterious problems. Back to GPT4. This is where I wound up losing a lot of time. No matter what I tried I wound up only being able to get the first one working. Turns out that GitHub actions doesn't make a full-depth fetch so I had to instruct it to fetch additional commits while generating the changelog. 
+I started by just asking GPT4 to generate a script. The first iteration didn't quite do what I wanted but I was able to tweak it to make it work. It was pretty functional but I wanted to change the formatting. I kept trying to tweak it to get it to function but I kept running into issues with the formatting not surviving the different stages of the build pipeline or other mysterious problems. Back to GPT4.
+I managed to get the basic formatting working for a single commit and then wanted to expand it to the full list of 10 entries. This is where I wound up losing a lot of time. No matter what I tried I wound up only being able to get the first one working. Turns out that GitHub actions doesn't make a full-depth fetch so I had to instruct it to fetch additional commits while generating the changelog. 
 
-Here's what I wound up on for the current version of the changelog generation. I think something like `awk` would be much more robust, but after all the troubleshooting I decided to just make it as simple and direct as possible to keep it simple:
+Here's what I wound up on for the current version of the changelog generation. I think something like `awk` would be much more robust, but after all the troubleshooting I decided to just make it as simple and direct as possible to keep it easy:
 
 ```yaml
 - name: Update Changelog
