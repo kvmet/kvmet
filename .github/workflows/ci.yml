@@ -21,6 +21,7 @@ jobs:
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - name: Update Changelog
         run: |
+          git fetch --depth 10 origin main
           cat docs/CHANGELOG_TEMPLATE.md > docs/CHANGELOG.md
           git log -n 10 --pretty=format:'%n## %ad -- [%h](https://github.com/${{ github.repository }}/commit/%H)%n%n%s%n' --date=short >> docs/CHANGELOG.md
       - uses: actions/cache@v3
