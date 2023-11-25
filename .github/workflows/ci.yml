@@ -21,7 +21,7 @@ jobs:
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - run: |
           cat docs/CHANGELOG_TEMPLATE.md > docs/CHANGELOG.md
-          git log -10 --pretty=format:"%cd - %s (%h)" --date=short >> CHANGELOG.md
+          git log -n 10 --pretty=format:'%ad - %s (%h)' --date=short >> CHANGELOG.md
           #git log -n 25 --pretty=format:'%n## %ad -- [%h](https://github.com/${{ github.repository }}/commit/%H)%n%n%s%n' --date=short >> docs/CHANGELOG.md
       - uses: actions/cache@v3
         with:
