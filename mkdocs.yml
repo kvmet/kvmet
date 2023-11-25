@@ -154,6 +154,8 @@ nav:
       - Similarity: vector-match/determining-similarity.md
     - Toki Pona:
       - Writing System: toki-pona/luka-tu-suno.md
+    - Website:
+      - Changelog: projects/website/changelog.md
   - Meta: 
     - This Website: meta/meta.md
     - Changelog: CHANGELOG.md
