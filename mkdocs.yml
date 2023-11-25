@@ -79,9 +79,9 @@ extra:
   generator: false
   annotate:
     json: [.s2]
-  #analytics:
-    #provider: google
-    #property: !ENV GOOGLE_ANALYTICS_KEY
+  analytics:
+    provider: google
+    property: G-8TFW0C8605
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/kvmet
