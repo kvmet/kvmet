@@ -21,9 +21,9 @@ jobs:
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - name: Update Changelog
         run: |
-          git fetch --depth 10 origin main
+          git fetch --depth 11 origin main
           cat docs/CHANGELOG_TEMPLATE.md > docs/CHANGELOG.md
-          git log -n 10 --pretty=format:'---%n%n## %s%n%n%ad%n%n Commit: [%h](https://github.com/${{ github.repository }}/commit/%H)%n%nChanged Files:%n' --name-only | sed 's/$/  /' >> docs/CHANGELOG.md
+          git log -n 10 --pretty=format:'---%n%n## %s%n%n%ad%n%n Commit: [%h](https://github.com/${{ github.repository }}/commit/%H)%n%n**Changed Files:**%n' --name-only | sed 's/$/  /' >> docs/CHANGELOG.md
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
