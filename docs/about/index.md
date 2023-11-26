@@ -23,4 +23,5 @@ DNS is all handled by [CloudFlare](https://www.cloudflare.com/).
 
 ## Privacy
 
-I use CloudFlare Analytics for this site with the minimum amount of data collected. It only logs page views (all of the other fancy stuff like click and egress tracking is not included). None of this data should be stored in cookies either as far as I am aware.
+I use CloudFlare Analytics for this site with the minimum amount of data collected. It only logs page views (all of the other fancy stuff like click and egress tracking is not included).
+None of this data should be stored in cookies either as far as I am aware, although it does use a bit of javascript.
