@@ -16,7 +16,7 @@ copyright: Copyright &copy; Kristen Metcalfe 2023
 # Configuration
 theme:
   name: material
-  #custom_dir: material/.overrides
+  custom_dir: .overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -80,7 +80,7 @@ extra:
   annotate:
     json: [.s2]
   analytics:
-    provider: custom
+    provider: cloudflare
     #property: !ENV_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
