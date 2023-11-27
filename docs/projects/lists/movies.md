@@ -483,13 +483,13 @@ I wouldn't feel bad about skipping these, although they might still be a good ex
 - The Conjuring
     - Watched because it was a friend's favorite. Not my favorite but it had some good qualities.
     - ??? quote "Spoiler"
-        - Can I use admonitions within tabs?
-    - ??? quote "Spoiler
-         What about like this?
-
+        Can I use admonitions within tabs?
+- Test 3
 - Test line
-??? quote "Spoiler"
-	what if I just do it between lines?
+    - Watched because it was a friend's favorite. Not my favorite but it had some good qualities.
+    - ??? quote "Spoiler"
+        Can I use admonitions within tabs?
+    - Watched because it was a friend's favorite. Not my favorite but it had some good qualities.
 - howdy!
 
 ## Mediocre
