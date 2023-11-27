@@ -27,6 +27,8 @@ These are movies that I strongly recommend. You're really missing out if you hav
 - Akira
 - [Ghost in the Shell](https://www.imdb.com/title/tt0113568/) (1995)
 
+---
+
 ## Great
 
 While I don't recommend these as strongly as the top category, I think these are movies that are worth going out of your way to see.
@@ -57,6 +59,8 @@ While I don't recommend these as strongly as the top category, I think these are
 - Galaxy Quest
 - Uncut Gems
 - 50 First Dates
+
+---
 
 ## Worthwhile
 
@@ -107,6 +111,8 @@ The experience of watching these is worth more than the time spent.
 - Safety Not Guaranteed
 - Inception
 - Spaceballs
+
+---
 
 ## Have Watched
 
@@ -491,6 +497,8 @@ Avoid.
   - I walked out of the theater. Perhaps I should give it another shot, but it is over three hours long. After watching an hour of the movie with nothing happening, my friends and I decided we didn't care to finish it.
 - [Sixteen Candles](https://www.imdb.com/title/tt0088128/) (1984)
   - A lot of people seem to enjoy this movie and it shows up on many recommendation lists, but I had a hard time watching due to so many elements that are no longer culturally acceptable. Couldn't finish.
+
+---
 
 ## To-watch
 
