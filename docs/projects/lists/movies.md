@@ -21,6 +21,7 @@ These are movies that I strongly recommend. You're really missing out if you hav
 - Spirited Away
 - Princess Mononoke
 - The Incredibles
+    - My favorite Pixar movie.
 - 12 Angry Men
 - 2001: A Space Odyssey
 - [Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb](https://www.imdb.com/title/tt0057012/) (1964)
@@ -111,6 +112,8 @@ The experience of watching these is worth more than the time spent.
 - Safety Not Guaranteed
 - Inception
 - Spaceballs
+- Who Framed Roger Rabbit
+    - Impressive use of hand-drawn animation composited over live-action video. The way that lighting is blended between the two is especially great.
 
 ---
 
@@ -202,6 +205,15 @@ I have seen these. Haven't ranked yet
 - The Exorcist
 - 300
 - 2012
+- The Iron Giant
+- The Brave Little Toaster
+- The Grey
+- Dawn of the Dead
+- E.T the Extra Terrestrial
+- Ratatouille
+- Big Hero Six
+- Turning Red
+- Inside Out
 - 21 Jump Street
 - 22 Jump Street
 - 28 Days Later
@@ -312,8 +324,6 @@ I have seen these. Haven't ranked yet
 - John Wick: Chapter 2
 - John Wick: Chapter 3 – Parabellum
 - John Wick: Chapter 4
-- The Killer
-  - 
 - Lilo and Stitch
 - Little Miss Sunshine
 - Little Shop of Horrors
@@ -460,37 +470,35 @@ I have seen these. Haven't ranked yet
 - Zoolander
 - What We Do in The Shadows
 - Waterworld
+- Flubber
+- (what was that movie where the
+- Clockstoppers
 - Tropic Thunder
 - Turbo Kid
 - War of The Worlds (old)
 - War of The Worlds (new)
 - Wedding Crashers
-- Who Framed Roger Rabbit
 - Zodiac
 
-- Young Frankenstein
-- Wild Wild West
-- Zoolander 2
 
 ## Acceptable
 
 I wouldn't feel bad about skipping these, although they might still be a good experience. Consider watching them anyway.
 
-- Kiki's Delivery Service
-    - Some people love this movie. It isn't for me.
-- Speed Racer
-    - It's fine. I first saw it in IMAX which was a fun experience, but I started to watch it another time at home and didn't enjoy it as much.
 - The Conjuring
     - Watched because it was a friend's favorite. Not my favorite but it had some good qualities.
-    - ??? quote "Spoiler"
-        Can I use admonitions within tabs?
-- Test 3
-- Test line
-    - Watched because it was a friend's favorite. Not my favorite but it had some good qualities.
-    - ??? quote "Spoiler"
-        Can I use admonitions within tabs?
-    - Watched because it was a friend's favorite. Not my favorite but it had some good qualities.
-- howdy!
+- Kiki's Delivery Service
+    - Some people love this movie. It isn't for me.
+- The Killer (2023)
+  - It felt to me that it was trying to be a lot deeper than it actually was. The main hand-to-hand fight scene was incredible though.
+  - ??? quote "Spoiler"
+      - Okay but c'mon, the premise of the movie is that the guy is bad at his job? He makes a single error and then decides to quit his career. If only we could all be so lucky to retire after our first mistake. He incessantly talks about his "rules" while in the process of breaking them. Annoying.
+- Speed Racer
+    - It's fine. I first saw it in IMAX which was a fun experience, but I started to watch it another time at home and didn't enjoy it as much.
+- Young Frankenstein
+    - Some of the humor doesn't hold up to modern tastes. That said, it also is quite quotable and original in many aspects.
+- [Zoolander 2](https://www.imdb.com/title/tt1608290/) (2016)
+    - It's hard to recreate the magic of the original.
 
 ## Mediocre
 
@@ -498,6 +506,8 @@ I wouldn't bother unless you just want to see them or think that it appeals to y
 
 - It Follows
     - Watched this soon after it came out at the recommendation of some friends. I didn't really enjoy it it all and thought the main premise felt very lame and forced.
+- Wild Wild West
+    - Giant mechanical spider! Otherwise, nothing to telegraph home about.
 
 ## Bad
 
