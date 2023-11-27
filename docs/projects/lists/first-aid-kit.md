@@ -34,3 +34,8 @@ keywords:
 - Mylar Blanket
 - Towel
 - Microfiber Cloth
+- Resealable bags: Ziploc
+- Nitrile Gloves
+- Shears
+- Whistle
+- Patches

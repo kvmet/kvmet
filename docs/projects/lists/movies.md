@@ -4,7 +4,566 @@ lang: en-US
 keywords:
   - movies
   - lists
+  - favorites
 ---
 
 # Movies
 
+## Excellent
+
+These are movies that I strongly recommend. You're really missing out if you haven't seen any of these. 
+
+- Alien
+- Fargo
+- The Shining
+- Moonstruck
+- The Lion King
+- Spirited Away
+- Princess Mononoke
+- The Incredibles
+- 12 Angry Men
+- 2001: A Space Odyssey
+- [Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb](https://www.imdb.com/title/tt0057012/) (1964)
+- Akira
+- [Ghost in the Shell](https://www.imdb.com/title/tt0113568/) (1995)
+
+## Great
+
+While I don't recommend these as strongly as the top category, I think these are movies that are worth going out of your way to see.
+
+- Aladdin
+- Apollo 13
+- American Psycho
+- Nightcrawler
+- Moonrise Kingdom
+- Redline
+- Primer
+- Train to Busan
+  - Awesome modern zombie movie.
+- The Thing
+- Singin' in the Rain
+- Parasite
+- The Shawshank Redemption
+- The Raid
+- Licorice Pizza
+- O' Brother Where Art Thou
+- Pulp Fiction
+- Leaving Las Vegas
+- Moon
+- Office Space
+- The Big Lebowski
+- The Truman Show
+- The Way Way Back
+- Galaxy Quest
+- Uncut Gems
+- 50 First Dates
+
+## Worthwhile
+
+The experience of watching these is worth more than the time spent.
+
+- Apocalypse Now
+  - Need to rewatch. This is likely a better movie than this category but it's been a long time since I saw it.
+- Donnie Darko
+- The Man from Earth
+- Promare
+- Men Who Stare at Goats
+- Toy Story
+- Cube
+- Cube Zero
+- Pacific Rim
+- John Wick
+- Inglourious Basterds
+- Kill Bill
+- Isle of Dogs
+- Rain Man
+- Everything Everywhere All at Once
+- Wolf Children
+- Mean Girls
+- District 9
+- Zootopia
+- Monster's Inc
+- Monster's University
+- Sing
+- Sing 2
+- The Mitchells vs. The Machines
+- Star Wars
+- Cars
+- Moonlight
+- The Godfather
+- The Godfather II
+- A Streetcar Named Desire
+- Face/Off
+- The Lord of The Rings
+- Aliens
+- Prometheus
+- Pinnochio
+- Night of The Living Dead
+- Cabin in The Woods
+- Raiders of The Lost Ark
+- Raising Arizona
+- 500 Days of Summer
+- The One I Love
+- Safety Not Guaranteed
+- Inception
+- Spaceballs
+
+## Have Watched
+
+I have seen these. Haven't ranked yet
+
+- Eternal Sunshine of The Spotless Mind
+- Click
+- The Departed
+- Goodfellas
+- Mulholland Drive
+- The Dark Knight
+- Spider-man
+- Spiderverse
+- You've Got Mail
+- When Harry Met Sally
+- Catch Me if You Can
+- Clue
+- Fight Club
+- Cool Hand Luke
+- The Raid
+- Dredd
+- Frozen
+- Zombieland
+- Oliver and Company
+- Aristocats
+- Jaws
+- AI: Artificial Intelligence
+- Forrest Gump
+- Big
+- Groundhog Day
+- The Matrix
+- One Flew Over The Cuckoo's Nest
+- Se7en
+- Interstellar
+- Gravity
+- The Silence of The Lambs
+- Asteroid City
+- The Fantastic Mr. Fox
+- Saving Private Ryan
+- Black Hawk Down
+- Lord of War
+- The Green Mile
+- Terminator
+- Terminator 2: Judgement Day
+- [Léon: The Professional](https://www.imdb.com/title/tt0110413/?ref_=chttp_t_38)
+- [American History X](https://www.imdb.com/title/tt0120586/?ref_=chttp_t_39)
+- The Nice Guys
+- The Usual Suspects
+- The Prestige
+- Whiplash
+- Barbie
+- [WALL·E](https://www.imdb.com/title/tt0910970/?ref_=chttp_t_58)
+- Oldboy
+- Amadeus
+- Avengers
+- Braveheart
+- Good Will Hunting
+- The Master of Disguise
+- Full Metal Jacket
+- A Clockwork Orange
+- Heat
+- Up
+- Hamilton
+- Die Hard
+- Taxi
+- Taxi Driver
+- Batman Begins
+- Top Gun
+- Top Gun: Maverick
+- The Wolf of Wall Street
+- Shutter Island
+- Jurassic Park
+- Jumanji
+- Jumanji 2
+- A Beautiful Mind
+- No Country for Old Men
+- Monty Python and The Holy Grail
+- V for Vendetta
+- Trainspotting
+- My Neighbor Totoro
+- Blade Runner
+- Blade Runner: 2047
+- Gone Girl
+- Mad Max: Fury Road
+- How to Train Your Dragon
+- Ford v Ferrari
+- The Exorcist
+- 300
+- 2012
+- 21 Jump Street
+- 22 Jump Street
+- 28 Days Later
+- A Bug's Life
+- A Fish Called Wanda
+- Airplane!
+- Executive Decision
+- America: The Motion Picture
+- Team America: World Police
+- Anchorman: The Legend of Ron Burgundy
+- Anaconda
+- Atlantis: The Lost Empire
+- The Computer Wears Tennis Shoes (old one)
+- The Computer Wears Tennis Shoes (new one)
+- Blank Check
+- Smart House
+- AVP: Alien Vs. Predator
+- Baby Driver
+- Back to The Future
+- Back to The Future Part II
+- Back to The Future Part III
+- Bad News Bears
+- Barton Fink
+- Battle Royale
+- Battleship
+- Beetlejuice
+- Dr. Strange
+- Big Daddy
+- Big Trouble in Little China
+- Bill & Ted's Excellent Adventure
+- BlacKkKlansman
+- Blade
+- Blad II
+- Blazing Saddles
+- The History of The World: Part I
+- Blood Simple
+- Brave
+- Chicken Run
+- But I'm a Cheerleader
+- Captain Fantastic
+- Clueless
+- Legally Blond
+- My Cousin Vinny
+- Paddington
+- Paddington 2
+- Con Air
+- Contagion
+- Crank
+- Crash
+- Speed
+- Crazy, Stupid, Love.
+- The Notebook
+- P.S. I Love You
+- Sweet Home Alabama
+- Dirty Rotten Scoundrels
+- Dredd
+- Drive
+- Dune
+- Dumb & Dumber
+- Dumb & Dumberer
+- Forgetting Sarah Marshall
+- Rat Race
+- Sixteen Candles
+- Edge of Tomorrow
+- Elysium
+- Edward Scissorhands
+- Event Horizon
+- Ferris Bueller's Day Off
+- Finding Nemo
+- Finding Dory
+- Free Willy
+- Twister
+- Crazy Rich Asians
+- Galaxy Quest
+- Gattaca
+- Get Out
+- Nope
+- Don't Look Up
+- Geostorm
+- Ghostbusters
+- Ghostbusters: Afterlife
+- Godzilla
+- Gremlins
+- Gremlins 2: The New Batch
+- GoldenEye
+- GoldFinger
+- Gone in Sixty Seconds
+- Good Burger
+- Hackers
+- Halloween
+- Scooby Doo
+- Happy Gilmore
+- Heat
+- Holes
+- Home Alone
+- Hot Fuzz
+- Honey, I Shrunk The Kids
+- Howl's Moving Castle
+- I, Robot
+- I, Tanya
+- Idiocracy
+- In Bruges
+- Inception
+- Independence Day
+- Indiana Jones and The Temple of Doom
+- Jerry Maguire
+- Joe Dirt
+- John Wick: Chapter 2
+- John Wick: Chapter 3 – Parabellum
+- John Wick: Chapter 4
+- The Killer
+  - 
+- Lilo and Stitch
+- Little Miss Sunshine
+- Little Shop of Horrors
+- Tick, Tick,… Boom!
+- Rent
+- Local Hero
+- Looper
+- Mandy
+- Matilda
+- Meet the Fockers
+- Meet the Parents
+- Megamind
+- Memento
+- Men in Black
+- Men in Black II
+- Men in Black 3
+- Midsommar
+- Minority Report
+- Miss Congeniality
+- Pitch Perfect
+- Pitch Perfect 2
+- Mission: Impossible
+- Mission: Impossible – Fallout
+- Mission: Impossible – Ghost Protocol
+- Mission: Impossible – Rogue Nation
+- Taken
+- Moonfall
+- Mr. & Mrs. Smith
+- Mulan
+- Napoleon Dynamite
+- Gentlemen Broncos
+- National Treasure
+- Night at The Museum
+- No Country for Old Men
+- No Time to Die
+- Ocean's Eleven
+- Hunt for The Red October
+- Old School
+- Pain & Gain
+- Pearl Harbor
+- Patriot
+- Pirates of The Caribbean (Series)
+- Planes, Trains, and Automobiles
+- Predator
+- Prey
+- The Expendables
+- Red Dawn
+- RoboCop
+- Robin Hood: Men in Tights
+- The Princess Bride
+- Rogue One: A Star Wars Story
+- Solo: A Star Wars Story
+- Rush Hour
+- The Pokemon Movie
+- Shark Boy and Lava Girl
+- Spy Kids
+- Spy Kids 2
+- Saw
+- Saw II
+- Saw III
+- Zach and Miri Make a Porno
+- Hairspray
+- Scream
+- Serenity
+- Shaun of The Dead
+- Shrek
+- Shrek 2
+- Shrek 3
+- Sling Blade
+- Snowpiercer
+- Source Code
+- Spaceballs
+- Sphere
+- Starship Troopers
+- Step Brothers
+- Stranger than Fiction
+- Super Troopers
+- Superbad
+- Talladega Nights: The Ballad of Ricky Bobby
+- The Banshees of Inisherin
+- The Big Short
+- The Blues Brothers
+- The Bourne Identity
+- The Bourne Supremacy
+- The Bourne Ultimatum
+- The Breakfast Club
+- The Core
+- Armageddon
+- The Darjeeling Limited
+- The Grand Budapest Hotel
+- The French Dispatch
+- The Day After Tomorrow
+- The Devil Wears Prada
+- The Devil's Advocate
+- The Emperor's New Groove
+- The Equalizer
+- The Equalizer 2
+- The Equalizer 3
+- The Transporter
+- The Fast and The Furious
+- The Fast and The Furious: Tokyo Drift
+- The Goonies
+- The Fifth Element
+- The Hangover
+- The Happening
+- The Hitchhiker's Guide to The Galaxy
+- The Italian Job (old)
+- The Italian Job (new)
+- The Karate Kid
+- The Longest Yard
+- Waterboy
+- The Martian
+- The Mask
+- The Mummy
+- The Mummy Returns
+- The Net
+- James and The Giant Peach
+- Pinnochio (Del Toro)
+- The Nightmare Before Christmas
+- The Perfect Storm
+- The Prince of Egypt
+- The Producers
+- The Road to El Dorado
+- The Rock
+- The Rocky Horror Picture Show
+- Radio City Murder Mystery
+- The Sandlot
+- The Room
+- The Santa Clause
+- The Santa Clause 2
+- The Super Mario Bros. Movie (old)
+- The Tomorrow War
+- The Village
+- Tomorrow Never Dies
+- Total Recall (old)
+- Total Recall (new)
+- Austin Powers (series)
+- Scott Pilgrim Vs. The World
+- Transformers (series)
+- Treasure Planet
+- Tremors
+- TRON
+- TRON: Legacy
+- Zoolander
+- What We Do in The Shadows
+- Waterworld
+- Tropic Thunder
+- Turbo Kid
+- War of The Worlds (old)
+- War of The Worlds (new)
+- Wedding Crashers
+- Who Framed Roger Rabbit
+- Zodiac
+
+- Young Frankenstein
+- Wild Wild West
+- Zoolander 2
+
+## Acceptable
+
+I wouldn't feel bad about skipping these, although they might still be a good experience. Consider watching them anyway.
+
+- Kiki's Delivery Service
+  - Some people love this movie. It isn't for me.
+- Speed Racer
+  - It's fine. I first saw it in IMAX which was a fun experience, but I started to watch it another time at home and didn't enjoy it as much.
+
+## Mediocre
+
+I wouldn't bother unless you just want to see them or think that it appeals to you. If a friend says it's their favorite movie, give it a fair shake.
+
+- It Follows
+
+## Bad
+
+Avoid.
+
+- [The Expendables](https://www.imdb.com/title/tt1320253/) (2010)
+  - Pointless. Hard to track, not because it is complex but because it is so uninteresting that I just wanted it to be over. I can't believe there are so many movies in this series.
+- [King Kong](https://www.imdb.com/title/tt0360717/) (2005)
+  - I walked out of the theater. Perhaps I should give it another shot, but it is over three hours long. After watching an hour of the movie with nothing happening, my friends and I decided we didn't care to finish it.
+- [Sixteen Candles](https://www.imdb.com/title/tt0088128/) (1984)
+  - A lot of people seem to enjoy this movie and it shows up on many recommendation lists, but I had a hard time watching due to so many elements that are no longer culturally acceptable. Couldn't finish.
+
+## To-watch
+
+- [ ] Unbreakable
+- [ ] The Super Mario Bros. Movie (New)
+- [ ] Arrival
+- [ ] Close Encounters of The Third Kind
+- [ ] Lawrence of Arabia
+- [ ] Playtime (1967)
+- [ ] The Negotiator
+- [ ] St. Elmo's Fire
+- [ ] Rear Window
+- [ ] Casablanca
+- [ ] The Whole Nine Yards
+- [ ] Tommy Boy
+- [ ] City Lights
+- [ ] Seven Samurai
+- [ ] Vertigo (1958)
+- [ ] Citizen Kane
+- [ ] Psycho
+- [ ] Schindler's List
+- [ ] North by Northwest
+- [ ] Some Like it Hot
+- [ ] Rashomon
+- [ ] All About Eve
+- [ ] Pan's Labrynth
+- [ ] The Treasure of The Sierra Madre
+- [ ] Tombstone
+- [ ] Boyhood
+- [ ] Fanny and Alexander
+- [ ] Gone With the Wind
+- [ ] Notorious
+- [ ] In The Mood for Love
+- [ ] There Will Be Blood
+- [ ] Let The Right One In
+- [ ] Burn After Reading
+- [ ] Bicycle Thieves
+- [ ] City Lights
+- [ ] Grand Illusion
+- [ ] His Girl Friday
+- [ ] The Red Shoes
+- [ ] Beau Travail
+- [ ] The Searchers
+- [ ] Persona
+- [ ] Do The Right Thing
+- [ ] The Rules of The Game
+- [ ] Double Indemnity
+- [ ] The 400 Blows
+- [ ] Yojimbo
+- [ ] The Good, the Bad and the Ugly
+- [ ] Harakiri
+- [ ] Once Upon a Time in The West
+- [ ] Modern Times
+- [ ] Your Name.
+- [ ] Ikiru
+- [ ] M
+- [ ] The Apartment
+- [ ] [Amélie](https://www.imdb.com/title/tt0211915/?ref_=chttp_t_105)
+- [ ] Scarface
+- [ ] Downfall
+- [ ] The Sixth Sense
+- [ ] Lock, Stock and Two Smoking Barrels
+- [ ] The Andromeda Strain
+- [ ] Mad Max
+- [ ] Mad Max Thunderdome
+- [ ] Rio Bravo
+- [ ] Blow Out
+- [ ] Five Fingers of Death
+- [ ] Pandora's Box
+- [ ] Carrie
+- [ ] Unfaithfully Yours
+- [ ] Five Graves to Cairo
+- [ ] Dante's Peak
+- [ ] Mousehung
+- [ ] Signs
+- [ ] Dr. Zhivago
