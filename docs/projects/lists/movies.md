@@ -477,26 +477,29 @@ I have seen these. Haven't ranked yet
 I wouldn't feel bad about skipping these, although they might still be a good experience. Consider watching them anyway.
 
 - Kiki's Delivery Service
-  - Some people love this movie. It isn't for me.
+    - Some people love this movie. It isn't for me.
 - Speed Racer
-  - It's fine. I first saw it in IMAX which was a fun experience, but I started to watch it another time at home and didn't enjoy it as much.
+    - It's fine. I first saw it in IMAX which was a fun experience, but I started to watch it another time at home and didn't enjoy it as much.
+- The Conjuring
+    - Watched because it was a friend's favorite. Not my favorite but it had some good qualities. || test? ||
 
 ## Mediocre
 
 I wouldn't bother unless you just want to see them or think that it appeals to you. If a friend says it's their favorite movie, give it a fair shake.
 
 - It Follows
+    - Watched this soon after it came out at the recommendation of some friends. I didn't really enjoy it it all and thought the main premise felt very lame and forced.
 
 ## Bad
 
 Avoid.
 
 - [The Expendables](https://www.imdb.com/title/tt1320253/) (2010)
-  - Pointless. Hard to track, not because it is complex but because it is so uninteresting that I just wanted it to be over. I can't believe there are so many movies in this series.
+    - Pointless. Hard to track, not because it is complex but because it is so uninteresting that I just wanted it to be over. I can't believe there are so many movies in this series.
 - [King Kong](https://www.imdb.com/title/tt0360717/) (2005)
-  - I walked out of the theater. Perhaps I should give it another shot, but it is over three hours long. After watching an hour of the movie with nothing happening, my friends and I decided we didn't care to finish it.
+    - I walked out of the theater. Perhaps I should give it another shot, but it is over three hours long. After watching an hour of the movie with nothing happening, my friends and I decided we didn't care to finish it.
 - [Sixteen Candles](https://www.imdb.com/title/tt0088128/) (1984)
-  - A lot of people seem to enjoy this movie and it shows up on many recommendation lists, but I had a hard time watching due to so many elements that are no longer culturally acceptable. Couldn't finish.
+    - A lot of people seem to enjoy this movie and it shows up on many recommendation lists, but I had a hard time watching due to so many elements that are no longer culturally acceptable. Couldn't finish.
 
 ---
 
