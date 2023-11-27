@@ -472,29 +472,31 @@ I have seen these. Haven't ranked yet
 - Waterworld
 - Flubber
 - (what was that movie where the
-- Clockstoppers
 - Tropic Thunder
-- Turbo Kid
 - War of The Worlds (old)
 - War of The Worlds (new)
 - Wedding Crashers
 - Zodiac
 
-
 ## Acceptable
 
 I wouldn't feel bad about skipping these, although they might still be a good experience. Consider watching them anyway.
 
+- Clockstoppers
+    - Largely forgettable but it had some cute concepts.
+    - ??? quote "Spoiler"
+        The scene with the bees being stopped mid-air is pretty memorable for me. Also the frozen paintballs.
 - The Conjuring
     - Watched because it was a friend's favorite. Not my favorite but it had some good qualities.
 - Kiki's Delivery Service
     - Some people love this movie. It isn't for me.
 - The Killer (2023)
-  - It felt to me that it was trying to be a lot deeper than it actually was. The main hand-to-hand fight scene was incredible though.
-  - ??? quote "Spoiler"
-      - Okay but c'mon, the premise of the movie is that the guy is bad at his job? He makes a single error and then decides to quit his career. If only we could all be so lucky to retire after our first mistake. He incessantly talks about his "rules" while in the process of breaking them. Annoying.
+    - It felt to me that it was trying to be a lot deeper than it actually was. The main hand-to-hand fight scene was incredible though.
+    - ??? quote "Spoiler"
+        Okay but c'mon, the premise of the movie is that the guy is bad at his job? If only we could all be so lucky to retire after our first mistake at our jobs. He incessantly talks about his "rules" while in the process of breaking them. Annoying.
 - Speed Racer
     - It's fine. I first saw it in IMAX which was a fun experience, but I started to watch it another time at home and didn't enjoy it as much.
+- Turbo Kid
 - Young Frankenstein
     - Some of the humor doesn't hold up to modern tastes. That said, it also is quite quotable and original in many aspects.
 - [Zoolander 2](https://www.imdb.com/title/tt1608290/) (2016)
