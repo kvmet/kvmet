@@ -481,7 +481,16 @@ I wouldn't feel bad about skipping these, although they might still be a good ex
 - Speed Racer
     - It's fine. I first saw it in IMAX which was a fun experience, but I started to watch it another time at home and didn't enjoy it as much.
 - The Conjuring
-    - Watched because it was a friend's favorite. Not my favorite but it had some good qualities. || test? ||
+    - Watched because it was a friend's favorite. Not my favorite but it had some good qualities.
+    - ??? quote "Spoiler"
+        - Can I use admonitions within tabs?
+    - ??? quote "Spoiler
+         What about like this?
+
+- Test line
+??? quote "Spoiler"
+	what if I just do it between lines?
+- howdy!
 
 ## Mediocre
 
