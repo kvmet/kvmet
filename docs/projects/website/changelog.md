@@ -19,7 +19,7 @@ Here's what I wound up on for the current version of the changelog generation. I
   run: |
     git fetch --depth 11 origin main
     cat docs/CHANGELOG\_TEMPLATE.md > docs/CHANGELOG.md
-    git log -n 10 --pretty=format:'---%n%n## %s%n%n%ad%n%n Commit: \[%h]\(https://github.com/${{ github.repository }}/commit/%H)%n%n\*\*Changed Files:\*\*%n' --name-only | sed 's/$/  /' >> docs/CHANGELOG.md
+    git log -n 10 --pretty=format:'---%n%n## %s%n%n%ad%n%n Commit: \[%h]\(https://github.com/${{ github.repository }}/commit/%H)%n%n\*\*Changed Files:\*\*%n' --name-status | sed 's/$/  /' >> docs/CHANGELOG.md
 ```
 
 !!! question "Why is fetch depth 11 when only 10 commits are displayed?"

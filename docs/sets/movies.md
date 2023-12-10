@@ -9,14 +9,13 @@ keywords:
 
 # Movies
 
-## Excellent
+## Extraordinary
 
-These are movies that I strongly recommend. You're really missing out if you haven't seen any of these. 
+Must-watch. Innovative and outstanding execution. These set the standard for excellence and leave a lasting impression.
 
 - Alien
 - Fargo
 - The Shining
-- Moonstruck
 - The Lion King
 - Spirited Away
 - Princess Mononoke
@@ -30,19 +29,47 @@ These are movies that I strongly recommend. You're really missing out if you hav
 
 ---
 
+<!-- Ranking Thoughts
+
+1.  **Masterpiece** - Reserved for movies that are widely regarded as exceptional in every aspect: storytelling, acting, cinematography, score, and impact. These are the films that define genres, change the industry, and endure through time.
+2.  **Outstanding** - These are excellent movies that may have minor flaws but still deliver a high-quality cinematic experience. They are memorable, well-crafted, and would be recommended without hesitation.
+3.  **Solid** - Films that are enjoyable and well-made but lack the distinctive qualities that would elevate them to Outstanding or Masterpiece status. They are competent across the board but may not resonate as deeply or have as lasting an impact.
+4.  **Mediocre** - These films are passable but unremarkable. They might have significant issues in key areas like script, performance, or direction, and while they are watchable, they do not stand out in any meaningful way.
+5.  **Poor** - Reserved for movies that are flawed on multiple levels. They are often characterized by weak plots, poor acting, numerous technical issues, and generally fail to provide an engaging experience. These films are typically not recommended except perhaps for a lesson in what not to do in filmmaking.
+
+
+## Outstanding
+**Extraordinary:** Reserved for films that are not only innovative and exceptionally executed but also pivotal within the industry, often setting new benchmarks and leaving a significant cultural impact.
+
+**Outstanding:** Must-watch. These films deliver superior quality and artistry with a level of innovation and execution that approaches the pinnacle of cinematic achievement, positioning them just shy of extraordinary.
+
+**Great:** Highly recommended. Films in this category are distinguished by a strong fusion of craft and entertainment. They display notable skill in storytelling and technical aspects, providing an engaging and memorable viewing experience.
+
+Iconic, Incredible, Exceptional, Profound, Elite
+Exceptional, Superb, Distinguished, 
+Great, Impressive, Quality
+Average, Solid, Worthwhile, Adequate, Fair, Acceptable, Respectable, Satisfactory
+Passable, Decent, Acceptable, Uninspired, Mediocre
+Flawed, Deficient, Subpar, Lacking, Poor, Inferior, Weak
+Terrible, Bad, Trash, Abysmal
+
+-->
 ## Great
 
-While I don't recommend these as strongly as the top category, I think these are movies that are worth going out of your way to see.
+Highly recommended. These films excel in entertainment or artistic value with qualities that make them memorable and engaging.
 
 - Aladdin
 - Apollo 13
 - American Psycho
+- The Banshees of Inisherin
 - Nightcrawler
 - Moonrise Kingdom
+- Forrest Gump
+- Jaws
 - Redline
 - Primer
 - Train to Busan
-  - Awesome modern zombie movie.
+- Moonstruck
 - The Thing
 - Singin' in the Rain
 - Parasite
@@ -54,33 +81,14 @@ While I don't recommend these as strongly as the top category, I think these are
 - Leaving Las Vegas
 - Moon
 - Office Space
+- Lilo & Stitch
 - The Big Lebowski
 - The Truman Show
 - The Way Way Back
 - Galaxy Quest
 - Uncut Gems
 - 50 First Dates
-
----
-
-## Worthwhile
-
-The experience of watching these is worth more than the time spent.
-
-- Apocalypse Now
-  - Need to rewatch. This is likely a better movie than this category but it's been a long time since I saw it.
-- Donnie Darko
-- The Man from Earth
-- Promare
-- Men Who Stare at Goats
 - Toy Story
-- Cube
-- Cube Zero
-- Pacific Rim
-- John Wick
-- Inglourious Basterds
-- Kill Bill
-- Isle of Dogs
 - Rain Man
 - Everything Everywhere All at Once
 - Wolf Children
@@ -88,6 +96,29 @@ The experience of watching these is worth more than the time spent.
 - District 9
 - Zootopia
 - Monster's Inc
+- My Cousin Vinny
+
+---
+
+## Worthwhile
+
+Recommended. A solid experience with several commendable qualities, though they may lack distinction or impact.
+
+- Walk Hard
+    - Forrest Gump meets Talladega Nights meets every music movie ever.
+- Apocalypse Now
+  - Need to rewatch. This is likely a better movie than this category but it's been a long time since I saw it.
+- Donnie Darko
+- The Man from Earth
+- Promare
+- Men Who Stare at Goats
+- Cube
+- Cube Zero
+- Pacific Rim
+- John Wick
+- Inglourious Basterds
+- Kill Bill
+- Isle of Dogs
 - Monster's University
 - Sing
 - Sing 2
@@ -114,6 +145,8 @@ The experience of watching these is worth more than the time spent.
 - Spaceballs
 - Who Framed Roger Rabbit
     - Impressive use of hand-drawn animation composited over live-action video. The way that lighting is blended between the two is especially great.
+- The Midnight Sky
+    - Good slow burn sci-fi drama. Has a good amount of dramatic moments and unexpected elements.
 
 ---
 
@@ -129,6 +162,10 @@ I have seen these. Haven't ranked yet
 - The Dark Knight
 - Spider-man
 - Spiderverse
+- Carol
+- Elf
+- How the Grinch Stole Christmas
+- A Muppet Christmas Carol
 - You've Got Mail
 - When Harry Met Sally
 - Catch Me if You Can
@@ -141,9 +178,7 @@ I have seen these. Haven't ranked yet
 - Zombieland
 - Oliver and Company
 - Aristocats
-- Jaws
 - AI: Artificial Intelligence
-- Forrest Gump
 - Big
 - Groundhog Day
 - The Matrix
@@ -256,7 +291,6 @@ I have seen these. Haven't ranked yet
 - Captain Fantastic
 - Clueless
 - Legally Blond
-- My Cousin Vinny
 - Paddington
 - Paddington 2
 - Con Air
@@ -374,6 +408,8 @@ I have seen these. Haven't ranked yet
 - RoboCop
 - Robin Hood: Men in Tights
 - The Princess Bride
+- Ponyo
+- The Little Mermaid
 - Rogue One: A Star Wars Story
 - Solo: A Star Wars Story
 - Rush Hour
@@ -403,7 +439,6 @@ I have seen these. Haven't ranked yet
 - Super Troopers
 - Superbad
 - Talladega Nights: The Ballad of Ricky Bobby
-- The Banshees of Inisherin
 - The Big Short
 - The Blues Brothers
 - The Bourne Identity
@@ -427,16 +462,11 @@ I have seen these. Haven't ranked yet
 - The Fast and The Furious: Tokyo Drift
 - The Goonies
 - The Fifth Element
-- The Hangover
-- The Happening
-- The Hitchhiker's Guide to The Galaxy
 - The Italian Job (old)
 - The Italian Job (new)
 - The Karate Kid
 - The Longest Yard
-- Waterboy
 - The Martian
-- The Mask
 - The Mummy
 - The Mummy Returns
 - The Net
@@ -445,42 +475,49 @@ I have seen these. Haven't ranked yet
 - The Nightmare Before Christmas
 - The Perfect Storm
 - The Prince of Egypt
-- The Producers
 - The Road to El Dorado
-- The Rock
 - The Rocky Horror Picture Show
+- Death Race 2000
+- Gamer
+- Ready Player One
 - Radio City Murder Mystery
 - The Sandlot
-- The Room
-- The Santa Clause
-- The Santa Clause 2
 - The Super Mario Bros. Movie (old)
 - The Tomorrow War
-- The Village
 - Tomorrow Never Dies
 - Total Recall (old)
 - Total Recall (new)
 - Austin Powers (series)
 - Scott Pilgrim Vs. The World
-- Transformers (series)
 - Treasure Planet
-- Tremors
 - TRON
 - TRON: Legacy
 - Zoolander
 - What We Do in The Shadows
 - Waterworld
-- Flubber
 - (what was that movie where the
-- Tropic Thunder
 - War of The Worlds (old)
 - War of The Worlds (new)
 - Wedding Crashers
+- 
+- Tropic Thunder
+- Tremors
+- Transformers (series)
+- The Village (wait am I thinking of the lottery?)
+- 
+- The Room
+- Flubber
 - Zodiac
+- The Santa Clause
+- The Santa Clause 2
+- The Rock
+- The Producers
+- The Mask
+- Waterboy
 
-## Acceptable
+## Decent
 
-I wouldn't feel bad about skipping these, although they might still be a good experience. Consider watching them anyway.
+Optionally recommended. Average and has appeal to certain audiences or in a specific context (i.e. only good in a theater). If it piques your interest or comes recommended, give it a chance.
 
 - Clockstoppers
     - Largely forgettable but it had some cute concepts.
@@ -488,8 +525,9 @@ I wouldn't feel bad about skipping these, although they might still be a good ex
         The scene with the bees being stopped mid-air is pretty memorable for me. Also the frozen paintballs.
 - The Conjuring
     - Watched because it was a friend's favorite. Not my favorite but it had some good qualities.
+- The Hitchhiker's Guide to The Galaxy
 - Kiki's Delivery Service
-    - Some people love this movie. It isn't for me.
+    - Some people love this movie. It isn't for me. I'd take the time to watch if you like other Miyazaki works.
 - The Killer (2023)
     - It felt to me that it was trying to be a lot deeper than it actually was. The main hand-to-hand fight scene was incredible though.
     - ??? quote "Spoiler"
@@ -497,28 +535,32 @@ I wouldn't feel bad about skipping these, although they might still be a good ex
 - Speed Racer
     - It's fine. I first saw it in IMAX which was a fun experience, but I started to watch it another time at home and didn't enjoy it as much.
 - Turbo Kid
+    - Very unique style. Very gory and cheesy. It's not trying to be an incredible film and largely accomplishes what it set out to do.
+- Wild Wild West
+    - Giant mechanical spider! Otherwise, nothing to telegraph home about.
 - Young Frankenstein
-    - Some of the humor doesn't hold up to modern tastes. That said, it also is quite quotable and original in many aspects.
+    - Some of the humor doesn't hold up to modern tastes. That said, it also is quite quotable and original in many aspects. Consider watching if you like other movies involving the same people.
 - [Zoolander 2](https://www.imdb.com/title/tt1608290/) (2016)
-    - It's hard to recreate the magic of the original.
+    - It's hard to recreate the magic of the original. Falls flat but still coaxed a few laughs out of me.
 
 ## Mediocre
 
-I wouldn't bother unless you just want to see them or think that it appeals to you. If a friend says it's their favorite movie, give it a fair shake.
+Not recommended. Below average and unlikely to be a rewarding experience. Proceed with modest expectations.
 
+- The Hangover
+- The Happening
+    - This movie changed directors halfway through and you can really feel it. The payoff is pretty poorly constructed despite the interesting premise.
 - It Follows
-    - Watched this soon after it came out at the recommendation of some friends. I didn't really enjoy it it all and thought the main premise felt very lame and forced.
-- Wild Wild West
-    - Giant mechanical spider! Otherwise, nothing to telegraph home about.
+    - Watched this soon after it came out at the recommendation of several friends. I didn't really enjoy it it all and thought the main premise felt very lame and forced.
+- [King Kong](https://www.imdb.com/title/tt0360717/) (2005)
+    - I walked out of the theater. Perhaps I should give it another shot, but it is over three hours long. After watching an hour of the movie with nothing happening, my friends and I decided we didn't care to finish it.
 
 ## Bad
 
-Avoid.
+Avoid. Fail to deliver on most accounts and are generally not worth your time.
 
 - [The Expendables](https://www.imdb.com/title/tt1320253/) (2010)
     - Pointless. Hard to track, not because it is complex but because it is so uninteresting that I just wanted it to be over. I can't believe there are so many movies in this series.
-- [King Kong](https://www.imdb.com/title/tt0360717/) (2005)
-    - I walked out of the theater. Perhaps I should give it another shot, but it is over three hours long. After watching an hour of the movie with nothing happening, my friends and I decided we didn't care to finish it.
 - [Sixteen Candles](https://www.imdb.com/title/tt0088128/) (1984)
     - A lot of people seem to enjoy this movie and it shows up on many recommendation lists, but I had a hard time watching due to so many elements that are no longer culturally acceptable. Couldn't finish.
 
@@ -592,10 +634,12 @@ Avoid.
 - [ ] Blow Out
 - [ ] Five Fingers of Death
 - [ ] Pandora's Box
+- [ ] Logan Lucky
 - [ ] Carrie
 - [ ] Unfaithfully Yours
 - [ ] Five Graves to Cairo
 - [ ] Dante's Peak
+- [ ] It's a wonderful life
 - [ ] Mousehung
 - [ ] Signs
 - [ ] Dr. Zhivago
