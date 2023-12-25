@@ -154,12 +154,12 @@ nav:
     - Math:
       - Voting: voting/voting.md
       - Similarity: vector-match/determining-similarity.md
-    - Photo:
-      - 23-12-23 : photo/23-12-23_PhotoWalk.md
     - Toki Pona:
       - Writing System: toki-pona/luka-tu-suno.md
     - Website:
       - Changelog: projects/website/changelog.md
+  - Photo:
+    - 2023-12-23 : photo/2023-12-23.md
   - About: 
     - About This Website: about/index.md
     - Changelog: about/CHANGELOG.md
