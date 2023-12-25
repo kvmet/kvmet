@@ -147,6 +147,10 @@ Recommended. A solid experience with several commendable qualities, though they 
     - Impressive use of hand-drawn animation composited over live-action video. The way that lighting is blended between the two is especially great.
 - The Midnight Sky
     - Good slow burn sci-fi drama. Has a good amount of dramatic moments and unexpected elements.
+- White Noise
+    - Pretty weird but still fun and enjoyable. Comedy horror.
+    - ??? quote "Spoiler"
+      People are trying to live their lives and not think about death. Everyone has a fear of death. The world is constantly reminding us of death in every way imaginable.
 
 ---
 

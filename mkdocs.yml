@@ -154,6 +154,8 @@ nav:
     - Math:
       - Voting: voting/voting.md
       - Similarity: vector-match/determining-similarity.md
+    - Photo:
+      - 23-12-23 : photo/23-12-23_PhotoWalk.md
     - Toki Pona:
       - Writing System: toki-pona/luka-tu-suno.md
     - Website:
