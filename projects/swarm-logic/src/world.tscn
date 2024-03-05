@@ -1,0 +1,131 @@
+[gd_scene load_steps=6 format=3 uid="uid://68pmb4r7im1p"]
+
+[ext_resource type="PackedScene" uid="uid://b1o5sn4oqry7v" path="res://agent.tscn" id="1_meybq"]
+[ext_resource type="Script" path="res://agents_node.gd" id="1_sdalw"]
+[ext_resource type="Script" path="res://SpawnTimer.gd" id="3_gr8cv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0m54j"]
+size = Vector2(1200, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tffli"]
+size = Vector2(40, 40)
+
+[node name="World" type="Node2D"]
+
+[node name="Terrain" type="Node2D" parent="."]
+
+[node name="Wall" type="StaticBody2D" parent="Terrain"]
+position = Vector2(-20, 2.08165e-12)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Wall"]
+position = Vector2(600, 15)
+shape = SubResource("RectangleShape2D_0m54j")
+
+[node name="ColorRect" type="ColorRect" parent="Terrain/Wall"]
+offset_right = 1200.0
+offset_bottom = 30.0
+
+[node name="Wall2" type="StaticBody2D" parent="Terrain"]
+position = Vector2(-20, 618)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Wall2"]
+position = Vector2(600, 15)
+shape = SubResource("RectangleShape2D_0m54j")
+
+[node name="ColorRect" type="ColorRect" parent="Terrain/Wall2"]
+offset_right = 1200.0
+offset_bottom = 30.0
+
+[node name="Wall3" type="StaticBody2D" parent="Terrain"]
+position = Vector2(2.08165e-12, 900)
+rotation = -1.5708
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Wall3"]
+position = Vector2(600, 15)
+shape = SubResource("RectangleShape2D_0m54j")
+
+[node name="ColorRect" type="ColorRect" parent="Terrain/Wall3"]
+offset_right = 1200.0
+offset_bottom = 30.0
+
+[node name="Wall4" type="StaticBody2D" parent="Terrain"]
+position = Vector2(1122, 900)
+rotation = -1.5708
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Wall4"]
+position = Vector2(600, 15)
+shape = SubResource("RectangleShape2D_0m54j")
+
+[node name="ColorRect" type="ColorRect" parent="Terrain/Wall4"]
+offset_right = 1200.0
+offset_bottom = 30.0
+
+[node name="Wall5" type="StaticBody2D" parent="Terrain"]
+position = Vector2(384, 1595)
+rotation = -1.5708
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Wall5"]
+position = Vector2(600, 15)
+shape = SubResource("RectangleShape2D_0m54j")
+
+[node name="ColorRect" type="ColorRect" parent="Terrain/Wall5"]
+offset_right = 1200.0
+offset_bottom = 30.0
+
+[node name="Wall6" type="StaticBody2D" parent="Terrain"]
+position = Vector2(743, 271)
+rotation = -1.5708
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Wall6"]
+position = Vector2(600, 15)
+shape = SubResource("RectangleShape2D_0m54j")
+
+[node name="ColorRect" type="ColorRect" parent="Terrain/Wall6"]
+offset_right = 1200.0
+offset_bottom = 30.0
+
+[node name="Goals" type="Node2D" parent="."]
+
+[node name="Goal_A" type="StaticBody2D" parent="Goals"]
+position = Vector2(166, 489)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Goals/Goal_A"]
+position = Vector2(2.08165e-12, 2.08165e-12)
+shape = SubResource("RectangleShape2D_tffli")
+
+[node name="ColorRect" type="ColorRect" parent="Goals/Goal_A"]
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+color = Color(0, 1, 1, 1)
+
+[node name="Goal_B" type="StaticBody2D" parent="Goals"]
+position = Vector2(989, 156)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Goals/Goal_B"]
+position = Vector2(2.08165e-12, 2.08165e-12)
+shape = SubResource("RectangleShape2D_tffli")
+
+[node name="ColorRect" type="ColorRect" parent="Goals/Goal_B"]
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+color = Color(1, 0, 1, 1)
+
+[node name="Agents" type="Node2D" parent="."]
+script = ExtResource("1_sdalw")
+
+[node name="AgentSpawn" type="Marker2D" parent="Agents"]
+position = Vector2(117, 100)
+
+[node name="SpawnTimer" type="Timer" parent="Agents" node_paths=PackedStringArray("spawn_point")]
+wait_time = 0.1
+autostart = true
+script = ExtResource("3_gr8cv")
+agent_scene = ExtResource("1_meybq")
+spawn_point = NodePath("../AgentSpawn")
+
+[connection signal="spawn" from="Agents/SpawnTimer" to="Agents" method="_on_spawn_timer_spawn"]
+[connection signal="timeout" from="Agents/SpawnTimer" to="Agents/SpawnTimer" method="_on_timeout"]
