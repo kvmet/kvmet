@@ -1,7 +1,7 @@
 extends Node2D
 
 @export var agents_per_frame = 1
-@export var shout_dist = 110
+@export var shout_dist = 500
 
 var agent_num = 0
 var agents
