@@ -1,0 +1,1965 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="kvmet">
+      
+      
+        <meta name="author" content="Kristen Metcalfe">
+      
+      
+        <link rel="canonical" href="https://kvmet.com/about/CHANGELOG/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
+    
+    
+      
+        <title>Changelog - kvmet</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "190fe8d68cfb482d9d026a9f740964ca"}'></script><!-- End Cloudflare Web Analytics -->
+
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="white">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#changelog-auto-generated" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="kvmet" class="md-header__button md-logo" aria-label="kvmet" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            kvmet
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="white"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="white" data-md-color-accent="black"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../cv/" class="md-tabs__link">
+        
+  
+    
+  
+  CV
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../projects/" class="md-tabs__link">
+          
+  
+    
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../photo/2023-12-29/" class="md-tabs__link">
+          
+  
+    
+  
+  Photo
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="kvmet" class="md-nav__button md-logo" aria-label="kvmet" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    kvmet
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cv/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CV
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../projects/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Projects
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Lists
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Lists
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/lists/movies.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Movies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Math
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Math
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../voting/voting.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Voting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vector-match/determining-similarity.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Similarity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Toki Pona
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Toki Pona
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../toki-pona/luka-tu-suno/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Writing System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Website
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Website
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/website/changelog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Changelog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Photo
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Photo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../photo/2023-12-29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023-12-29
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../photo/2023-12-27/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023-12-27
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../photo/2023-12-23/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023-12-23
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../photo/2022-05-30/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2022-05-30
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../photo/2015-11-29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2015-11-29
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Changelog
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Changelog
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#adding-suchron-stuff" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding suchron stuff
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#undo-previous-fix-warnings-about-material-emoji-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Undo previous. Fix warnings about material emoji plugins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shortcodes-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      shortcodes test
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remove-hr-on-photo-page-why-did-i-put-that-there" class="md-nav__link">
+    <span class="md-ellipsis">
+      remove hr on photo page (why did I put that there?)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#added-some-secondary-photos-to-recent-walk-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Added some secondary photos to recent walk page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#i-always-forget-to-add-it-to-nav" class="md-nav__link">
+    <span class="md-ellipsis">
+      I always forget to add it to nav
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-part-of-nyc-trip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Add part of NYC trip
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forgot-to-add-new-page-to-nav" class="md-nav__link">
+    <span class="md-ellipsis">
+      forgot to add new page to nav
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#photos-from-today" class="md-nav__link">
+    <span class="md-ellipsis">
+      Photos from today
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#move-all-photo-pages-to-new-format-and-cdn" class="md-nav__link">
+    <span class="md-ellipsis">
+      Move all photo pages to new format and CDN
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#adding-suchron-stuff" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding suchron stuff
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#undo-previous-fix-warnings-about-material-emoji-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Undo previous. Fix warnings about material emoji plugins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shortcodes-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      shortcodes test
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remove-hr-on-photo-page-why-did-i-put-that-there" class="md-nav__link">
+    <span class="md-ellipsis">
+      remove hr on photo page (why did I put that there?)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#added-some-secondary-photos-to-recent-walk-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Added some secondary photos to recent walk page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#i-always-forget-to-add-it-to-nav" class="md-nav__link">
+    <span class="md-ellipsis">
+      I always forget to add it to nav
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-part-of-nyc-trip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Add part of NYC trip
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forgot-to-add-new-page-to-nav" class="md-nav__link">
+    <span class="md-ellipsis">
+      forgot to add new page to nav
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#photos-from-today" class="md-nav__link">
+    <span class="md-ellipsis">
+      Photos from today
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#move-all-photo-pages-to-new-format-and-cdn" class="md-nav__link">
+    <span class="md-ellipsis">
+      Move all photo pages to new format and CDN
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="changelog-auto-generated">Changelog (Auto-generated)<a class="headerlink" href="#changelog-auto-generated" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="adding-suchron-stuff">Adding suchron stuff<a class="headerlink" href="#adding-suchron-stuff" title="Permanent link">&para;</a></h2>
+<p>Fri Jul 26 17:56:55 2024 -0400  </p>
+<p>Commit: <a href="https://github.com/kvmet/kvmet/commit/db021c217555cc7f6ed7b87416796c0f61c234f3">db021c2</a>  </p>
+<p><strong>Changed Files:</strong>  </p>
+<p>M   docs/projects/swarm-logic/src/agents_node.gd<br />
+M   docs/projects/swarm-logic/src/project.godot<br />
+A   docs/sets/foss.md<br />
+A   docs/sets/peeves.md<br />
+A   docs/toki-pona/zine.md<br />
+A   superchron/Cargo.lock<br />
+A   superchron/Cargo.toml<br />
+A   superchron/docs/dev.md<br />
+A   superchron/src/main.rs<br />
+A   superchron/target/.rustc_info.json<br />
+A   superchron/target/CACHEDIR.TAG<br />
+A   superchron/target/debug/.cargo-lock<br />
+A   superchron/target/debug/.fingerprint/superchron-237ce5ed7fa13941/bin-superchron<br />
+A   superchron/target/debug/.fingerprint/superchron-237ce5ed7fa13941/bin-superchron.json<br />
+A   superchron/target/debug/.fingerprint/superchron-237ce5ed7fa13941/dep-bin-superchron<br />
+A   superchron/target/debug/.fingerprint/superchron-237ce5ed7fa13941/invoked.timestamp<br />
+A   superchron/target/debug/deps/superchron-237ce5ed7fa13941<br />
+A   superchron/target/debug/deps/superchron-237ce5ed7fa13941.1isgaul8jdn0feed.rcgu.o<br />
+A   superchron/target/debug/deps/superchron-237ce5ed7fa13941.3hgu7qddppal7kd2.rcgu.o<br />
+A   superchron/target/debug/deps/superchron-237ce5ed7fa13941.4a60z3yq45ph5pr3.rcgu.o<br />
+A   superchron/target/debug/deps/superchron-237ce5ed7fa13941.4y8h9bfj1bgsy18l.rcgu.o<br />
+A   superchron/target/debug/deps/superchron-237ce5ed7fa13941.5a52520f4cdr80m2.rcgu.o<br />
+A   superchron/target/debug/deps/superchron-237ce5ed7fa13941.5e6dggcciesv0peg.rcgu.o<br />
+A   superchron/target/debug/deps/superchron-237ce5ed7fa13941.d<br />
+A   superchron/target/debug/incremental/superchron-l4brfcg13ld/s-gwyqjvh112-104ndrz-4tl66pyhs55boh1le9gf9yejj/1isgaul8jdn0feed.o<br />
+A   superchron/target/debug/incremental/superchron-l4brfcg13ld/s-gwyqjvh112-104ndrz-4tl66pyhs55boh1le9gf9yejj/3hgu7qddppal7kd2.o<br />
+A   superchron/target/debug/incremental/superchron-l4brfcg13ld/s-gwyqjvh112-104ndrz-4tl66pyhs55boh1le9gf9yejj/4a60z3yq45ph5pr3.o<br />
+A   superchron/target/debug/incremental/superchron-l4brfcg13ld/s-gwyqjvh112-104ndrz-4tl66pyhs55boh1le9gf9yejj/4y8h9bfj1bgsy18l.o<br />
+A   superchron/target/debug/incremental/superchron-l4brfcg13ld/s-gwyqjvh112-104ndrz-4tl66pyhs55boh1le9gf9yejj/5a52520f4cdr80m2.o<br />
+A   superchron/target/debug/incremental/superchron-l4brfcg13ld/s-gwyqjvh112-104ndrz-4tl66pyhs55boh1le9gf9yejj/5e6dggcciesv0peg.o<br />
+A   superchron/target/debug/incremental/superchron-l4brfcg13ld/s-gwyqjvh112-104ndrz-4tl66pyhs55boh1le9gf9yejj/dep-graph.bin<br />
+A   superchron/target/debug/incremental/superchron-l4brfcg13ld/s-gwyqjvh112-104ndrz-4tl66pyhs55boh1le9gf9yejj/query-cache.bin<br />
+A   superchron/target/debug/incremental/superchron-l4brfcg13ld/s-gwyqjvh112-104ndrz-4tl66pyhs55boh1le9gf9yejj/work-products.bin<br />
+A   superchron/target/debug/incremental/superchron-l4brfcg13ld/s-gwyqjvh112-104ndrz.lock<br />
+A   superchron/target/debug/superchron<br />
+A   superchron/target/debug/superchron.d<br />
+A   superchron/target/release/.cargo-lock<br />
+A   superchron/target/release/.fingerprint/ahash-3264f161535308e7/build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/ahash-3264f161535308e7/build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/ahash-3264f161535308e7/dep-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/ahash-3264f161535308e7/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/ahash-3df7de9bcf742365/run-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/ahash-3df7de9bcf742365/run-build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/ahash-d134c95e7e291bd9/dep-lib-ahash<br />
+A   superchron/target/release/.fingerprint/ahash-d134c95e7e291bd9/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/ahash-d134c95e7e291bd9/lib-ahash<br />
+A   superchron/target/release/.fingerprint/ahash-d134c95e7e291bd9/lib-ahash.json<br />
+A   superchron/target/release/.fingerprint/anstream-c446012350bb3b33/dep-lib-anstream<br />
+A   superchron/target/release/.fingerprint/anstream-c446012350bb3b33/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/anstream-c446012350bb3b33/lib-anstream<br />
+A   superchron/target/release/.fingerprint/anstream-c446012350bb3b33/lib-anstream.json<br />
+A   superchron/target/release/.fingerprint/anstyle-9f9a3366ecc3d2c1/dep-lib-anstyle<br />
+A   superchron/target/release/.fingerprint/anstyle-9f9a3366ecc3d2c1/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/anstyle-9f9a3366ecc3d2c1/lib-anstyle<br />
+A   superchron/target/release/.fingerprint/anstyle-9f9a3366ecc3d2c1/lib-anstyle.json<br />
+A   superchron/target/release/.fingerprint/anstyle-parse-e5dbe7a9fd2a5f84/dep-lib-anstyle-parse<br />
+A   superchron/target/release/.fingerprint/anstyle-parse-e5dbe7a9fd2a5f84/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/anstyle-parse-e5dbe7a9fd2a5f84/lib-anstyle-parse<br />
+A   superchron/target/release/.fingerprint/anstyle-parse-e5dbe7a9fd2a5f84/lib-anstyle-parse.json<br />
+A   superchron/target/release/.fingerprint/anstyle-query-0bd225a95410ee9d/dep-lib-anstyle-query<br />
+A   superchron/target/release/.fingerprint/anstyle-query-0bd225a95410ee9d/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/anstyle-query-0bd225a95410ee9d/lib-anstyle-query<br />
+A   superchron/target/release/.fingerprint/anstyle-query-0bd225a95410ee9d/lib-anstyle-query.json<br />
+A   superchron/target/release/.fingerprint/anyhow-350fcfcb80b8f1e1/run-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/anyhow-350fcfcb80b8f1e1/run-build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/anyhow-3bc0003264fed297/dep-lib-anyhow<br />
+A   superchron/target/release/.fingerprint/anyhow-3bc0003264fed297/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/anyhow-3bc0003264fed297/lib-anyhow<br />
+A   superchron/target/release/.fingerprint/anyhow-3bc0003264fed297/lib-anyhow.json<br />
+A   superchron/target/release/.fingerprint/anyhow-a4aa28d60620bd17/build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/anyhow-a4aa28d60620bd17/build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/anyhow-a4aa28d60620bd17/dep-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/anyhow-a4aa28d60620bd17/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/bitflags-bc48601d29398b4e/dep-lib-bitflags<br />
+A   superchron/target/release/.fingerprint/bitflags-bc48601d29398b4e/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/bitflags-bc48601d29398b4e/lib-bitflags<br />
+A   superchron/target/release/.fingerprint/bitflags-bc48601d29398b4e/lib-bitflags.json<br />
+A   superchron/target/release/.fingerprint/cfg-if-8cddbc3e36d2960b/dep-lib-cfg-if<br />
+A   superchron/target/release/.fingerprint/cfg-if-8cddbc3e36d2960b/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/cfg-if-8cddbc3e36d2960b/lib-cfg-if<br />
+A   superchron/target/release/.fingerprint/cfg-if-8cddbc3e36d2960b/lib-cfg-if.json<br />
+A   superchron/target/release/.fingerprint/clap-8f2dad20bc507e6b/dep-lib-clap<br />
+A   superchron/target/release/.fingerprint/clap-8f2dad20bc507e6b/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/clap-8f2dad20bc507e6b/lib-clap<br />
+A   superchron/target/release/.fingerprint/clap-8f2dad20bc507e6b/lib-clap.json<br />
+A   superchron/target/release/.fingerprint/clap_builder-2d89ff14b672c6e4/dep-lib-clap_builder<br />
+A   superchron/target/release/.fingerprint/clap_builder-2d89ff14b672c6e4/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/clap_builder-2d89ff14b672c6e4/lib-clap_builder<br />
+A   superchron/target/release/.fingerprint/clap_builder-2d89ff14b672c6e4/lib-clap_builder.json<br />
+A   superchron/target/release/.fingerprint/clap_lex-11b02bf49cfd5dbc/dep-lib-clap_lex<br />
+A   superchron/target/release/.fingerprint/clap_lex-11b02bf49cfd5dbc/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/clap_lex-11b02bf49cfd5dbc/lib-clap_lex<br />
+A   superchron/target/release/.fingerprint/clap_lex-11b02bf49cfd5dbc/lib-clap_lex.json<br />
+A   superchron/target/release/.fingerprint/colorchoice-237c571b5b51127b/dep-lib-colorchoice<br />
+A   superchron/target/release/.fingerprint/colorchoice-237c571b5b51127b/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/colorchoice-237c571b5b51127b/lib-colorchoice<br />
+A   superchron/target/release/.fingerprint/colorchoice-237c571b5b51127b/lib-colorchoice.json<br />
+A   superchron/target/release/.fingerprint/crossbeam-97614f3440d8a5ae/dep-lib-crossbeam<br />
+A   superchron/target/release/.fingerprint/crossbeam-97614f3440d8a5ae/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/crossbeam-97614f3440d8a5ae/lib-crossbeam<br />
+A   superchron/target/release/.fingerprint/crossbeam-97614f3440d8a5ae/lib-crossbeam.json<br />
+A   superchron/target/release/.fingerprint/crossbeam-channel-3dd4dbb4ef169683/dep-lib-crossbeam-channel<br />
+A   superchron/target/release/.fingerprint/crossbeam-channel-3dd4dbb4ef169683/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/crossbeam-channel-3dd4dbb4ef169683/lib-crossbeam-channel<br />
+A   superchron/target/release/.fingerprint/crossbeam-channel-3dd4dbb4ef169683/lib-crossbeam-channel.json<br />
+A   superchron/target/release/.fingerprint/crossbeam-deque-aa2ccaa942995b93/dep-lib-crossbeam-deque<br />
+A   superchron/target/release/.fingerprint/crossbeam-deque-aa2ccaa942995b93/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/crossbeam-deque-aa2ccaa942995b93/lib-crossbeam-deque<br />
+A   superchron/target/release/.fingerprint/crossbeam-deque-aa2ccaa942995b93/lib-crossbeam-deque.json<br />
+A   superchron/target/release/.fingerprint/crossbeam-epoch-427b31b5d7e5fd22/dep-lib-crossbeam-epoch<br />
+A   superchron/target/release/.fingerprint/crossbeam-epoch-427b31b5d7e5fd22/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/crossbeam-epoch-427b31b5d7e5fd22/lib-crossbeam-epoch<br />
+A   superchron/target/release/.fingerprint/crossbeam-epoch-427b31b5d7e5fd22/lib-crossbeam-epoch.json<br />
+A   superchron/target/release/.fingerprint/crossbeam-queue-8c02b0651ff397a6/dep-lib-crossbeam-queue<br />
+A   superchron/target/release/.fingerprint/crossbeam-queue-8c02b0651ff397a6/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/crossbeam-queue-8c02b0651ff397a6/lib-crossbeam-queue<br />
+A   superchron/target/release/.fingerprint/crossbeam-queue-8c02b0651ff397a6/lib-crossbeam-queue.json<br />
+A   superchron/target/release/.fingerprint/crossbeam-utils-2c9c5adf48c03209/build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/crossbeam-utils-2c9c5adf48c03209/build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/crossbeam-utils-2c9c5adf48c03209/dep-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/crossbeam-utils-2c9c5adf48c03209/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/crossbeam-utils-5473e58424689b8c/dep-lib-crossbeam-utils<br />
+A   superchron/target/release/.fingerprint/crossbeam-utils-5473e58424689b8c/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/crossbeam-utils-5473e58424689b8c/lib-crossbeam-utils<br />
+A   superchron/target/release/.fingerprint/crossbeam-utils-5473e58424689b8c/lib-crossbeam-utils.json<br />
+A   superchron/target/release/.fingerprint/crossbeam-utils-d5b0cd6951de0a60/run-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/crossbeam-utils-d5b0cd6951de0a60/run-build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/equivalent-f5de4ffdc0191758/dep-lib-equivalent<br />
+A   superchron/target/release/.fingerprint/equivalent-f5de4ffdc0191758/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/equivalent-f5de4ffdc0191758/lib-equivalent<br />
+A   superchron/target/release/.fingerprint/equivalent-f5de4ffdc0191758/lib-equivalent.json<br />
+A   superchron/target/release/.fingerprint/fallible-iterator-4433143dbf02a919/dep-lib-fallible-iterator<br />
+A   superchron/target/release/.fingerprint/fallible-iterator-4433143dbf02a919/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/fallible-iterator-4433143dbf02a919/lib-fallible-iterator<br />
+A   superchron/target/release/.fingerprint/fallible-iterator-4433143dbf02a919/lib-fallible-iterator.json<br />
+A   superchron/target/release/.fingerprint/fallible-streaming-iterator-eb6ffd19ea996966/dep-lib-fallible-streaming-iterator<br />
+A   superchron/target/release/.fingerprint/fallible-streaming-iterator-eb6ffd19ea996966/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/fallible-streaming-iterator-eb6ffd19ea996966/lib-fallible-streaming-iterator<br />
+A   superchron/target/release/.fingerprint/fallible-streaming-iterator-eb6ffd19ea996966/lib-fallible-streaming-iterator.json<br />
+A   superchron/target/release/.fingerprint/hashbrown-59e05403c1f14de8/dep-lib-hashbrown<br />
+A   superchron/target/release/.fingerprint/hashbrown-59e05403c1f14de8/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/hashbrown-59e05403c1f14de8/lib-hashbrown<br />
+A   superchron/target/release/.fingerprint/hashbrown-59e05403c1f14de8/lib-hashbrown.json<br />
+A   superchron/target/release/.fingerprint/hashlink-60a0d37792a7a784/dep-lib-hashlink<br />
+A   superchron/target/release/.fingerprint/hashlink-60a0d37792a7a784/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/hashlink-60a0d37792a7a784/lib-hashlink<br />
+A   superchron/target/release/.fingerprint/hashlink-60a0d37792a7a784/lib-hashlink.json<br />
+A   superchron/target/release/.fingerprint/indexmap-dff923a8d96c0539/dep-lib-indexmap<br />
+A   superchron/target/release/.fingerprint/indexmap-dff923a8d96c0539/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/indexmap-dff923a8d96c0539/lib-indexmap<br />
+A   superchron/target/release/.fingerprint/indexmap-dff923a8d96c0539/lib-indexmap.json<br />
+A   superchron/target/release/.fingerprint/is_terminal_polyfill-0ec83f971199464d/dep-lib-is_terminal_polyfill<br />
+A   superchron/target/release/.fingerprint/is_terminal_polyfill-0ec83f971199464d/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/is_terminal_polyfill-0ec83f971199464d/lib-is_terminal_polyfill<br />
+A   superchron/target/release/.fingerprint/is_terminal_polyfill-0ec83f971199464d/lib-is_terminal_polyfill.json<br />
+A   superchron/target/release/.fingerprint/libloading-47bcb041b10f8d65/dep-lib-libloading<br />
+A   superchron/target/release/.fingerprint/libloading-47bcb041b10f8d65/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/libloading-47bcb041b10f8d65/lib-libloading<br />
+A   superchron/target/release/.fingerprint/libloading-47bcb041b10f8d65/lib-libloading.json<br />
+A   superchron/target/release/.fingerprint/libsqlite3-sys-04c48a28cb8520e9/build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/libsqlite3-sys-04c48a28cb8520e9/build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/libsqlite3-sys-04c48a28cb8520e9/dep-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/libsqlite3-sys-04c48a28cb8520e9/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/libsqlite3-sys-8d3b9dc7395e63c3/run-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/libsqlite3-sys-8d3b9dc7395e63c3/run-build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/libsqlite3-sys-fac52af6d554e0c2/dep-lib-libsqlite3-sys<br />
+A   superchron/target/release/.fingerprint/libsqlite3-sys-fac52af6d554e0c2/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/libsqlite3-sys-fac52af6d554e0c2/lib-libsqlite3-sys<br />
+A   superchron/target/release/.fingerprint/libsqlite3-sys-fac52af6d554e0c2/lib-libsqlite3-sys.json<br />
+A   superchron/target/release/.fingerprint/once_cell-ff08dd104afc85a7/dep-lib-once_cell<br />
+A   superchron/target/release/.fingerprint/once_cell-ff08dd104afc85a7/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/once_cell-ff08dd104afc85a7/lib-once_cell<br />
+A   superchron/target/release/.fingerprint/once_cell-ff08dd104afc85a7/lib-once_cell.json<br />
+A   superchron/target/release/.fingerprint/pkg-config-68a98ffe2ef99e5e/dep-lib-pkg-config<br />
+A   superchron/target/release/.fingerprint/pkg-config-68a98ffe2ef99e5e/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/pkg-config-68a98ffe2ef99e5e/lib-pkg-config<br />
+A   superchron/target/release/.fingerprint/pkg-config-68a98ffe2ef99e5e/lib-pkg-config.json<br />
+A   superchron/target/release/.fingerprint/proc-macro2-09eb230162277a0b/dep-lib-proc_macro2<br />
+A   superchron/target/release/.fingerprint/proc-macro2-09eb230162277a0b/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/proc-macro2-09eb230162277a0b/lib-proc_macro2<br />
+A   superchron/target/release/.fingerprint/proc-macro2-09eb230162277a0b/lib-proc_macro2.json<br />
+A   superchron/target/release/.fingerprint/proc-macro2-c0e3551697324425/build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/proc-macro2-c0e3551697324425/build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/proc-macro2-c0e3551697324425/dep-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/proc-macro2-c0e3551697324425/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/proc-macro2-fa3ceffb0ce56865/run-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/proc-macro2-fa3ceffb0ce56865/run-build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/quote-7992ff231989e2e6/dep-lib-quote<br />
+A   superchron/target/release/.fingerprint/quote-7992ff231989e2e6/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/quote-7992ff231989e2e6/lib-quote<br />
+A   superchron/target/release/.fingerprint/quote-7992ff231989e2e6/lib-quote.json<br />
+A   superchron/target/release/.fingerprint/rusqlite-39222fc8d2331714/dep-lib-rusqlite<br />
+A   superchron/target/release/.fingerprint/rusqlite-39222fc8d2331714/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/rusqlite-39222fc8d2331714/lib-rusqlite<br />
+A   superchron/target/release/.fingerprint/rusqlite-39222fc8d2331714/lib-rusqlite.json<br />
+A   superchron/target/release/.fingerprint/serde-04ba22fbc2bcdc35/run-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/serde-04ba22fbc2bcdc35/run-build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/serde-7d529463df2f5e30/build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/serde-7d529463df2f5e30/build-script-build-script-build.json<br />
+A   superchron/target/release/.fingerprint/serde-7d529463df2f5e30/dep-build-script-build-script-build<br />
+A   superchron/target/release/.fingerprint/serde-7d529463df2f5e30/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/serde-8d539480c30c2678/dep-lib-serde<br />
+A   superchron/target/release/.fingerprint/serde-8d539480c30c2678/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/serde-8d539480c30c2678/lib-serde<br />
+A   superchron/target/release/.fingerprint/serde-8d539480c30c2678/lib-serde.json<br />
+A   superchron/target/release/.fingerprint/serde_derive-ec4eb60e246d8e9f/dep-lib-serde_derive<br />
+A   superchron/target/release/.fingerprint/serde_derive-ec4eb60e246d8e9f/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/serde_derive-ec4eb60e246d8e9f/lib-serde_derive<br />
+A   superchron/target/release/.fingerprint/serde_derive-ec4eb60e246d8e9f/lib-serde_derive.json<br />
+A   superchron/target/release/.fingerprint/serde_spanned-74aa555319ea04b9/dep-lib-serde_spanned<br />
+A   superchron/target/release/.fingerprint/serde_spanned-74aa555319ea04b9/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/serde_spanned-74aa555319ea04b9/lib-serde_spanned<br />
+A   superchron/target/release/.fingerprint/serde_spanned-74aa555319ea04b9/lib-serde_spanned.json<br />
+A   superchron/target/release/.fingerprint/smallvec-36107d88c590b8a5/dep-lib-smallvec<br />
+A   superchron/target/release/.fingerprint/smallvec-36107d88c590b8a5/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/smallvec-36107d88c590b8a5/lib-smallvec<br />
+A   superchron/target/release/.fingerprint/smallvec-36107d88c590b8a5/lib-smallvec.json<br />
+A   superchron/target/release/.fingerprint/strsim-4d297ef0d0185113/dep-lib-strsim<br />
+A   superchron/target/release/.fingerprint/strsim-4d297ef0d0185113/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/strsim-4d297ef0d0185113/lib-strsim<br />
+A   superchron/target/release/.fingerprint/strsim-4d297ef0d0185113/lib-strsim.json<br />
+A   superchron/target/release/.fingerprint/superchron-81d567beb243d04a/bin-superchron<br />
+A   superchron/target/release/.fingerprint/superchron-81d567beb243d04a/bin-superchron.json<br />
+A   superchron/target/release/.fingerprint/superchron-81d567beb243d04a/dep-bin-superchron<br />
+A   superchron/target/release/.fingerprint/superchron-81d567beb243d04a/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/superchron-a3c870a8f61b731b/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/superchron-a3c870a8f61b731b/output-bin-superchron<br />
+A   superchron/target/release/.fingerprint/syn-9e865ecba98d4cfb/dep-lib-syn<br />
+A   superchron/target/release/.fingerprint/syn-9e865ecba98d4cfb/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/syn-9e865ecba98d4cfb/lib-syn<br />
+A   superchron/target/release/.fingerprint/syn-9e865ecba98d4cfb/lib-syn.json<br />
+A   superchron/target/release/.fingerprint/toml-07419145843a6092/dep-lib-toml<br />
+A   superchron/target/release/.fingerprint/toml-07419145843a6092/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/toml-07419145843a6092/lib-toml<br />
+A   superchron/target/release/.fingerprint/toml-07419145843a6092/lib-toml.json<br />
+A   superchron/target/release/.fingerprint/toml_datetime-667e666cceb3758b/dep-lib-toml_datetime<br />
+A   superchron/target/release/.fingerprint/toml_datetime-667e666cceb3758b/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/toml_datetime-667e666cceb3758b/lib-toml_datetime<br />
+A   superchron/target/release/.fingerprint/toml_datetime-667e666cceb3758b/lib-toml_datetime.json<br />
+A   superchron/target/release/.fingerprint/toml_edit-686df2af26261c6d/dep-lib-toml_edit<br />
+A   superchron/target/release/.fingerprint/toml_edit-686df2af26261c6d/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/toml_edit-686df2af26261c6d/lib-toml_edit<br />
+A   superchron/target/release/.fingerprint/toml_edit-686df2af26261c6d/lib-toml_edit.json<br />
+A   superchron/target/release/.fingerprint/unicode-ident-433c906cb6d5a268/dep-lib-unicode-ident<br />
+A   superchron/target/release/.fingerprint/unicode-ident-433c906cb6d5a268/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/unicode-ident-433c906cb6d5a268/lib-unicode-ident<br />
+A   superchron/target/release/.fingerprint/unicode-ident-433c906cb6d5a268/lib-unicode-ident.json<br />
+A   superchron/target/release/.fingerprint/utf8parse-e617c573286686fe/dep-lib-utf8parse<br />
+A   superchron/target/release/.fingerprint/utf8parse-e617c573286686fe/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/utf8parse-e617c573286686fe/lib-utf8parse<br />
+A   superchron/target/release/.fingerprint/utf8parse-e617c573286686fe/lib-utf8parse.json<br />
+A   superchron/target/release/.fingerprint/vcpkg-e7859d609716682b/dep-lib-vcpkg<br />
+A   superchron/target/release/.fingerprint/vcpkg-e7859d609716682b/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/vcpkg-e7859d609716682b/lib-vcpkg<br />
+A   superchron/target/release/.fingerprint/vcpkg-e7859d609716682b/lib-vcpkg.json<br />
+A   superchron/target/release/.fingerprint/version_check-f2a3090f09597875/dep-lib-version_check<br />
+A   superchron/target/release/.fingerprint/version_check-f2a3090f09597875/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/version_check-f2a3090f09597875/lib-version_check<br />
+A   superchron/target/release/.fingerprint/version_check-f2a3090f09597875/lib-version_check.json<br />
+A   superchron/target/release/.fingerprint/winnow-17de41d4d679567a/dep-lib-winnow<br />
+A   superchron/target/release/.fingerprint/winnow-17de41d4d679567a/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/winnow-17de41d4d679567a/lib-winnow<br />
+A   superchron/target/release/.fingerprint/winnow-17de41d4d679567a/lib-winnow.json<br />
+A   superchron/target/release/.fingerprint/zerocopy-083695b28460a142/dep-lib-zerocopy<br />
+A   superchron/target/release/.fingerprint/zerocopy-083695b28460a142/invoked.timestamp<br />
+A   superchron/target/release/.fingerprint/zerocopy-083695b28460a142/lib-zerocopy<br />
+A   superchron/target/release/.fingerprint/zerocopy-083695b28460a142/lib-zerocopy.json<br />
+A   superchron/target/release/build/ahash-3264f161535308e7/build-script-build<br />
+A   superchron/target/release/build/ahash-3264f161535308e7/build_script_build-3264f161535308e7<br />
+A   superchron/target/release/build/ahash-3264f161535308e7/build_script_build-3264f161535308e7.d<br />
+A   superchron/target/release/build/ahash-3df7de9bcf742365/invoked.timestamp<br />
+A   superchron/target/release/build/ahash-3df7de9bcf742365/output<br />
+A   superchron/target/release/build/ahash-3df7de9bcf742365/root-output<br />
+A   superchron/target/release/build/ahash-3df7de9bcf742365/stderr<br />
+A   superchron/target/release/build/anyhow-350fcfcb80b8f1e1/invoked.timestamp<br />
+A   superchron/target/release/build/anyhow-350fcfcb80b8f1e1/out/anyhow.d<br />
+A   superchron/target/release/build/anyhow-350fcfcb80b8f1e1/output<br />
+A   superchron/target/release/build/anyhow-350fcfcb80b8f1e1/root-output<br />
+A   superchron/target/release/build/anyhow-350fcfcb80b8f1e1/stderr<br />
+A   superchron/target/release/build/anyhow-a4aa28d60620bd17/build-script-build<br />
+A   superchron/target/release/build/anyhow-a4aa28d60620bd17/build_script_build-a4aa28d60620bd17<br />
+A   superchron/target/release/build/anyhow-a4aa28d60620bd17/build_script_build-a4aa28d60620bd17.d<br />
+A   superchron/target/release/build/crossbeam-utils-2c9c5adf48c03209/build-script-build<br />
+A   superchron/target/release/build/crossbeam-utils-2c9c5adf48c03209/build_script_build-2c9c5adf48c03209<br />
+A   superchron/target/release/build/crossbeam-utils-2c9c5adf48c03209/build_script_build-2c9c5adf48c03209.d<br />
+A   superchron/target/release/build/crossbeam-utils-d5b0cd6951de0a60/invoked.timestamp<br />
+A   superchron/target/release/build/crossbeam-utils-d5b0cd6951de0a60/output<br />
+A   superchron/target/release/build/crossbeam-utils-d5b0cd6951de0a60/root-output<br />
+A   superchron/target/release/build/crossbeam-utils-d5b0cd6951de0a60/stderr<br />
+A   superchron/target/release/build/libsqlite3-sys-04c48a28cb8520e9/build-script-build<br />
+A   superchron/target/release/build/libsqlite3-sys-04c48a28cb8520e9/build_script_build-04c48a28cb8520e9<br />
+A   superchron/target/release/build/libsqlite3-sys-04c48a28cb8520e9/build_script_build-04c48a28cb8520e9.d<br />
+A   superchron/target/release/build/libsqlite3-sys-8d3b9dc7395e63c3/invoked.timestamp<br />
+A   superchron/target/release/build/libsqlite3-sys-8d3b9dc7395e63c3/out/bindgen.rs<br />
+A   superchron/target/release/build/libsqlite3-sys-8d3b9dc7395e63c3/output<br />
+A   superchron/target/release/build/libsqlite3-sys-8d3b9dc7395e63c3/root-output<br />
+A   superchron/target/release/build/libsqlite3-sys-8d3b9dc7395e63c3/stderr<br />
+A   superchron/target/release/build/proc-macro2-c0e3551697324425/build-script-build<br />
+A   superchron/target/release/build/proc-macro2-c0e3551697324425/build_script_build-c0e3551697324425<br />
+A   superchron/target/release/build/proc-macro2-c0e3551697324425/build_script_build-c0e3551697324425.d<br />
+A   superchron/target/release/build/proc-macro2-fa3ceffb0ce56865/invoked.timestamp<br />
+A   superchron/target/release/build/proc-macro2-fa3ceffb0ce56865/out/proc_macro2.d<br />
+A   superchron/target/release/build/proc-macro2-fa3ceffb0ce56865/output<br />
+A   superchron/target/release/build/proc-macro2-fa3ceffb0ce56865/root-output<br />
+A   superchron/target/release/build/proc-macro2-fa3ceffb0ce56865/stderr<br />
+A   superchron/target/release/build/serde-04ba22fbc2bcdc35/invoked.timestamp<br />
+A   superchron/target/release/build/serde-04ba22fbc2bcdc35/output<br />
+A   superchron/target/release/build/serde-04ba22fbc2bcdc35/root-output<br />
+A   superchron/target/release/build/serde-04ba22fbc2bcdc35/stderr<br />
+A   superchron/target/release/build/serde-7d529463df2f5e30/build-script-build<br />
+A   superchron/target/release/build/serde-7d529463df2f5e30/build_script_build-7d529463df2f5e30<br />
+A   superchron/target/release/build/serde-7d529463df2f5e30/build_script_build-7d529463df2f5e30.d<br />
+A   superchron/target/release/deps/ahash-d134c95e7e291bd9.d<br />
+A   superchron/target/release/deps/anstream-c446012350bb3b33.d<br />
+A   superchron/target/release/deps/anstyle-9f9a3366ecc3d2c1.d<br />
+A   superchron/target/release/deps/anstyle_parse-e5dbe7a9fd2a5f84.d<br />
+A   superchron/target/release/deps/anstyle_query-0bd225a95410ee9d.d<br />
+A   superchron/target/release/deps/anyhow-3bc0003264fed297.d<br />
+A   superchron/target/release/deps/bitflags-bc48601d29398b4e.d<br />
+A   superchron/target/release/deps/cfg_if-8cddbc3e36d2960b.d<br />
+A   superchron/target/release/deps/clap-8f2dad20bc507e6b.d<br />
+A   superchron/target/release/deps/clap_builder-2d89ff14b672c6e4.d<br />
+A   superchron/target/release/deps/clap_lex-11b02bf49cfd5dbc.d<br />
+A   superchron/target/release/deps/colorchoice-237c571b5b51127b.d<br />
+A   superchron/target/release/deps/crossbeam-97614f3440d8a5ae.d<br />
+A   superchron/target/release/deps/crossbeam_channel-3dd4dbb4ef169683.d<br />
+A   superchron/target/release/deps/crossbeam_deque-aa2ccaa942995b93.d<br />
+A   superchron/target/release/deps/crossbeam_epoch-427b31b5d7e5fd22.d<br />
+A   superchron/target/release/deps/crossbeam_queue-8c02b0651ff397a6.d<br />
+A   superchron/target/release/deps/crossbeam_utils-5473e58424689b8c.d<br />
+A   superchron/target/release/deps/equivalent-f5de4ffdc0191758.d<br />
+A   superchron/target/release/deps/fallible_iterator-4433143dbf02a919.d<br />
+A   superchron/target/release/deps/fallible_streaming_iterator-eb6ffd19ea996966.d<br />
+A   superchron/target/release/deps/hashbrown-59e05403c1f14de8.d<br />
+A   superchron/target/release/deps/hashlink-60a0d37792a7a784.d<br />
+A   superchron/target/release/deps/indexmap-dff923a8d96c0539.d<br />
+A   superchron/target/release/deps/is_terminal_polyfill-0ec83f971199464d.d<br />
+A   superchron/target/release/deps/libahash-d134c95e7e291bd9.rlib<br />
+A   superchron/target/release/deps/libahash-d134c95e7e291bd9.rmeta<br />
+A   superchron/target/release/deps/libanstream-c446012350bb3b33.rlib<br />
+A   superchron/target/release/deps/libanstream-c446012350bb3b33.rmeta<br />
+A   superchron/target/release/deps/libanstyle-9f9a3366ecc3d2c1.rlib<br />
+A   superchron/target/release/deps/libanstyle-9f9a3366ecc3d2c1.rmeta<br />
+A   superchron/target/release/deps/libanstyle_parse-e5dbe7a9fd2a5f84.rlib<br />
+A   superchron/target/release/deps/libanstyle_parse-e5dbe7a9fd2a5f84.rmeta<br />
+A   superchron/target/release/deps/libanstyle_query-0bd225a95410ee9d.rlib<br />
+A   superchron/target/release/deps/libanstyle_query-0bd225a95410ee9d.rmeta<br />
+A   superchron/target/release/deps/libanyhow-3bc0003264fed297.rlib<br />
+A   superchron/target/release/deps/libanyhow-3bc0003264fed297.rmeta<br />
+A   superchron/target/release/deps/libbitflags-bc48601d29398b4e.rlib<br />
+A   superchron/target/release/deps/libbitflags-bc48601d29398b4e.rmeta<br />
+A   superchron/target/release/deps/libcfg_if-8cddbc3e36d2960b.rlib<br />
+A   superchron/target/release/deps/libcfg_if-8cddbc3e36d2960b.rmeta<br />
+A   superchron/target/release/deps/libclap-8f2dad20bc507e6b.rlib<br />
+A   superchron/target/release/deps/libclap-8f2dad20bc507e6b.rmeta<br />
+A   superchron/target/release/deps/libclap_builder-2d89ff14b672c6e4.rlib<br />
+A   superchron/target/release/deps/libclap_builder-2d89ff14b672c6e4.rmeta<br />
+A   superchron/target/release/deps/libclap_lex-11b02bf49cfd5dbc.rlib<br />
+A   superchron/target/release/deps/libclap_lex-11b02bf49cfd5dbc.rmeta<br />
+A   superchron/target/release/deps/libcolorchoice-237c571b5b51127b.rlib<br />
+A   superchron/target/release/deps/libcolorchoice-237c571b5b51127b.rmeta<br />
+A   superchron/target/release/deps/libcrossbeam-97614f3440d8a5ae.rlib<br />
+A   superchron/target/release/deps/libcrossbeam-97614f3440d8a5ae.rmeta<br />
+A   superchron/target/release/deps/libcrossbeam_channel-3dd4dbb4ef169683.rlib<br />
+A   superchron/target/release/deps/libcrossbeam_channel-3dd4dbb4ef169683.rmeta<br />
+A   superchron/target/release/deps/libcrossbeam_deque-aa2ccaa942995b93.rlib<br />
+A   superchron/target/release/deps/libcrossbeam_deque-aa2ccaa942995b93.rmeta<br />
+A   superchron/target/release/deps/libcrossbeam_epoch-427b31b5d7e5fd22.rlib<br />
+A   superchron/target/release/deps/libcrossbeam_epoch-427b31b5d7e5fd22.rmeta<br />
+A   superchron/target/release/deps/libcrossbeam_queue-8c02b0651ff397a6.rlib<br />
+A   superchron/target/release/deps/libcrossbeam_queue-8c02b0651ff397a6.rmeta<br />
+A   superchron/target/release/deps/libcrossbeam_utils-5473e58424689b8c.rlib<br />
+A   superchron/target/release/deps/libcrossbeam_utils-5473e58424689b8c.rmeta<br />
+A   superchron/target/release/deps/libequivalent-f5de4ffdc0191758.rlib<br />
+A   superchron/target/release/deps/libequivalent-f5de4ffdc0191758.rmeta<br />
+A   superchron/target/release/deps/libfallible_iterator-4433143dbf02a919.rlib<br />
+A   superchron/target/release/deps/libfallible_iterator-4433143dbf02a919.rmeta<br />
+A   superchron/target/release/deps/libfallible_streaming_iterator-eb6ffd19ea996966.rlib<br />
+A   superchron/target/release/deps/libfallible_streaming_iterator-eb6ffd19ea996966.rmeta<br />
+A   superchron/target/release/deps/libhashbrown-59e05403c1f14de8.rlib<br />
+A   superchron/target/release/deps/libhashbrown-59e05403c1f14de8.rmeta<br />
+A   superchron/target/release/deps/libhashlink-60a0d37792a7a784.rlib<br />
+A   superchron/target/release/deps/libhashlink-60a0d37792a7a784.rmeta<br />
+A   superchron/target/release/deps/libindexmap-dff923a8d96c0539.rlib<br />
+A   superchron/target/release/deps/libindexmap-dff923a8d96c0539.rmeta<br />
+A   superchron/target/release/deps/libis_terminal_polyfill-0ec83f971199464d.rlib<br />
+A   superchron/target/release/deps/libis_terminal_polyfill-0ec83f971199464d.rmeta<br />
+A   superchron/target/release/deps/liblibloading-47bcb041b10f8d65.rlib<br />
+A   superchron/target/release/deps/liblibloading-47bcb041b10f8d65.rmeta<br />
+A   superchron/target/release/deps/liblibsqlite3_sys-fac52af6d554e0c2.rlib<br />
+A   superchron/target/release/deps/liblibsqlite3_sys-fac52af6d554e0c2.rmeta<br />
+A   superchron/target/release/deps/libloading-47bcb041b10f8d65.d<br />
+A   superchron/target/release/deps/libonce_cell-ff08dd104afc85a7.rlib<br />
+A   superchron/target/release/deps/libonce_cell-ff08dd104afc85a7.rmeta<br />
+A   superchron/target/release/deps/libpkg_config-68a98ffe2ef99e5e.rlib<br />
+A   superchron/target/release/deps/libpkg_config-68a98ffe2ef99e5e.rmeta<br />
+A   superchron/target/release/deps/libproc_macro2-09eb230162277a0b.rlib<br />
+A   superchron/target/release/deps/libproc_macro2-09eb230162277a0b.rmeta<br />
+A   superchron/target/release/deps/libquote-7992ff231989e2e6.rlib<br />
+A   superchron/target/release/deps/libquote-7992ff231989e2e6.rmeta<br />
+A   superchron/target/release/deps/librusqlite-39222fc8d2331714.rlib<br />
+A   superchron/target/release/deps/librusqlite-39222fc8d2331714.rmeta<br />
+A   superchron/target/release/deps/libserde-8d539480c30c2678.rlib<br />
+A   superchron/target/release/deps/libserde-8d539480c30c2678.rmeta<br />
+A   superchron/target/release/deps/libserde_derive-ec4eb60e246d8e9f.dylib<br />
+A   superchron/target/release/deps/libserde_spanned-74aa555319ea04b9.rlib<br />
+A   superchron/target/release/deps/libserde_spanned-74aa555319ea04b9.rmeta<br />
+A   superchron/target/release/deps/libsmallvec-36107d88c590b8a5.rlib<br />
+A   superchron/target/release/deps/libsmallvec-36107d88c590b8a5.rmeta<br />
+A   superchron/target/release/deps/libsqlite3_sys-fac52af6d554e0c2.d<br />
+A   superchron/target/release/deps/libstrsim-4d297ef0d0185113.rlib<br />
+A   superchron/target/release/deps/libstrsim-4d297ef0d0185113.rmeta<br />
+A   superchron/target/release/deps/libsyn-9e865ecba98d4cfb.rlib<br />
+A   superchron/target/release/deps/libsyn-9e865ecba98d4cfb.rmeta<br />
+A   superchron/target/release/deps/libtoml-07419145843a6092.rlib<br />
+A   superchron/target/release/deps/libtoml-07419145843a6092.rmeta<br />
+A   superchron/target/release/deps/libtoml_datetime-667e666cceb3758b.rlib<br />
+A   superchron/target/release/deps/libtoml_datetime-667e666cceb3758b.rmeta<br />
+A   superchron/target/release/deps/libtoml_edit-686df2af26261c6d.rlib<br />
+A   superchron/target/release/deps/libtoml_edit-686df2af26261c6d.rmeta<br />
+A   superchron/target/release/deps/libunicode_ident-433c906cb6d5a268.rlib<br />
+A   superchron/target/release/deps/libunicode_ident-433c906cb6d5a268.rmeta<br />
+A   superchron/target/release/deps/libutf8parse-e617c573286686fe.rlib<br />
+A   superchron/target/release/deps/libutf8parse-e617c573286686fe.rmeta<br />
+A   superchron/target/release/deps/libvcpkg-e7859d609716682b.rlib<br />
+A   superchron/target/release/deps/libvcpkg-e7859d609716682b.rmeta<br />
+A   superchron/target/release/deps/libversion_check-f2a3090f09597875.rlib<br />
+A   superchron/target/release/deps/libversion_check-f2a3090f09597875.rmeta<br />
+A   superchron/target/release/deps/libwinnow-17de41d4d679567a.rlib<br />
+A   superchron/target/release/deps/libwinnow-17de41d4d679567a.rmeta<br />
+A   superchron/target/release/deps/libzerocopy-083695b28460a142.rlib<br />
+A   superchron/target/release/deps/libzerocopy-083695b28460a142.rmeta<br />
+A   superchron/target/release/deps/once_cell-ff08dd104afc85a7.d<br />
+A   superchron/target/release/deps/pkg_config-68a98ffe2ef99e5e.d<br />
+A   superchron/target/release/deps/proc_macro2-09eb230162277a0b.d<br />
+A   superchron/target/release/deps/quote-7992ff231989e2e6.d<br />
+A   superchron/target/release/deps/rusqlite-39222fc8d2331714.d<br />
+A   superchron/target/release/deps/serde-8d539480c30c2678.d<br />
+A   superchron/target/release/deps/serde_derive-ec4eb60e246d8e9f.d<br />
+A   superchron/target/release/deps/serde_spanned-74aa555319ea04b9.d<br />
+A   superchron/target/release/deps/smallvec-36107d88c590b8a5.d<br />
+A   superchron/target/release/deps/strsim-4d297ef0d0185113.d<br />
+A   superchron/target/release/deps/superchron-81d567beb243d04a<br />
+A   superchron/target/release/deps/superchron-81d567beb243d04a.d<br />
+A   superchron/target/release/deps/superchron-a3c870a8f61b731b.d<br />
+A   superchron/target/release/deps/syn-9e865ecba98d4cfb.d<br />
+A   superchron/target/release/deps/toml-07419145843a6092.d<br />
+A   superchron/target/release/deps/toml_datetime-667e666cceb3758b.d<br />
+A   superchron/target/release/deps/toml_edit-686df2af26261c6d.d<br />
+A   superchron/target/release/deps/unicode_ident-433c906cb6d5a268.d<br />
+A   superchron/target/release/deps/utf8parse-e617c573286686fe.d<br />
+A   superchron/target/release/deps/vcpkg-e7859d609716682b.d<br />
+A   superchron/target/release/deps/version_check-f2a3090f09597875.d<br />
+A   superchron/target/release/deps/winnow-17de41d4d679567a.d<br />
+A   superchron/target/release/deps/zerocopy-083695b28460a142.d<br />
+A   superchron/target/release/superchron<br />
+A   superchron/target/release/superchron.d  </p>
+<hr />
+<h2 id="undo-previous-fix-warnings-about-material-emoji-plugins">Undo previous. Fix warnings about material emoji plugins<a class="headerlink" href="#undo-previous-fix-warnings-about-material-emoji-plugins" title="Permanent link">&para;</a></h2>
+<p>Tue Mar 5 15:54:15 2024 -0500  </p>
+<p>Commit: <a href="https://github.com/kvmet/kvmet/commit/0e69df02cc30a18046c6fc675c7d2e8213d0629f">0e69df0</a>  </p>
+<p><strong>Changed Files:</strong>  </p>
+<p>M   mkdocs.yml  </p>
+<hr />
+<h2 id="shortcodes-test">shortcodes test<a class="headerlink" href="#shortcodes-test" title="Permanent link">&para;</a></h2>
+<p>Tue Mar 5 15:44:17 2024 -0500  </p>
+<p>Commit: <a href="https://github.com/kvmet/kvmet/commit/4b54664e13b44744a25d8f794e3ed60b6eba71b1">4b54664</a>  </p>
+<p><strong>Changed Files:</strong>  </p>
+<p>M   docs/index.md<br />
+M   mkdocs.yml  </p>
+<hr />
+<h2 id="remove-hr-on-photo-page-why-did-i-put-that-there">remove hr on photo page (why did I put that there?)<a class="headerlink" href="#remove-hr-on-photo-page-why-did-i-put-that-there" title="Permanent link">&para;</a></h2>
+<p>Sat Dec 30 15:39:20 2023 -0500  </p>
+<p>Commit: <a href="https://github.com/kvmet/kvmet/commit/f192da653bf282f82734cb4bb01e63bb65a230de">f192da6</a>  </p>
+<p><strong>Changed Files:</strong>  </p>
+<p>M   docs/photo/2023-12-27.md  </p>
+<hr />
+<h2 id="added-some-secondary-photos-to-recent-walk-page">Added some secondary photos to recent walk page<a class="headerlink" href="#added-some-secondary-photos-to-recent-walk-page" title="Permanent link">&para;</a></h2>
+<p>Sat Dec 30 01:29:24 2023 -0500  </p>
+<p>Commit: <a href="https://github.com/kvmet/kvmet/commit/1ed36d128cf96e291872227873639a52942c690b">1ed36d1</a>  </p>
+<p><strong>Changed Files:</strong>  </p>
+<p>M   docs/photo/2023-12-27.md  </p>
+<hr />
+<h2 id="i-always-forget-to-add-it-to-nav">I always forget to add it to nav<a class="headerlink" href="#i-always-forget-to-add-it-to-nav" title="Permanent link">&para;</a></h2>
+<p>Fri Dec 29 22:05:50 2023 -0500  </p>
+<p>Commit: <a href="https://github.com/kvmet/kvmet/commit/26326d5a7e6553e59755290cef83b9b475618ee6">26326d5</a>  </p>
+<p><strong>Changed Files:</strong>  </p>
+<p>M   mkdocs.yml  </p>
+<hr />
+<h2 id="add-part-of-nyc-trip">Add part of NYC trip<a class="headerlink" href="#add-part-of-nyc-trip" title="Permanent link">&para;</a></h2>
+<p>Fri Dec 29 22:02:55 2023 -0500  </p>
+<p>Commit: <a href="https://github.com/kvmet/kvmet/commit/5b3931c717fb1d15e1b766862d520bb508bfd765">5b3931c</a>  </p>
+<p><strong>Changed Files:</strong>  </p>
+<p>A   docs/photo/2022-05-30.md  </p>
+<hr />
+<h2 id="forgot-to-add-new-page-to-nav">forgot to add new page to nav<a class="headerlink" href="#forgot-to-add-new-page-to-nav" title="Permanent link">&para;</a></h2>
+<p>Fri Dec 29 19:49:29 2023 -0500  </p>
+<p>Commit: <a href="https://github.com/kvmet/kvmet/commit/d6535ca4829c00bf040222c42b095b102a09c696">d6535ca</a>  </p>
+<p><strong>Changed Files:</strong>  </p>
+<p>M   mkdocs.yml  </p>
+<hr />
+<h2 id="photos-from-today">Photos from today<a class="headerlink" href="#photos-from-today" title="Permanent link">&para;</a></h2>
+<p>Fri Dec 29 19:48:03 2023 -0500  </p>
+<p>Commit: <a href="https://github.com/kvmet/kvmet/commit/bb5697f399067a8d13ee2830d77ee242488de596">bb5697f</a>  </p>
+<p><strong>Changed Files:</strong>  </p>
+<p>A   docs/photo/2023-12-29.md  </p>
+<hr />
+<h2 id="move-all-photo-pages-to-new-format-and-cdn">Move all photo pages to new format and CDN<a class="headerlink" href="#move-all-photo-pages-to-new-format-and-cdn" title="Permanent link">&para;</a></h2>
+<p>Fri Dec 29 18:15:04 2023 -0500  </p>
+<p>Commit: <a href="https://github.com/kvmet/kvmet/commit/2ab65ff37cb40d60836aaa465b1a26676fcf1385">2ab65ff</a>  </p>
+<p><strong>Changed Files:</strong>  </p>
+<p>M   docs/photo/2023-12-23.md<br />
+D   docs/photo/2023-12-23/DSC01009.jpg<br />
+D   docs/photo/2023-12-23/DSC01011.jpg<br />
+D   docs/photo/2023-12-23/DSC01013.jpg<br />
+D   docs/photo/2023-12-23/DSC01017.jpg<br />
+D   docs/photo/2023-12-23/DSC01020.jpg<br />
+D   docs/photo/2023-12-23/DSC01030.jpg<br />
+D   docs/photo/2023-12-23/DSC01048.jpg<br />
+M   docs/photo/2023-12-27.md<br />
+D   docs/photo/2023-12-27/DSC01082.jpg<br />
+D   docs/photo/2023-12-27/DSC01087.jpg<br />
+D   docs/photo/2023-12-27/DSC01116.jpg<br />
+D   docs/photo/2023-12-27/DSC01135.jpg<br />
+D   docs/photo/2023-12-27/DSC01151.jpg<br />
+D   docs/photo/2023-12-27/DSC01154.jpg<br />
+D   docs/photo/2023-12-27/DSC01176.jpg<br />
+D   docs/photo/2023-12-27/DSC01188.jpg  </p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: About This Website">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                About This Website
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; Kristen Metcalfe 2023
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/kvmet" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/kvmet" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.instagram.com/kvmet/" target="_blank" rel="noopener" title="www.instagram.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+        <script src="../../javascripts/katex.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>
