@@ -12,7 +12,7 @@ here and waiting for you to take a look
 
 ---
 
-# CV
+# Curriculum Vitae
 
 Experienced Engineer with a demonstrated
 history of working in the electrical and

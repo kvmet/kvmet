@@ -9,62 +9,103 @@ keywords:
 
 # Movies
 
+Movies are ranked by whether or not I,
+personally, think you should watch.
+
+- [Extraordinary](#extraordinary)
+  - Must-watch, innovative, outstanding
+- [Great](#great)
+  - Recommended, excellent, memorable
+- [Worthwhile](#worthwhile)
+  - Enjoyable, fun, lacking distinction
+- [Decent](#decent)
+  - Situational, forgettable, passable
+- [Mediocre](#mediocre)
+  - Technically a movie, noise
+- [Bad](#bad)
+  - Avoid!
+
+- Not yet ranked
+  - Have seen but haven't scored
+- Not yet watched
+  - (Or need to re-watch)
+
 ## Extraordinary
 
 Must-watch. Innovative and outstanding execution. These set the standard for excellence and leave a lasting impression.
 
+### A
+
 - Alien
+- Akira
+
+### D
+
+- [Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb](https://www.imdb.com/title/tt0057012/) (1964)
+
+### F
+
 - Fargo
-- The Shining
-- The Lion King
-- Spirited Away
-- Princess Mononoke
+
+### G
+
+- [Ghost in the Shell](https://www.imdb.com/title/tt0113568/) (1995)
+
+### I
+
 - The Incredibles
     - My favorite Pixar movie.
+
+### L
+
+- The Lion King
+
+### P
+
+- Princess Mononoke
+
+### S
+
+- The Shining
+- Spirited Away
+
+### #
+
 - 12 Angry Men
 - 2001: A Space Odyssey
-- [Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb](https://www.imdb.com/title/tt0057012/) (1964)
-- Akira
-- [Ghost in the Shell](https://www.imdb.com/title/tt0113568/) (1995)
 
 ---
 
-<!-- Ranking Thoughts
-
-1.  **Masterpiece** - Reserved for movies that are widely regarded as exceptional in every aspect: storytelling, acting, cinematography, score, and impact. These are the films that define genres, change the industry, and endure through time.
-2.  **Outstanding** - These are excellent movies that may have minor flaws but still deliver a high-quality cinematic experience. They are memorable, well-crafted, and would be recommended without hesitation.
-3.  **Solid** - Films that are enjoyable and well-made but lack the distinctive qualities that would elevate them to Outstanding or Masterpiece status. They are competent across the board but may not resonate as deeply or have as lasting an impact.
-4.  **Mediocre** - These films are passable but unremarkable. They might have significant issues in key areas like script, performance, or direction, and while they are watchable, they do not stand out in any meaningful way.
-5.  **Poor** - Reserved for movies that are flawed on multiple levels. They are often characterized by weak plots, poor acting, numerous technical issues, and generally fail to provide an engaging experience. These films are typically not recommended except perhaps for a lesson in what not to do in filmmaking.
-
-
-## Outstanding
-**Extraordinary:** Reserved for films that are not only innovative and exceptionally executed but also pivotal within the industry, often setting new benchmarks and leaving a significant cultural impact.
-
-**Outstanding:** Must-watch. These films deliver superior quality and artistry with a level of innovation and execution that approaches the pinnacle of cinematic achievement, positioning them just shy of extraordinary.
-
-**Great:** Highly recommended. Films in this category are distinguished by a strong fusion of craft and entertainment. They display notable skill in storytelling and technical aspects, providing an engaging and memorable viewing experience.
-
-Iconic, Incredible, Exceptional, Profound, Elite
-Exceptional, Superb, Distinguished, 
-Great, Impressive, Quality
-Average, Solid, Worthwhile, Adequate, Fair, Acceptable, Respectable, Satisfactory
-Passable, Decent, Acceptable, Uninspired, Mediocre
-Flawed, Deficient, Subpar, Lacking, Poor, Inferior, Weak
-Terrible, Bad, Trash, Abysmal
-
--->
 ## Great
 
 Highly recommended. These films excel in entertainment or artistic value with qualities that make them memorable and engaging.
 
+### A
+
 - Aladdin
 - Apollo 13
 - American Psycho
+
+### B
+
 - The Banshees of Inisherin
-- Nightcrawler
-- Moonrise Kingdom
+
+### D
+
+- Donnie Brasco
+
+### F
+
 - Forrest Gump
+
+### N
+
+- Nightcrawler
+
+### M
+
+- Moonrise Kingdom
+
 - Jaws
 - Redline
 - Primer
@@ -503,12 +544,12 @@ I have seen these. Haven't ranked yet
 - War of The Worlds (old)
 - War of The Worlds (new)
 - Wedding Crashers
-- 
+-
 - Tropic Thunder
 - Tremors
 - Transformers (series)
 - The Village (wait am I thinking of the lottery?)
-- 
+-
 - The Room
 - Flubber
 - Zodiac

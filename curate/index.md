@@ -1,7 +1,7 @@
---
+---
 layout: default
 title: Curate
---
+---
 
 I love making lists. Here is a list:
 
