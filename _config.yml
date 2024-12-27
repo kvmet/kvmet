@@ -5,3 +5,7 @@ url: "https://kvmet.com"
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - site/
+  - docs/
