@@ -4,7 +4,19 @@ title: kvmet
 ---
 # Kristen Metcalfe
 
-Experienced Engineer with a demonstrated history of working in the electrical and industrial engineering industries. Skilled in PLC Systems, Industrial Automation Controls, and Contracting, in addition to Project Scheduling and Estimation. Strong engineering professional with a Bachelor's Degree in Electrical Engineering & Mathematics from The University of Alabama.
+Experienced Engineer with a demonstrated  
+history of working in the electrical and  
+industrial engineering industries.  
+
+Skilled in PLC Systems, Industrial  
+Automation Controls, and Contracting, in  
+addition to Project Scheduling and  
+Estimation.
+
+Strong engineering professional with a  
+Bachelor's Degree in Electrical  
+Engineering & Mathematics from The  
+University of Alabama.
 
 ---
 
@@ -14,7 +26,7 @@ Experienced Engineer with a demonstrated history of working in the electrical an
 - Instrumentation & Controls
 - Software & Standards Development
 - Project Scheduling and Estimation
-- PLC Programming (All IEC 61131-3 languages)
+- PLC Programming (IEC 61131-3 languages)
 
 ---
 
@@ -22,7 +34,7 @@ Experienced Engineer with a demonstrated history of working in the electrical an
 
 ### Commonwealth Fusion Systems
 
-- Greater Boston Area, Massachusetts, USA
+- Greater Boston, Massachusetts, USA
 - Devens, Massachusetts, USA
 
 #### Lead Controls Engineer
@@ -39,20 +51,37 @@ Jan 2021 - Jun 2022
 
 ### USNR
 
-Woodland, Washington, USA
+- Woodland, Washington, USA
 
 #### Controls Engineer
 
 Jun 2018 - Dec 2020
 
-PLC Programming and Controls Engineering for automation of sawmill equipment for Primary & Secondary Breakdown, Residuals Processing, and Engineered Wood Products (EWP).
+PLC Programming and Controls Engineering  
+for automation of sawmill equipment for  
+Primary & Secondary Breakdown, Residuals  
+Processing, and Engineered Wood Products  
+(EWP).
 
-Primarily working with Rockwell/Allen-Bradley PLCs and Delta RMC motion controllers using Ethernet/IP across multi-layered networks. High amount of on-site work for installation and commissioning of new equipment as well as internal research and development intended to improve/standardize existing products. Assisted in mechanical and electrical work as needed to support trades or for independent troubleshooting.
+Primarily programmed and commossioned  
+systems using Rockwell/Allen-Bradley  
+PLCs and Delta RMC motion controllers  
+using Ethernet/IP across multi-layered  
+networks. High amount of on-site work  
+for installation and commissioning of  
+new equipment as well as internal  
+research and development intended to  
+improve/standardize existing products.  
+
+Assisted in mechanical and electrical  
+work as needed to support trades or for  
+independent troubleshooting.
 
 ### EBechtle, LLC.
 
 - Greater Atlanta Area, Georgia, USA
-- Sankt Leon-Rot, Baden-Württemberg, Germany
+- Sankt Leon-Rot, Baden-Württemberg, DE
+- Fort Worth, TX, USA
 
 #### Project Engineer
 
@@ -62,7 +91,7 @@ Controls and Software Engineering/Programming for industrial automation systems 
 
 ### Allison Smith Company, LLC.
 
-Greater Atlanta Area, Georgia, USA
+- Greater Atlanta Area, Georgia, USA
 
 #### Project Manager
 
@@ -74,11 +103,22 @@ Some projects required my abilities in PLC programming (Schneider, Unity Pro/IEC
 
 ### Hewlett-Packard
 
+- Houston, Texas, USA
+
+#### Co-op Intern
+
 May 2011 - May 2012
 
-Integrated Lights-out (iLO) embedded server management group.
-Operated as part of a team to design and development of several utilities for internal testing as well as software for improvement of technical support quality and efficiency.
-Primarily worked in C# for windows application development with some minor web-based projects.
+Integrated Lights-out (iLO) embedded  
+server management group. Operated as  
+part of a team to design and develop  
+several utilities for internal testing  
+as well as software for improvement of  
+technical support quality and speed.
+
+Primarily worked in .NET C# for windows  
+application development with some minor  
+web-based projects.
 
 ---
 
