@@ -2,20 +2,30 @@
 layout: default
 title: kvmet
 ---
-# Kristen Metcalfe
 
-Experienced Engineer with a demonstrated  
-history of working in the electrical and  
-industrial engineering industries.  
+Welcome! This is my personal site, feel
+free to poke around and see what's here
+to share. I can't promise that it's any
+interesting to you, but it certainly is
+here and waiting for you to take a look
+(Just try not to break anything).
 
-Skilled in PLC Systems, Industrial  
-Automation Controls, and Contracting, in  
-addition to Project Scheduling and  
+---
+
+# CV
+
+Experienced Engineer with a demonstrated
+history of working in the electrical and
+industrial engineering industries.
+
+Skilled in PLC Systems, Industrial
+Automation Controls, and Contracting, in
+addition to Project Scheduling and
 Estimation.
 
-Strong engineering professional with a  
-Bachelor's Degree in Electrical  
-Engineering & Mathematics from The  
+Strong engineering professional with a
+Bachelor's Degree in Electrical
+Engineering & Mathematics from The
 University of Alabama.
 
 ---
@@ -57,24 +67,24 @@ Jan 2021 - Jun 2022
 
 Jun 2018 - Dec 2020
 
-PLC Programming and Controls Engineering  
-for automation of sawmill equipment for  
-Primary & Secondary Breakdown, Residuals  
-Processing, and Engineered Wood Products  
+PLC Programming and Controls Engineering
+for automation of sawmill equipment for
+Primary & Secondary Breakdown, Residuals
+Processing, and Engineered Wood Products
 (EWP).
 
-Primarily programmed and commossioned  
-systems using Rockwell/Allen-Bradley  
-PLCs and Delta RMC motion controllers  
-using Ethernet/IP across multi-layered  
-networks. High amount of on-site work  
-for installation and commissioning of  
-new equipment as well as internal  
-research and development intended to  
-improve/standardize existing products.  
+Primarily programmed and commossioned
+systems using Rockwell/Allen-Bradley
+PLCs and Delta RMC motion controllers
+using Ethernet/IP across multi-layered
+networks. High amount of on-site work
+for installation and commissioning of
+new equipment as well as internal
+research and development intended to
+improve/standardize existing products.
 
-Assisted in mechanical and electrical  
-work as needed to support trades or for  
+Assisted in mechanical and electrical
+work as needed to support trades or for
 independent troubleshooting.
 
 ### EBechtle, LLC.
@@ -109,15 +119,15 @@ Some projects required my abilities in PLC programming (Schneider, Unity Pro/IEC
 
 May 2011 - May 2012
 
-Integrated Lights-out (iLO) embedded  
-server management group. Operated as  
-part of a team to design and develop  
-several utilities for internal testing  
-as well as software for improvement of  
+Integrated Lights-out (iLO) embedded
+server management group. Operated as
+part of a team to design and develop
+several utilities for internal testing
+as well as software for improvement of
 technical support quality and speed.
 
-Primarily worked in .NET C# for windows  
-application development with some minor  
+Primarily worked in .NET C# for windows
+application development with some minor
 web-based projects.
 
 ---
