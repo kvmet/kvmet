@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="/assets/fonts/bedstead-extended.otf" as="font" crossorigin="" type="font/otf">
+    <link rel="preload" href="/assets/fonts/bedstead-extracondensed.otf" as="font" crossorigin="" type="font/otf">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    {% include header.html %}
+    <main>
+{%- capture formatted_content -%}
+    {%- assign content_parts = content | split: '[' -%}
+    {%- for part in content_parts -%}
+        {%- if forloop.first -%}
+            {{- part -}}
+        {%- else -%}
+            {%- if part contains ']' -%}
+                {%- assign tag_content = part | split: ']' -%}
+                {%- assign tag = tag_content[0] | upcase -%}
+                {%- assign remaining = tag_content[1] -%}
+                {%- if tag == 'END' or tag == 'end' -%}
+                    </span>{{- remaining -}}
+                {%- elsif tag == 'FLASH' -%}
+                    <span class="flash">{{- remaining -}}
+                {%- elsif tag == 'DH' -%}
+                    <span class="double-height">{{- remaining -}}
+                {%- elsif tag contains '/' -%}
+                    {%- assign colors = tag | split: '/' -%}
+                    {%- assign fg_color = colors[0] | downcase -%}
+                    {%- assign bg_color = colors[1] | downcase -%}
+                    <span class="tc-{{ fg_color }} tb-{{ bg_color }}">{{- remaining -}}
+                {%- else -%}
+                    <span class="tc-{{ tag | downcase }}">{{- remaining -}}
+                {%- endif -%}
+            {%- else -%}
+                [{{- part -}}
+            {%- endif -%}
+        {%- endif -%}
+    {%- endfor -%}
+{%- endcapture -%}
+{{ formatted_content }}
+    </main>
+    {% include footer.html %}
+</body>
+</html>

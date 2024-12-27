@@ -1,0 +1,611 @@
+@font-face {
+  font-family: "Bedstead-Extended";
+  src: url("/assets/fonts/bedstead-extended.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bedstead-ExtraCondensed";
+  src: url("/assets/fonts/bedstead-extracondensed.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-size: 20px;
+  --double-height: calc(var(--font-size) * 2);
+  --overall-width: 40ch;
+
+  --font: Bedstead-Extended, Mode7, "Courier New", Courier, monospace, fixed;
+  --dh-font: Bedstead-ExtraCondensed, Mode7, "Courier New", Courier, monospace,
+    fixed;
+  /* Teletext color palette  */
+  --white: #ffffff;
+  --light-gray: #c0c0c0;
+  --dark-gray: #808080;
+  --black: #000000;
+
+  --red: #ff0000;
+  --green: #00ff00;
+  --yellow: #ffff00;
+  --blue: #0000ff;
+  --magenta: #ff00ff;
+  --cyan: #00ffff;
+
+  --dark-red: #800000;
+  --dark-green: #008000;
+  --dark-yellow: #808000;
+  --dark-blue: #000080;
+  --dark-magenta: #800080;
+  --dark-cyan: #008080;
+
+  /* Pastels (editable) */
+  --pastel-red: #ffb3b3;
+  --pastel-green: #b3ffb3;
+  --pastel-blue: #b3b3ff;
+  --pastel-yellow: #ffffb3;
+  --pastel-magenta: #ffb3ff;
+  --pastel-cyan: #b3ffff;
+  --pastel-orange: #ffd1b3;
+  --pastel-violet: #d1b3ff;
+
+  --light-red: #ff8080;
+  --light-green: #80ff80;
+  --light-blue: #8080ff;
+  --light-yellow: #ffff80;
+  --light-magenta: #ff80ff;
+  --light-cyan: #80ffff;
+  --light-orange: #ffc080;
+  --light-violet: #c080ff;
+
+  --accent-color: var(--dark-green);
+}
+
+* {
+  letter-spacing: 0;
+  font-kerning: none;
+  word-break: break-all;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: var(--font-size);
+  text-align: left;
+}
+
+body {
+  font-size: var(--font-size);
+  font-family: var(--font);
+  background-color: var(--black);
+  color: var(--white);
+  margin: 0 auto;
+  padding: 0;
+  /*width: min(var(--overall-width), 95vw);*/
+  width: var(--overall-width);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header,
+nav,
+footer,
+main {
+  width: 100%;
+  max-width: var(--overall-width);
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  margin: var(--font-size) 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-blue);
+}
+
+p {
+  margin: 0;
+}
+
+.double-height,
+h1,
+h2,
+h3 {
+  font-size: var(--double-height);
+  line-height: var(--double-height);
+  font-family: var(--dh-font);
+}
+
+/* Header specific styles */
+h1 {
+  margin-top: var(--double-height);
+  margin-bottom: var(--double-height);
+}
+
+h2 {
+  margin-top: var(--double-height);
+  margin-bottom: var(--font-size);
+}
+
+h3 {
+  margin-top: var(--font-size);
+  margin-bottom: var(--font-size);
+}
+
+h4 {
+  margin-top: var(--font-size);
+  margin-bottom: var(--font-size);
+  font-size: var(--font-size);
+  line-height: var(--font-size);
+}
+
+h5,
+h6 {
+  margin-top: var(--font-size);
+  margin-bottom: 0;
+  font-size: var(--font-size);
+  line-height: var(--font-size);
+}
+
+/* Flash effect */
+.flash {
+  animation: flash 1s step-end infinite;
+}
+@keyframes flash {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Box effect */
+.box {
+  border: 2px solid var(--white);
+  padding: 8px;
+  margin: 8px 0;
+}
+
+/* TeleText Color Classes */
+/* Text Colors */
+.tc-red,
+.tc-rd {
+  color: var(--red);
+}
+.tc-green,
+.tc-gn {
+  color: var(--green);
+}
+.tc-blue,
+.tc-bu {
+  color: var(--blue);
+}
+.tc-yellow,
+.tc-ye {
+  color: var(--yellow);
+}
+.tc-magenta,
+.tc-mg {
+  color: var(--magenta);
+}
+.tc-cyan,
+.tc-cy {
+  color: var(--cyan);
+}
+.tc-white,
+.tc-wh {
+  color: var(--white);
+}
+.tc-black,
+.tc-bk {
+  color: var(--black);
+}
+
+/* Dark Text Colors */
+.tc-darkred,
+.tc-drd {
+  color: var(--dark-red);
+}
+.tc-darkgreen,
+.tc-dgn {
+  color: var(--dark-green);
+}
+.tc-darkblue,
+.tc-dbu {
+  color: var(--dark-blue);
+}
+.tc-darkyellow,
+.tc-dye {
+  color: var(--dark-yellow);
+}
+.tc-darkmagenta,
+.tc-dmg {
+  color: var(--dark-magenta);
+}
+.tc-darkcyan,
+.tc-dcy {
+  color: var(--dark-cyan);
+}
+.tc-darkgray,
+.tc-dgy {
+  color: var(--dark-gray);
+}
+.tc-lightgray,
+.tc-lgy {
+  color: var(--light-gray);
+}
+
+/* Pastel Text Colors */
+.tc-pastelred,
+.tc-prd {
+  color: var(--pastel-red);
+}
+.tc-pastelgreen,
+.tc-pgn {
+  color: var(--pastel-green);
+}
+.tc-pastelblue,
+.tc-pbu {
+  color: var(--pastel-blue);
+}
+.tc-pastelyellow,
+.tc-pye {
+  color: var(--pastel-yellow);
+}
+.tc-pastelmagenta,
+.tc-pmg {
+  color: var(--pastel-magenta);
+}
+.tc-pastelcyan,
+.tc-pcy {
+  color: var(--pastel-cyan);
+}
+.tc-pastelorange,
+.tc-pog {
+  color: var(--pastel-orange);
+}
+.tc-pastelviolet,
+.tc-pvt {
+  color: var(--pastel-violet);
+}
+
+/* Light Text Colors */
+.tc-lightred,
+.tc-lrd {
+  color: var(--light-red);
+}
+.tc-lightgreen,
+.tc-lgn {
+  color: var(--light-green);
+}
+.tc-lightblue,
+.tc-lbu {
+  color: var(--light-blue);
+}
+.tc-lightyellow,
+.tc-lye {
+  color: var(--light-yellow);
+}
+.tc-lightmagenta,
+.tc-lmg {
+  color: var(--light-magenta);
+}
+.tc-lightcyan,
+.tc-lcy {
+  color: var(--light-cyan);
+}
+.tc-lightorange,
+.tc-log {
+  color: var(--light-orange);
+}
+.tc-lightviolet,
+.tc-lvt {
+  color: var(--light-violet);
+}
+
+/* Background Colors */
+.tb-red,
+.tb-rd {
+  background-color: var(--red);
+}
+.tb-green,
+.tb-gn {
+  background-color: var(--green);
+}
+.tb-blue,
+.tb-bu {
+  background-color: var(--blue);
+}
+.tb-yellow,
+.tb-ye {
+  background-color: var(--yellow);
+}
+.tb-magenta,
+.tb-mg {
+  background-color: var(--magenta);
+}
+.tb-cyan,
+.tb-cy {
+  background-color: var(--cyan);
+}
+.tb-white,
+.tb-wh {
+  background-color: var(--white);
+}
+.tb-black,
+.tb-bk {
+  background-color: var(--black);
+}
+
+/* Dark Background Colors */
+.tb-darkred,
+.tb-drd {
+  background-color: var(--dark-red);
+}
+.tb-darkgreen,
+.tb-dgn {
+  background-color: var(--dark-green);
+}
+.tb-darkblue,
+.tb-dbu {
+  background-color: var(--dark-blue);
+}
+.tb-darkyellow,
+.tb-dye {
+  background-color: var(--dark-yellow);
+}
+.tb-darkmagenta,
+.tb-dmg {
+  background-color: var(--dark-magenta);
+}
+.tb-darkcyan,
+.tb-dcy {
+  background-color: var(--dark-cyan);
+}
+.tb-darkgray,
+.tb-dgy {
+  background-color: var(--dark-gray);
+}
+.tb-lightgray,
+.tb-lgy {
+  background-color: var(--light-gray);
+}
+
+/* Pastel Background Colors */
+.tb-pastelred,
+.tb-prd {
+  background-color: var(--pastel-red);
+}
+.tb-pastelgreen,
+.tb-pgn {
+  background-color: var(--pastel-green);
+}
+.tb-pastelblue,
+.tb-pbu {
+  background-color: var(--pastel-blue);
+}
+.tb-pastelyellow,
+.tb-pye {
+  background-color: var(--pastel-yellow);
+}
+.tb-pastelmagenta,
+.tb-pmg {
+  background-color: var(--pastel-magenta);
+}
+.tb-pastelcyan,
+.tb-pcy {
+  background-color: var(--pastel-cyan);
+}
+.tb-pastelorange,
+.tb-pog {
+  background-color: var(--pastel-orange);
+}
+.tb-pastelviolet,
+.tb-pvt {
+  background-color: var(--pastel-violet);
+}
+
+/* Light Background Colors */
+.tb-lightred,
+.tb-lrd {
+  background-color: var(--light-red);
+}
+.tb-lightgreen,
+.tb-lgn {
+  background-color: var(--light-green);
+}
+.tb-lightblue,
+.tb-lbu {
+  background-color: var(--light-blue);
+}
+.tb-lightyellow,
+.tb-lye {
+  background-color: var(--light-yellow);
+}
+.tb-lightmagenta,
+.tb-lmg {
+  background-color: var(--light-magenta);
+}
+.tb-lightcyan,
+.tb-lcy {
+  background-color: var(--light-cyan);
+}
+.tb-lightorange,
+.tb-log {
+  background-color: var(--light-orange);
+}
+.tb-lightviolet,
+.tb-lvt {
+  background-color: var(--light-violet);
+}
+
+/* Lists */
+ul,
+ol {
+  list-style: none;
+  padding-left: 3ch; /* Two character spaces for indentation */
+  margin: var(--font-size) 0; /* Vertical spacing between lists */
+}
+
+ul li,
+ol li {
+  line-height: var(--font-size);
+  position: relative; /* For absolute positioning of markers */
+}
+
+ul li::before {
+  content: "⟜";
+  color: var(--accent-color);
+  position: absolute;
+  left: -2ch; /* Two character spaces back */
+  width: 2ch;
+}
+
+ol {
+  counter-reset: item;
+}
+
+ol li::before {
+  counter-increment: item;
+  content: counter(item) "";
+  color: var(--accent-color);
+  position: absolute;
+  left: -3ch;
+  width: 3ch;
+}
+
+/* Nested lists */
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin: 0; /* Remove vertical margins for nested lists */
+  padding-left: 2ch; /* Maintain consistent indentation */
+}
+
+/* Task Lists */
+.task-list {
+  padding-left: 3ch;
+}
+
+.task-list-item {
+  position: relative;
+}
+
+.task-list-item::before {
+  content: none; /* Remove default marker */
+}
+
+.task-list-item-checkbox {
+  font-size: var(--font-size);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  left: -2ch;
+  width: 1ch;
+  height: var(--font-size);
+  cursor: default;
+  font-family: var(--font);
+  color: var(--accent-color);
+  font-kerning: none;
+  overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
+}
+
+.task-list-item-checkbox::before {
+  font-family: var(--font);
+  content: "□";
+  position: absolute;
+  left: 0;
+  width: 1ch;
+}
+
+.task-list-item-checkbox:checked::before {
+  font-family: var(--font);
+  content: "■";
+}
+
+/* blockquote */
+blockquote {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: var(--accent-color);
+  background-color: var(--black);
+}
+
+/* Quote content */
+blockquote p {
+  padding: 0 1ch;
+}
+
+/* Quote symbols */
+blockquote p::before {
+  content: "“";
+  color: var(--accent-color);
+  left: 0ch;
+  position: absolute;
+}
+
+blockquote p::after {
+  content: "„";
+  color: var(--accent-color);
+  right: 0ch;
+  position: absolute;
+}
+
+/* hr */
+hr {
+  border: none;
+  height: var(--font-size);
+  line-height: var(--font-size);
+  margin: var(--font-size) 0;
+  position: relative;
+  overflow: hidden;
+}
+
+hr::before {
+  content: "𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘𝄘";
+  position: absolute;
+  color: var(--accent-color);
+  left: 0;
+  right: 0;
+}
+
+pre:has(code) {
+  font-family: var(--font);
+  font-size: var(--font-size);
+  color: var(--dark-yellow);
+  border-top: var(--font-size) solid var(--dark-blue);
+  border-bottom: var(--font-size) solid var(--dark-blue);
+  background-color: var(--dark-blue);
+  padding-left: 2ch;
+  position: relative;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+pre:has(code)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(var(--font-size) * -1); /* Match top border */
+  bottom: calc(var(--font-size) * -1); /* Match bottom border */
+  width: 1ch;
+  background-color: var(--blue);
+}
+
+code {
+  font-family: var(--font);
+  font-size: var(--font-size);
+  color: var(--white);
+}
+
+strong {
+  font-style: oblique;
+}

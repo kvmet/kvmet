@@ -1,0 +1,65 @@
+:root {
+  --font-size: 30px;
+  --line-height: var(--font-size);
+  --aspect-height: var(--font-size);
+  --letter-spacing: 0px;
+  --aspect-width: calc(var(--font-size) * 0.6);
+  /* bedstead = 0.6, bedstead-extended = 0.75) */
+  --page-width: calc(
+    var(--aspect-width) * 40
+  ); /* font height * 14.4 * page-cols */
+  --page-height: calc(19 * var(--line-height));
+  /* Header */
+  --header-rows: 3;
+  --header-height: calc(var(--header-rows) * var(--line-height));
+  --avatar-width: calc(var(--aspect-width) * 5);
+  --bio-width: calc(var(--aspect-width) * 25);
+  /* Footer */
+  --footer-rows: 3;
+  --footer-height: calc(var(--footer-rows) * var(--line-height));
+  --button-width: calc(var(--aspect-width) * 10);
+}
+
+/* TeleText Page */
+.tt-wrapper {
+  font-size: 0;
+  width: var(--page-width);
+  display: block;
+}
+.tt-wrapper > div {
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  font-size: var(--font-size);
+  font-kerning: none;
+  word-break: break-all;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  white-space: pre-wrap;
+  background: #000;
+  color: #fff;
+  display: inline-block;
+}
+.tt-body {
+  height: var(--page-height);
+  width: var(--page-width);
+}
+.tt-wrapper span {
+  white-space: pre-wrap;
+  display: inline-block;
+  font-size: var(--font-size);
+}
+.tt-button {
+  height: var(--footer-height);
+  width: var(--button-width);
+}
+.tt-avatar {
+  height: var(--footer-height);
+  width: var(--avatar-width);
+}
+.tt-bio {
+  height: var(--footer-height);
+  width: var(--bio-width);
+}
+.tt-hr {
+}

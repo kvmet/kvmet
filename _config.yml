@@ -1,0 +1,7 @@
+title: kvmet.com
+description: kvmet
+baseurl: "https://kvmet.com"
+url: "https://kvmet.com"
+
+# Build settings
+markdown: kramdown
