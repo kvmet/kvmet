@@ -62,7 +62,7 @@
   --light-violet: #c080ff;
 
   --accent-color: var(--pastel-magenta);
-  --primary-color: var(--pastel-magenta);
+  --primary-color: var(--dark-cyan);
   --secondary-color: var(--light-gray);
 }
 
@@ -140,7 +140,7 @@ h3 {
   margin-bottom: var(--font-size);
   font-size: var(--font-size);
   line-height: var(--font-size);
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 h4 {
@@ -613,6 +613,10 @@ pre:has(code)::before {
 code {
   font-family: var(--font);
   font-size: var(--font-size);
+  color: var(--yellow);
+}
+
+pre > code {
   color: var(--white);
 }
 
