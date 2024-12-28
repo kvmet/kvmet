@@ -61,8 +61,8 @@
   --light-orange: #ffc080;
   --light-violet: #c080ff;
 
-  --accent-color: var(--pastel-magenta);
-  --primary-color: var(--dark-cyan);
+  --accent-color: var(--light-red);
+  --primary-color: var(--cyan);
   --secondary-color: var(--light-gray);
 }
 
@@ -613,7 +613,7 @@ pre:has(code)::before {
 code {
   font-family: var(--font);
   font-size: var(--font-size);
-  color: var(--yellow);
+  color: var(--light-yellow);
 }
 
 pre > code {
