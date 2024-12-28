@@ -231,8 +231,9 @@ Recommended. A solid experience with several commendable qualities, though they 
 - Raising Arizona
 - 500 Days of Summer
 - The One I Love
-- Safety Not Guaranteed
 - Inception
+
+- Safety Not Guaranteed
 - Spaceballs
 - The Midnight Sky
     - Good slow burn sci-fi drama. Has a good amount of dramatic moments and unexpected elements.
@@ -272,6 +273,7 @@ I have seen these. Haven't ranked yet
 - Cool Hand Luke
 - The Raid
 - Dredd
+- Game Night
 - Frozen
 - Zombieland
 - Oliver and Company
@@ -417,6 +419,7 @@ I have seen these. Haven't ranked yet
 - Finding Nemo
 - Finding Dory
 - Free Willy
+- The Holdovers
 - Twister
 - Crazy Rich Asians
 - Galaxy Quest
