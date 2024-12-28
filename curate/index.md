@@ -5,9 +5,11 @@ title: Curate
 
 I love making lists. Here is a list:
 
-## Things I like
+## Media
 
 - [Movies](./movies)
+- [Music](./music)
+- [Shows](./shows)
 
 ## Kits
 

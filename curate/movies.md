@@ -9,8 +9,13 @@ keywords:
 
 # Movies
 
-Movies are ranked by whether or not I,
-personally, think you should watch.
+These are ranked based on my personal  
+opinions. 
+
+These are ranked by whether or not I,
+personally, think you should watch. If  
+you disagree, that's fine. Feel free to
+make your own list!
 
 - [Extraordinary](#extraordinary)
   - Must-watch, innovative, outstanding
@@ -25,10 +30,14 @@ personally, think you should watch.
 - [Bad](#bad)
   - Avoid!
 
+---
+
 - Not yet ranked
   - Have seen but haven't scored
 - Not yet watched
   - (Or need to re-watch)
+
+---
 
 ## Extraordinary
 
@@ -89,55 +98,96 @@ Highly recommended. These films excel in entertainment or artistic value with qu
 ### B
 
 - The Banshees of Inisherin
+- The Big Lebowski
 
 ### D
 
+- District 9
 - Donnie Brasco
+
+### E
+
+- Everything Everywhere All at Once
 
 ### F
 
 - Forrest Gump
 
+### G
+
+- Galaxy Quest
+
+### J
+
+- Jaws
+
+### L
+
+- Leaving Las Vegas
+- Lilo & Stitch
+- Licorice Pizza
+
+### M
+
+- Mean Girls
+- Monster's Inc
+- Moon
+- Moonrise Kingdom
+- Moonstruck
+
+### O
+
+- O' Brother Where Art Thou
+- Office Space
+
 ### N
 
 - Nightcrawler
 
-### M
+### P
 
-- Moonrise Kingdom
-
-- Jaws
-- Redline
-- Primer
-- Train to Busan
-- Moonstruck
-- The Thing
-- Singin' in the Rain
 - Parasite
-- The Shawshank Redemption
-- The Raid
-- Licorice Pizza
-- O' Brother Where Art Thou
+- Primer
 - Pulp Fiction
-- Leaving Las Vegas
-- Moon
-- Office Space
-- Lilo & Stitch
-- The Big Lebowski
-- The Truman Show
-- The Way Way Back
-- Galaxy Quest
-- Uncut Gems
-- 50 First Dates
-- Toy Story
+
+### R
+
+- The Raid
 - Rain Man
-- Everything Everywhere All at Once
-- Wolf Children
-- Mean Girls
-- District 9
-- Zootopia
-- Monster's Inc
+- Redline
+
+### S
+
+- Singin' in the Rain
+- The Shawshank Redemption
+
+### T
+
+- Train to Busan
+- The Thing
+- The Truman Show
+- Toy Story
+
+### U
+
+- Uncut Gems
+
+### V
+
 - My Cousin Vinny
+
+### W
+
+- The Way Way Back
+- Wolf Children
+
+### Z
+
+- Zootopia
+
+### #
+
+- 50 First Dates
 
 ---
 
@@ -184,14 +234,17 @@ Recommended. A solid experience with several commendable qualities, though they 
 - Safety Not Guaranteed
 - Inception
 - Spaceballs
-- Who Framed Roger Rabbit
-    - Impressive use of hand-drawn animation composited over live-action video. The way that lighting is blended between the two is especially great.
 - The Midnight Sky
     - Good slow burn sci-fi drama. Has a good amount of dramatic moments and unexpected elements.
+
+### W
+
 - White Noise
     - Pretty weird but still fun and enjoyable. Comedy horror.
     - ??? quote "Spoiler"
       People are trying to live their lives and not think about death. Everyone has a fear of death. The world is constantly reminding us of death in every way imaginable.
+- Who Framed Roger Rabbit
+    - Impressive use of hand-drawn animation composited over live-action video. The way that lighting is blended between the two is especially great.
 
 ---
 

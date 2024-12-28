@@ -8,6 +8,11 @@ title: Testing page!
 
 [Poly](./notes/poly)
 
+TODO:
+
+spoiler tags
+admonitions? (could just be done with text but maybe shorthand would be nice
+
 ## Projects
 
 
