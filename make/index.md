@@ -14,6 +14,10 @@ Projects and stuff
 - pico.town
     - Like geo/neocities but you only<br/>build one page.
 
+## Media
+
+- [Video Transcoding](/make/video-transcoding)
+
 ## Music
 
 - Eurorack
@@ -27,9 +31,6 @@ Projects and stuff
 - Writing System
 - Vocab Map
 
-## Tech
-
-- Media Transcoding
 
 ## Food
 
