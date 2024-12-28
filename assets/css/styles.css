@@ -62,6 +62,8 @@
   --light-violet: #c080ff;
 
   --accent-color: var(--pastel-magenta);
+  --primary-color: var(--pastel-magenta);
+  --secondary-color: var(--light-gray);
 }
 
 * {
@@ -138,7 +140,7 @@ h3 {
   margin-bottom: var(--font-size);
   font-size: var(--font-size);
   line-height: var(--font-size);
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 h4 {
@@ -147,7 +149,7 @@ h4 {
   font-size: var(--font-size);
   line-height: var(--font-size);
   font-style: italic;
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 h5,
@@ -157,7 +159,7 @@ h6 {
   font-size: var(--font-size);
   line-height: var(--font-size);
   font-style: italic;
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 /* Flash effect */
