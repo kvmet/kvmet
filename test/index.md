@@ -15,6 +15,13 @@ admonitions? (could just be done with text but maybe shorthand would be nice
 
 ## Projects
 
+- Bullet points
+    - Can I do<br/>line breaks?
+    - what if I  
+    do them like this?
+    - what if I \
+    do them as so?
+
 
 
 [RED]
