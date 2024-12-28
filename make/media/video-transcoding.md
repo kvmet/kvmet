@@ -69,13 +69,16 @@ For 1080p 2D animation with film grain.
 #### Options
 
 ```
---rc 0 --crf 12 --progress 3 --preset 4
---tune 3 --variance-boost-strength 3
+--rc 0 --crf 12 --progress 3 --tune 3  
+--preset 4 --variance-boost-strength 3
 --variance-octile 2 --film-grain 6 
 --frame-luma-bias 80 --chroma-qm-min 0
 ```
 
 #### Performance 
+
+- Speed: ~0.6x (i7 15th gen)
+- Size: ~0.75x (vs h.264 lossless)
 
 #### Notes
 

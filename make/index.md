@@ -16,7 +16,7 @@ Projects and stuff
 
 ## Media
 
-- [Video Transcoding](/make/video-transcoding)
+- [Video Transcoding](/make/media/video-transcoding)
 
 ## Music
 
