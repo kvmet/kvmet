@@ -51,4 +51,4 @@ Projects and stuff
 
 ## Disjointed Notes
 
-- (Voting Systems)[/make/notes/voting]
+- [Voting Systems](/make/notes/voting)

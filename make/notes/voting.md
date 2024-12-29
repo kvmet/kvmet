@@ -235,15 +235,25 @@ System Level (Not Ballot Definition):
 # Voting criteria / evaluations
 
 Majority Criterion: Does the system elect the candidate who has a majority of first-preference votes?
+
 Condorcet Criterion: Does the system always elect the Condorcet winner, if one exists (a candidate who would beat each of the other candidates in a head-to-head contest)?
+
 Monotonicity: Will voting a candidate higher in one's preference never hurt that candidate or help a lower-ranked candidate?
+
 Independence of Irrelevant Alternatives (IIA): Does the outcome of the election depend only on voters' preferences between the actual available options, not on irrelevant or non-competing alternatives?
+
 Proportionality: For multi-seat elections, does the system reflect the proportion of the votes in the allocation of seats?
+
 Cloning Criterion: Will cloning (running a similar candidate) never hurt nor unfairly benefit the original candidate?
+
 Participation Criterion: Will a voter never cause an outcome they consider worse by choosing to vote versus abstaining?
+
 Consistency: If the electorate is divided into two (or more) groups and each group's election result is the same, will that candidate still win the overall election?
+
 Resistance to Tactical Voting (Strategy-Proofness): How susceptible is the system to strategic voting, where casting a vote not according to genuine preference could result in a more favored outcome?
+
 Simplicity: How easy is it for voters to understand the voting process and for officials to administer the election?
+
 Voter Satisfaction Efficiency: How well does the system maximize voter satisfaction or utility?
 
 # Potential definition elements?
