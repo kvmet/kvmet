@@ -48,3 +48,7 @@ Projects and stuff
 ## Subtractive Manufacturing
 
 - CNC Router
+
+## Disjointed Notes
+
+- (Voting Systems)[/make/notes/voting]
