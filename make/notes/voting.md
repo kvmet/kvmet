@@ -85,6 +85,27 @@ class BallotDefinition
 end
 
 #TODO: still missing a way to encode round? (could be handled by poll or a relational table)
+
+class WriteInOption
+  id: UUID  # needed to reference it in scores/etc
+  text: String
+  points_allocated: Integer = 0  # only used if ballot uses points
+  verified: Boolean = False  # if write-ins need admin verification
+end
+
+class BallotResponse
+  id: UUID
+  ballot_definition_id: UUID
+  voter_id: UUID
+
+  scores: Map<UUID, Integer>  # maps both regular and write-in option IDs to scores
+  write_ins: WriteInOption[]
+
+  submitted_at: Timestamp
+
+  is_valid: Boolean
+  validation_errors: array of String
+end
 ```
 
 
@@ -171,107 +192,58 @@ messy long-form notes again. several months have passed:
 
 # Voting Systems
 
-First-Past-The-Post (FPTP):
-- Each voter selects one candidate.
-- The candidate with the most votes wins.
-- Mathematically simple: Count votes, highest number wins.
-- Criticism: Can lead to "wasted" votes, doesn't require a majority to win (just a plurality).
+Can Handle Directly:
+- ✓ First-Past-The-Post (FPTP) - simple maximum_score=1, minimum_score=0
+- ✓ Approval Voting - same as FPTP
+- ✓ Score Voting (Range Voting) - using max/min scores
+- ✓ Cumulative Voting - using points_pool
+- ✓ STAR Voting - using score voting (runoff handled at poll level)
+- ✓ Single Non-Transferable Vote (SNTV) - simple choose-N ballot
+- ✓ Majority Judgment - using score voting
+- ✓ Instant-Runoff (IRV)/Ranked Choice - using unique scores
+- ✓ Borda Count - using unique scores
+- ✓ Bucklin Voting - using score/ranking
+- ✓ Coombs' Method - using ranking
 
-Two-Round System (TRS):
-- If no candidate wins a majority in the first round, a second round is held with the top two candidates.
-- Mathematically, still simple counting, but with a possible second phase if no majority is reached initially.
+Can't Handle Directly:
+(These should be possible to handle but would require using
+multiple ballot or ballot responses per user. Doable but maybe
+goal should not be to start with these.)
+- ✗ Condorcet Method - needs pairwise comparisons
+- ✗ Dodgson's Method - Condorcet-based
+- ✗ Kemeny-Young Method - Condorcet-based
+- ✗ Minimax Condorcet - Condorcet-based
+- ✗ Schulze Method - Condorcet-based
+- ✗ Copeland's Method - Condorcet-based
+- ✗ Ranked Pairs (Tideman) - Condorcet-based
 
-Instant-Runoff Voting (IRV) / Ranked-Choice Voting (RCV):
-- Voters rank candidates in order of preference.
-- If no candidate has a majority, the candidate with the fewest votes is eliminated, and those votes are redistributed to the next-ranked candidate on each ballot.
-- Repeat until a candidate has a majority.
-- Mathematically more complex, involves counting, redistribution of votes, and potential multiple rounds of calculation.
-
-Single Transferable Vote (STV):
-- A form of RCV used for multi-seat elections.
-- Voters rank candidates as in IRV.
-- Candidates who reach a certain quota are elected, and excess votes are transferred based on voter preferences.
-- Any remaining seats are filled by eliminating the lowest-ranked candidates and transferring votes until all seats are filled.
-- Math involves calculating quotas and multiple redistributions based on preferences and surplus votes.
-
-Approval Voting:
-- Voters can vote for as many candidates as they approve of.
-- The candidate with the most votes wins.
-- Mathematically straightforward: tally all approvals, highest count wins.
-- Allows for greater expression of voter preference.
-
-Score Voting (Range Voting):
-- Voters score each candidate on a scale (e.g., 0 to 5).
-- All scores are totaled for each candidate.
-- Candidate with the highest total score wins.
-- Math involves simple addition but with a higher data set per voter.
-
-Condorcet Method:
-- Voters rank candidates.
-- The winner would be the candidate who would win a one-on-one election against every other candidate.
-- Mathematically, it involves pairwise comparisons among all candidates, which can be complex and computationally intensive.
-
-Borda Count:
-- Voters rank candidates.
-- Points are assigned to each rank (e.g., 1 point for last place, 2 points for second-last, etc.).
-- Points are totaled for each candidate.
-- The candidate with the most points wins.
-- Math involves allocating points based on rank and summing them up.
-
-- First-Past-The-Post (FPTP)
-- Two-Round System (TRS)
-- Instant-Runoff Voting (IRV) / Ranked-Choice Voting (RCV)
-- Single Transferable Vote (STV)
-- Approval Voting
-- Score Voting (Range Voting)
-- Condorcet Method
-- Borda Count
-- Cumulative Voting
-- Bucklin Voting
-- Coombs' Method
-- Baldwin Method
-- Nanson's Method
-- Dodgson's Method
-- Kemeny-Young Method
-- Minimax Condorcet
-- Schulze Method
-- Copeland's Method
-- Ranked Pairs (Tideman)
-- STAR Voting (Score Then Automatic Runoff)
-- Majority Judgment
-- Single Non-Transferable Vote (SNTV)
-- Mixed-Member Proportional Representation (MMP)
-- Party-list Proportional Representation
-- Alternative Vote Plus (AV+)
-- Open List and Closed List Proportional Representation
-- Sequential Proportional Approval Voting (SPAV)
-- Jefferson Method (D'Hondt method)
-- Webster Method (Sainte-Laguë method)
-- Hamilton Method (Largest Remainder Method)
-- Huntington-Hill Method
+System Level (Not Ballot Definition):
+- Two-Round System (TRS) - multiple ballots
+- Single Transferable Vote (STV) - ballot same as IRV, different counting
+- Baldwin Method - counting method
+- Nanson's Method - counting method
+- Mixed-Member Proportional (MMP) - system architecture
+- Party-list PR - system architecture
+- Alternative Vote Plus (AV+) - system architecture
+- Open/Closed List PR - system architecture
+- Sequential Proportional Approval - counting method
+- Jefferson/D'Hondt - allocation method
+- Webster/Sainte-Laguë - allocation method
+- Hamilton/Largest Remainder - allocation method
+- Huntington-Hill - allocation method
 
 # Voting criteria / evaluations
 
 Majority Criterion: Does the system elect the candidate who has a majority of first-preference votes?
-
 Condorcet Criterion: Does the system always elect the Condorcet winner, if one exists (a candidate who would beat each of the other candidates in a head-to-head contest)?
-
 Monotonicity: Will voting a candidate higher in one's preference never hurt that candidate or help a lower-ranked candidate?
-
 Independence of Irrelevant Alternatives (IIA): Does the outcome of the election depend only on voters' preferences between the actual available options, not on irrelevant or non-competing alternatives?
-
 Proportionality: For multi-seat elections, does the system reflect the proportion of the votes in the allocation of seats?
-
 Cloning Criterion: Will cloning (running a similar candidate) never hurt nor unfairly benefit the original candidate?
-
 Participation Criterion: Will a voter never cause an outcome they consider worse by choosing to vote versus abstaining?
-
 Consistency: If the electorate is divided into two (or more) groups and each group's election result is the same, will that candidate still win the overall election?
-
 Resistance to Tactical Voting (Strategy-Proofness): How susceptible is the system to strategic voting, where casting a vote not according to genuine preference could result in a more favored outcome?
-
 Simplicity: How easy is it for voters to understand the voting process and for officials to administer the election?
-
 Voter Satisfaction Efficiency: How well does the system maximize voter satisfaction or utility?
 
 # Potential definition elements?
@@ -317,7 +289,7 @@ How seats are assigned to parties or candidates in multi-winner systems (like D'
 
 ===
 
-# Evaluation steps alternative.
+# Evaluation steps.
 
 Collect Preferences:
 Operation: Gather voter preferences (could be ranking, rating, selection, etc.).
