@@ -1,0 +1,733 @@
+@font-face {
+  font-family: "Bedstead-Extended";
+  src: url("/assets/fonts/bedstead-extended.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bedstead-ExtraCondensed";
+  src: url("/assets/fonts/bedstead-extracondensed.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-size: 20px;
+  --double-height: calc(var(--font-size) * 2);
+  --overall-width: 40ch;
+
+  --font: Bedstead-Extended, Mode7, "Courier New", Courier, monospace, fixed;
+  --dh-font: Bedstead-ExtraCondensed, Mode7, "Courier New", Courier, monospace,
+    fixed;
+  /* Teletext color palette  */
+  --white: #ffffff;
+  --light-gray: #c0c0c0;
+  --dark-gray: #808080;
+  --black: #000000;
+
+  --red: #ff0000;
+  --green: #00ff00;
+  --yellow: #ffff00;
+  --blue: #0000ff;
+  --magenta: #ff00ff;
+  --cyan: #00ffff;
+
+  --dark-red: #800000;
+  --dark-green: #008000;
+  --dark-yellow: #808000;
+  --dark-blue: #000080;
+  --dark-magenta: #800080;
+  --dark-cyan: #008080;
+
+  /* Pastels (editable) */
+  --pastel-red: #ffb3b3;
+  --pastel-green: #b3ffb3;
+  --pastel-blue: #b3b3ff;
+  --pastel-yellow: #ffffb3;
+  --pastel-magenta: #ffb3ff;
+  --pastel-cyan: #b3ffff;
+  --pastel-orange: #ffd1b3;
+  --pastel-violet: #d1b3ff;
+
+  --light-red: #ff8080;
+  --light-green: #80ff80;
+  --light-blue: #8080ff;
+  --light-yellow: #ffff80;
+  --light-magenta: #ff80ff;
+  --light-cyan: #80ffff;
+  --light-orange: #ffc080;
+  --light-violet: #c080ff;
+
+  --accent-color: var(--light-red);
+  --primary-color: var(--cyan);
+  --secondary-color: var(--light-gray);
+}
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 800px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
+}
+
+/* Header and Footer retain teletext styling */
+header,
+footer {
+  font-family: var(--font);
+  background-color: var(--black);
+  color: var(--white);
+  width: 100%;
+  padding: 1rem;
+  font-size: var(--font-size);
+  line-height: var(--font-size);
+}
+
+header *,
+footer * {
+  font-family: var(--font);
+  letter-spacing: 0;
+  font-kerning: none;
+  word-break: break-all;
+  line-height: var(--font-size);
+}
+
+/* Main content modern styling */
+main {
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+/* Modern typography for main content */
+main h1 {
+  font-family: inherit;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 1.5rem 0;
+  color: var(--dark-blue);
+}
+
+main h2 {
+  font-family: inherit;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 1.2rem 0;
+  color: var(--dark-blue);
+}
+
+main h3 {
+  font-family: inherit;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  margin: 1rem 0;
+  color: var(--dark-blue);
+}
+
+main h4,
+main h5,
+main h6 {
+  font-family: inherit;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin: 0.8rem 0;
+  color: var(--dark-blue);
+}
+
+main p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+main a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+main a:hover {
+  color: var(--dark-blue);
+}
+
+/* Modern list styling */
+main ul,
+main ol {
+  padding-left: 2rem;
+  margin: 1rem 0;
+}
+
+main ul li,
+main ol li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+main ul li::before {
+  content: none;
+}
+
+main ul {
+  list-style-type: disc;
+}
+
+main ol {
+  list-style-type: decimal;
+}
+
+/* Modern blockquote */
+main blockquote {
+  border-left: 4px solid var(--light-gray);
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #f8f8f8;
+  color: var(--dark-gray);
+}
+
+main blockquote p::before,
+main blockquote p::after {
+  content: none;
+}
+
+/* Modern code blocks */
+main pre {
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 1rem;
+  overflow: auto;
+  margin: 1rem 0;
+}
+
+main code {
+  font-family: "Consolas", "Monaco", "Courier New", monospace;
+  font-size: 0.9em;
+  background-color: #f6f8fa;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  color: var(--dark-blue);
+}
+
+/* Modern horizontal rule */
+main hr {
+  border: none;
+  border-top: 1px solid var(--light-gray);
+  margin: 2rem 0;
+  height: 1px;
+}
+
+main hr::before {
+  content: none;
+}
+
+/* Flash effect */
+.flash {
+  animation: flash 1s step-end infinite;
+}
+@keyframes flash {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Box effect */
+.box {
+  border: 2px solid var(--white);
+  padding: 8px;
+  margin: 8px 0;
+}
+
+/* TeleText Color Classes */
+/* Text Colors */
+.tc-red,
+.tc-rd {
+  color: var(--red);
+}
+.tc-green,
+.tc-gn {
+  color: var(--green);
+}
+.tc-blue,
+.tc-bu {
+  color: var(--blue);
+}
+.tc-yellow,
+.tc-ye {
+  color: var(--yellow);
+}
+.tc-magenta,
+.tc-mg {
+  color: var(--magenta);
+}
+.tc-cyan,
+.tc-cy {
+  color: var(--cyan);
+}
+.tc-white,
+.tc-wh {
+  color: var(--white);
+}
+.tc-black,
+.tc-bk {
+  color: var(--black);
+}
+
+/* Dark Text Colors */
+.tc-darkred,
+.tc-drd {
+  color: var(--dark-red);
+}
+.tc-darkgreen,
+.tc-dgn {
+  color: var(--dark-green);
+}
+.tc-darkblue,
+.tc-dbu {
+  color: var(--dark-blue);
+}
+.tc-darkyellow,
+.tc-dye {
+  color: var(--dark-yellow);
+}
+.tc-darkmagenta,
+.tc-dmg {
+  color: var(--dark-magenta);
+}
+.tc-darkcyan,
+.tc-dcy {
+  color: var(--dark-cyan);
+}
+.tc-darkgray,
+.tc-dgy {
+  color: var(--dark-gray);
+}
+.tc-lightgray,
+.tc-lgy {
+  color: var(--light-gray);
+}
+
+/* Pastel Text Colors */
+.tc-pastelred,
+.tc-prd {
+  color: var(--pastel-red);
+}
+.tc-pastelgreen,
+.tc-pgn {
+  color: var(--pastel-green);
+}
+.tc-pastelblue,
+.tc-pbu {
+  color: var(--pastel-blue);
+}
+.tc-pastelyellow,
+.tc-pye {
+  color: var(--pastel-yellow);
+}
+.tc-pastelmagenta,
+.tc-pmg {
+  color: var(--pastel-magenta);
+}
+.tc-pastelcyan,
+.tc-pcy {
+  color: var(--pastel-cyan);
+}
+.tc-pastelorange,
+.tc-pog {
+  color: var(--pastel-orange);
+}
+.tc-pastelviolet,
+.tc-pvt {
+  color: var(--pastel-violet);
+}
+
+/* Light Text Colors */
+.tc-lightred,
+.tc-lrd {
+  color: var(--light-red);
+}
+.tc-lightgreen,
+.tc-lgn {
+  color: var(--light-green);
+}
+.tc-lightblue,
+.tc-lbu {
+  color: var(--light-blue);
+}
+.tc-lightyellow,
+.tc-lye {
+  color: var(--light-yellow);
+}
+.tc-lightmagenta,
+.tc-lmg {
+  color: var(--light-magenta);
+}
+.tc-lightcyan,
+.tc-lcy {
+  color: var(--light-cyan);
+}
+.tc-lightorange,
+.tc-log {
+  color: var(--light-orange);
+}
+.tc-lightviolet,
+.tc-lvt {
+  color: var(--light-violet);
+}
+
+/* Background Colors */
+.tb-red,
+.tb-rd {
+  background-color: var(--red);
+}
+.tb-green,
+.tb-gn {
+  background-color: var(--green);
+}
+.tb-blue,
+.tb-bu {
+  background-color: var(--blue);
+}
+.tb-yellow,
+.tb-ye {
+  background-color: var(--yellow);
+}
+.tb-magenta,
+.tb-mg {
+  background-color: var(--magenta);
+}
+.tb-cyan,
+.tb-cy {
+  background-color: var(--cyan);
+}
+.tb-white,
+.tb-wh {
+  background-color: var(--white);
+}
+.tb-black,
+.tb-bk {
+  background-color: var(--black);
+}
+
+/* Dark Background Colors */
+.tb-darkred,
+.tb-drd {
+  background-color: var(--dark-red);
+}
+.tb-darkgreen,
+.tb-dgn {
+  background-color: var(--dark-green);
+}
+.tb-darkblue,
+.tb-dbu {
+  background-color: var(--dark-blue);
+}
+.tb-darkyellow,
+.tb-dye {
+  background-color: var(--dark-yellow);
+}
+.tb-darkmagenta,
+.tb-dmg {
+  background-color: var(--dark-magenta);
+}
+.tb-darkcyan,
+.tb-dcy {
+  background-color: var(--dark-cyan);
+}
+.tb-darkgray,
+.tb-dgy {
+  background-color: var(--dark-gray);
+}
+.tb-lightgray,
+.tb-lgy {
+  background-color: var(--light-gray);
+}
+
+/* Pastel Background Colors */
+.tb-pastelred,
+.tb-prd {
+  background-color: var(--pastel-red);
+}
+.tb-pastelgreen,
+.tb-pgn {
+  background-color: var(--pastel-green);
+}
+.tb-pastelblue,
+.tb-pbu {
+  background-color: var(--pastel-blue);
+}
+.tb-pastelyellow,
+.tb-pye {
+  background-color: var(--pastel-yellow);
+}
+.tb-pastelmagenta,
+.tb-pmg {
+  background-color: var(--pastel-magenta);
+}
+.tb-pastelcyan,
+.tb-pcy {
+  background-color: var(--pastel-cyan);
+}
+.tb-pastelorange,
+.tb-pog {
+  background-color: var(--pastel-orange);
+}
+.tb-pastelviolet,
+.tb-pvt {
+  background-color: var(--pastel-violet);
+}
+
+/* Light Background Colors */
+.tb-lightred,
+.tb-lrd {
+  background-color: var(--light-red);
+}
+.tb-lightgreen,
+.tb-lgn {
+  background-color: var(--light-green);
+}
+.tb-lightblue,
+.tb-lbu {
+  background-color: var(--light-blue);
+}
+.tb-lightyellow,
+.tb-lye {
+  background-color: var(--light-yellow);
+}
+.tb-lightmagenta,
+.tb-lmg {
+  background-color: var(--light-magenta);
+}
+.tb-lightcyan,
+.tb-lcy {
+  background-color: var(--light-cyan);
+}
+.tb-lightorange,
+.tb-log {
+  background-color: var(--light-orange);
+}
+.tb-lightviolet,
+.tb-lvt {
+  background-color: var(--light-violet);
+}
+
+main .task-list {
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
+main .task-list-item-checkbox {
+  margin-right: 0.5rem;
+  position: relative;
+  appearance: auto;
+}
+
+/* Modern strong and emphasis */
+main strong {
+  font-weight: bold;
+  font-style: normal;
+}
+
+main em {
+  font-style: italic;
+}
+
+/* Code blocks and syntax highlighting */
+main pre {
+  background-color: #f8f9fa;
+  border: 1px solid #eaecef;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 1rem 0;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+}
+
+main pre code {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  word-break: normal;
+  white-space: pre;
+  border: 0;
+}
+
+main code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+  font-size: 85%;
+}
+
+/* Enhanced blockquotes */
+main blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid #e0e0e0;
+  background-color: #f8f9fa;
+  color: #444;
+}
+
+main blockquote > :first-child {
+  margin-top: 0;
+}
+
+main blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+/* Tables */
+main table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+  border: 1px solid #e0e0e0;
+}
+
+main th,
+main td {
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+main th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+main tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Definition Lists */
+main dl {
+  margin: 1rem 0;
+}
+
+main dt {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+main dd {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+/* Keyboard, Sample, and Variable elements */
+main kbd,
+main samp,
+main var {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+  font-size: 85%;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+main kbd {
+  background-color: #fafbfc;
+  border: 1px solid #d1d5da;
+  border-bottom-color: #c6cbd1;
+  box-shadow: inset 0 -1px 0 #c6cbd1;
+}
+
+/* Abbreviations */
+main abbr[title] {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+/* Footnotes */
+main .footnotes {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+  font-size: 0.9em;
+}
+
+/* Image captions */
+main figure {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+main figcaption {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* Task Lists (additional styling) */
+main .task-list-item {
+  list-style-type: none;
+  margin-left: -1.5rem;
+}
+
+main .task-list-item input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+/* Details/Summary elements */
+main details {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+main summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main details[open] summary {
+  margin-bottom: 0.5rem;
+}
+
+/* Mark (highlighted text) */
+main mark {
+  background-color: #fff3cd;
+  padding: 0.2em;
+  border-radius: 2px;
+}
+
+/* Subscript and Superscript */
+main sub,
+main sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+main sup {
+  top: -0.5em;
+}
+
+main sub {
+  bottom: -0.25em;
+}
