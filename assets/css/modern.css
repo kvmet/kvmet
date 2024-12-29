@@ -73,188 +73,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: var(--white);
-  color: var(--black);
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
-  max-width: 800px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1.6;
-}
-
-/* Header and Footer retain teletext styling */
-header,
-footer {
-  font-family: var(--font);
-  background-color: var(--black);
-  color: var(--white);
-  width: 100%;
-  padding: 1rem;
-  font-size: var(--font-size);
-  line-height: var(--font-size);
-}
-
-header *,
-footer * {
-  font-family: var(--font);
-  letter-spacing: 0;
-  font-kerning: none;
-  word-break: break-all;
-  line-height: var(--font-size);
-}
-
-/* Main content modern styling */
-main {
-  width: 100%;
-  padding: 2rem;
-  background-color: var(--white);
-  color: var(--black);
-}
-
-/* Modern typography for main content */
-main h1 {
-  font-family: inherit;
-  font-size: 2.5rem;
-  line-height: 1.2;
-  margin: 1.5rem 0;
-  color: var(--dark-blue);
-}
-
-main h2 {
-  font-family: inherit;
-  font-size: 2rem;
-  line-height: 1.2;
-  margin: 1.2rem 0;
-  color: var(--dark-blue);
-}
-
-main h3 {
-  font-family: inherit;
-  font-size: 1.75rem;
-  line-height: 1.2;
-  margin: 1rem 0;
-  color: var(--dark-blue);
-}
-
-main h4,
-main h5,
-main h6 {
-  font-family: inherit;
-  font-size: 1.25rem;
-  line-height: 1.2;
-  margin: 0.8rem 0;
-  color: var(--dark-blue);
-}
-
-main p {
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-main a {
-  color: var(--blue);
-  text-decoration: underline;
-}
-
-main a:hover {
-  color: var(--dark-blue);
-}
-
-/* Modern list styling */
-main ul,
-main ol {
-  padding-left: 2rem;
-  margin: 1rem 0;
-}
-
-main ul li,
-main ol li {
-  margin-bottom: 0.5rem;
-  line-height: 1.6;
-}
-
-main ul li::before {
-  content: none;
-}
-
-main ul {
-  list-style-type: disc;
-}
-
-main ol {
-  list-style-type: decimal;
-}
-
-/* Modern blockquote */
-main blockquote {
-  border-left: 4px solid var(--light-gray);
-  padding: 1rem;
-  margin: 1rem 0;
-  background-color: #f8f8f8;
-  color: var(--dark-gray);
-}
-
-main blockquote p::before,
-main blockquote p::after {
-  content: none;
-}
-
-/* Modern code blocks */
-main pre {
-  background-color: #f6f8fa;
-  border: 1px solid #e1e4e8;
-  border-radius: 6px;
-  padding: 1rem;
-  overflow: auto;
-  margin: 1rem 0;
-}
-
-main code {
-  font-family: "Consolas", "Monaco", "Courier New", monospace;
-  font-size: 0.9em;
-  background-color: #f6f8fa;
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-  color: var(--dark-blue);
-}
-
-/* Modern horizontal rule */
-main hr {
-  border: none;
-  border-top: 1px solid var(--light-gray);
-  margin: 2rem 0;
-  height: 1px;
-}
-
-main hr::before {
-  content: none;
-}
-
-/* Flash effect */
-.flash {
-  animation: flash 1s step-end infinite;
-}
-@keyframes flash {
-  50% {
-    opacity: 0;
-  }
-}
-
-/* Box effect */
-.box {
-  border: 2px solid var(--white);
-  padding: 8px;
-  margin: 8px 0;
-}
-
 /* TeleText Color Classes */
 /* Text Colors */
 .tc-red,
@@ -528,65 +346,132 @@ main hr::before {
   background-color: var(--light-violet);
 }
 
-main .task-list {
-  list-style: none;
-  padding-left: 1.5rem;
-}
-
-main .task-list-item-checkbox {
-  margin-right: 0.5rem;
-  position: relative;
-  appearance: auto;
-}
-
-/* Modern strong and emphasis */
-main strong {
-  font-weight: bold;
-  font-style: normal;
-}
-
-main em {
-  font-style: italic;
-}
-
-/* Code blocks and syntax highlighting */
-main pre {
-  background-color: #f8f9fa;
-  border: 1px solid #eaecef;
-  border-radius: 6px;
-  padding: 16px;
-  margin: 1rem 0;
-  overflow: auto;
-  font-size: 85%;
-  line-height: 1.45;
-}
-
-main pre code {
-  background-color: transparent;
+body {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--black);
+  color: var(--white);
+  margin: 0 auto;
   padding: 0;
-  margin: 0;
-  font-size: inherit;
-  word-break: normal;
-  white-space: pre;
-  border: 0;
+  width: var(--overall-width);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
 }
 
-main code {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
-    monospace;
-  background-color: rgba(27, 31, 35, 0.05);
-  border-radius: 3px;
-  padding: 0.2em 0.4em;
-  font-size: 85%;
+/* Header and Footer retain teletext styling */
+header,
+footer {
+  font-family: var(--font);
+  background-color: var(--black);
+  color: var(--white);
+  width: var(--overall-width);
+  padding: 1rem;
+  font-size: var(--font-size);
+  line-height: var(--font-size);
 }
 
-/* Enhanced blockquotes */
-main blockquote {
+header *,
+footer * {
+  font-family: var(--font);
+  letter-spacing: 0;
+  font-kerning: none;
+  word-break: break-all;
+  line-height: var(--font-size);
+}
+
+/* Main content modern styling */
+main {
+  width: var(--overall-width);
+  padding: 2rem;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* Modern typography for main content */
+main h1 {
+  font-family: inherit;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 1.5rem 0;
+  color: var(--accent-color);
+}
+
+main h2 {
+  font-family: inherit;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 1.2rem 0;
+  color: var(--accent-color);
+}
+
+main h3 {
+  font-family: inherit;
+  font-size: 1.75rem;
+  line-height: 1.2;
   margin: 1rem 0;
-  padding: 0.5rem 1rem;
-  border-left: 4px solid #e0e0e0;
-  background-color: #f8f9fa;
-  color: #444;
+  color: var(--accent-color);
+}
+
+main h4,
+main h5,
+main h6 {
+  font-family: inherit;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin: 0.8rem 0;
+  color: var(--primary-color);
+}
+
+main p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+main a {
+  color: var(--light-blue);
+  text-decoration: underline;
+}
+
+main a:hover {
+  color: var(--blue);
+}
+
+/* Modern list styling */
+main ul,
+main ol {
+  padding-left: 2rem;
+  margin: 1rem 0;
+}
+
+main ul li,
+main ol li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+main ul li::before {
+  content: none;
+}
+
+main ul {
+  list-style-type: disc;
+}
+
+main ol {
+  list-style-type: decimal;
+}
+
+/* Modern blockquote */
+main blockquote {
+  border-left: 4px solid var(--dark-gray);
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: var(--black);
+  color: var(--light-gray);
 }
 
 main blockquote > :first-child {
@@ -597,28 +482,71 @@ main blockquote > :last-child {
   margin-bottom: 0;
 }
 
+/* Code blocks and syntax highlighting */
+main pre {
+  background-color: var(--dark-blue);
+  border: 1px solid var(--blue);
+  border-radius: 6px;
+  padding: 16px;
+  margin: 1rem 0;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  color: var(--white);
+}
+
+main pre code {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  word-break: normal;
+  white-space: pre;
+  border: 0;
+  color: var(--white);
+}
+
+main code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+  background-color: var(--dark-blue);
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+  font-size: 85%;
+  color: var(--light-yellow);
+}
+
+/* Modern horizontal rule */
+main hr {
+  border: none;
+  border-top: 1px solid var(--dark-gray);
+  margin: 2rem 0;
+  height: 1px;
+}
+
 /* Tables */
 main table {
   border-collapse: collapse;
   width: 100%;
   margin: 1rem 0;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--dark-gray);
 }
 
 main th,
 main td {
   padding: 8px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--dark-gray);
   text-align: left;
 }
 
 main th {
-  background-color: #f8f9fa;
+  background-color: var(--dark-blue);
+  color: var(--white);
   font-weight: 600;
 }
 
 main tr:nth-child(even) {
-  background-color: #f8f9fa;
+  background-color: var(--dark-blue);
 }
 
 /* Definition Lists */
@@ -629,6 +557,7 @@ main dl {
 main dt {
   font-weight: bold;
   margin-top: 1rem;
+  color: var(--primary-color);
 }
 
 main dd {
@@ -645,18 +574,18 @@ main var {
   font-size: 85%;
   padding: 0.2em 0.4em;
   border-radius: 3px;
+  background-color: var(--dark-gray);
+  color: var(--white);
 }
 
 main kbd {
-  background-color: #fafbfc;
-  border: 1px solid #d1d5da;
-  border-bottom-color: #c6cbd1;
-  box-shadow: inset 0 -1px 0 #c6cbd1;
+  border: 1px solid var(--light-gray);
+  box-shadow: inset 0 -1px 0 var(--light-gray);
 }
 
 /* Abbreviations */
 main abbr[title] {
-  border-bottom: 1px dotted #666;
+  border-bottom: 1px dotted var(--light-gray);
   cursor: help;
 }
 
@@ -664,7 +593,7 @@ main abbr[title] {
 main .footnotes {
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid var(--dark-gray);
   font-size: 0.9em;
 }
 
@@ -676,11 +605,16 @@ main figure {
 
 main figcaption {
   font-size: 0.9em;
-  color: #666;
+  color: var(--light-gray);
   margin-top: 0.5rem;
 }
 
-/* Task Lists (additional styling) */
+/* Task Lists */
+main .task-list {
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
 main .task-list-item {
   list-style-type: none;
   margin-left: -1.5rem;
@@ -694,14 +628,15 @@ main .task-list-item input[type="checkbox"] {
 main details {
   margin: 1rem 0;
   padding: 0.5rem 1rem;
-  background-color: #f8f9fa;
-  border: 1px solid #e0e0e0;
+  background-color: var(--dark-blue);
+  border: 1px solid var(--blue);
   border-radius: 4px;
 }
 
 main summary {
   font-weight: bold;
   cursor: pointer;
+  color: var(--primary-color);
 }
 
 main details[open] summary {
@@ -710,7 +645,8 @@ main details[open] summary {
 
 /* Mark (highlighted text) */
 main mark {
-  background-color: #fff3cd;
+  background-color: var(--dark-yellow);
+  color: var(--black);
   padding: 0.2em;
   border-radius: 2px;
 }
