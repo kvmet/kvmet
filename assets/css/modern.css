@@ -17,7 +17,8 @@
 :root {
   --font-size: 20px;
   --double-height: calc(var(--font-size) * 2);
-  --overall-width: 40ch;
+  --char-width: 16px; /* width of one character in Bedstead font */
+  --teletext-width: calc(40 * var(--char-width));
 
   --font: Bedstead-Extended, Mode7, "Courier New", Courier, monospace, fixed;
   --dh-font: Bedstead-ExtraCondensed, Mode7, "Courier New", Courier, monospace,
@@ -354,7 +355,9 @@ body {
   color: var(--white);
   margin: 0 auto;
   padding: 0;
-  width: var(--overall-width);
+  width: 100%;
+  max-width: 800px;
+  min-width: var(--teletext-width);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -368,7 +371,7 @@ footer {
   font-family: var(--font);
   background-color: var(--black);
   color: var(--white);
-  width: var(--overall-width);
+  width: var(--teletext-width);
   padding: 1rem;
   font-size: var(--font-size);
   line-height: var(--font-size);
@@ -385,7 +388,10 @@ footer * {
 
 /* Main content modern styling */
 main {
-  width: var(--overall-width);
+  width: 100%;
+  max-width: 800px;
+  min-width: var(--teletext-width);
+  padding: 2rem;
   padding: 2rem;
   background-color: var(--black);
   color: var(--white);
