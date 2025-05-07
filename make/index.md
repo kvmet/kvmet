@@ -52,3 +52,6 @@ Projects and stuff
 ## Disjointed Notes
 
 - [Voting Systems](/make/notes/voting)
+- Eurorack Switch Sequencer
+- Eurorack Drum Module(s)
+- Eurorack Case
