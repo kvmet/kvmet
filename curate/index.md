@@ -16,6 +16,9 @@ I love making lists. Here is a list:
 - Tools
 - Camping Gear
 
+## Other
+
+- [Annoying things in MacOS Finder](./macos_finder)
 
 <!--
 - Things you [red]X[end] do
