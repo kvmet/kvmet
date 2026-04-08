@@ -16,121 +16,139 @@ here and waiting for you to take a look
 
 # Curriculum Vitae
 
-Experienced Engineer with a demonstrated
-history of working in the electrical and
-industrial engineering industries.
-
-Skilled in PLC Systems, Industrial
-Automation Controls, and Contracting, in
-addition to Project Scheduling and
-Estimation.
-
-Strong engineering professional with a
-Bachelor's Degree in Electrical
-Engineering & Mathematics from The
-University of Alabama.
+Principal Controls Engineer with experience across industrial automation, advanced manufacturing, and software development. Background spans discrete & batch manufacturing, robotics, safety systems, networking, and project management.
 
 ---
 
 ## Skills
 
-- Manufacturing Automation
-- Instrumentation & Controls
-- Software & Standards Development
-- Project Scheduling and Estimation
-- PLC Programming (IEC 61131-3 languages)
+### Automation, Instrumentation, & Controls
+
+- Discrete & Batch Manufacturing, Welding, Web Handling, Material Handling
+- PLC: IEC 61131-3, Rockwell, Beckhoff
+- Motion: VFD, Stepper, Servo, Hydraulics, Pneumatics
+- Robotics: Fanuc, Yaskawa, Epson
+- HMI/SCADA: FactoryTalk, Ignition, ThinManager
+
+### Networking & Industrial Protocols
+
+- EtherCAT, Ethernet/IP, PROFINET, IO-Link
+- IT/OT: Layer 2/3 networking, Purdue model, MQTT, REST, OPC-UA
+- Cybersecurity: IT/OT convergence, secure equipment connectivity
+
+### Project Management
+
+- Six Sigma Green Belt
+- Scheduling: Jira, P6, MS Project
+- Estimation & Budget Control
+- Contracting & Vendor Coordination
+
+### Manufacturing Systems
+
+- MES/ERP Integration
+- ISA-88/PackML Standards
+- OEE Monitoring & Data Acquisition
+- Process Optimization & Root Cause Analysis
+
+### Software Development
+
+- C/C++/C#, Python, JavaScript/TypeScript/web
+- Git & Subversion version control
+- Databases: PostgreSQL, TimescaleDB, InfluxDB
+
+### Safety & Hazard Mitigation
+
+- Safety system design: Safety PLC, interlocks, guarding, Lockout/Tagout
+- Risk Assessment & Hazard Analysis
+- OSHA, NFPA 70/70E compliance
+
+### CAD / Design
+
+- Schematics & Panel Design: AutoCAD Electrical
+- Mechanical: OnShape, Fusion 360, Siemens NX
+- PCB: KiCAD
 
 ---
 
-## Work Experience
+## Experience
 
 ### Commonwealth Fusion Systems
 
-- Greater Boston, Massachusetts, USA
-- Devens, Massachusetts, USA
+_Greater Boston, Massachusetts, USA_
+
+#### Principal Controls Engineer
+Dec 2025 – Present
 
 #### Lead Controls Engineer
-
-Feb 2023 - Present
+Feb 2023 – Dec 2025
 
 #### Senior Controls Engineer
-
-Jul 2022 - Feb 2023
+Jul 2022 – Feb 2023
 
 #### Controls Engineer
+Jan 2021 – Jun 2022
 
-Jan 2021 - Jun 2022
+- Served as technical lead/SME, driving safety culture and providing technical guidance across the organization
+- Led strategic planning for production controls engineering, aligning manufacturing objectives with industry standards (ISA-88/PackML)
+- Developed control systems for novel HTS magnet manufacturing including laser welding, robotics, vacuum impregnation, cryogenics, and servo hydraulics
+- Built comprehensive safety systems mitigating hazards including X-ray, cryogenics, and airborne lead
+- Created custom PLC framework deployed across all factory systems, reducing development time and ensuring code consistency
+- Implemented automated OEE monitoring, real-time performance reporting, and high-speed data acquisition with cloud replication for long-term retention and analysis
+- Designed facility-wide network architecture (with IT/OT) enabling secure equipment connectivity while maintaining cybersecurity compliance
+- Led controls engineering for special projects throughout the organization, including SPARC tokamak assembly, pre-assembly manufacturing, inspection, and custom equipment development
+- Designed and documented electrical schematics, wiring diagrams, and panel layouts using AutoCAD Electrical
+- Developed and executed comprehensive testing and validation plans (FAT/SAT/etc.)
+- Handled vendor selection, RFQ, procurement, delivery, and acceptance for electrical components and custom manufacturing equipment, negotiating quotes and managing lead times
+
+---
 
 ### USNR
 
-- Woodland, Washington, USA
+_Woodland, Washington, USA_
 
 #### Controls Engineer
+Jun 2018 – Dec 2020
 
-Jun 2018 - Dec 2020
+- Programmed and commissioned automation systems for high-volume sawmill equipment, including primary & secondary breakdown, residuals processing, and engineered wood products (EWP)
+- Utilized Rockwell/Allen-Bradley PLCs and Delta RMC motion controllers, communicating via Ethernet/IP across multi-layered networks
+- Regularly worked on-site for installation and commissioning of new equipment, serving as the primary point of contact for customers
+- Collaborated with cross-functional teams on R&D projects to improve and standardize product offerings
 
-PLC Programming and Controls Engineering
-for automation of sawmill equipment for
-Primary & Secondary Breakdown, Residuals
-Processing, and Engineered Wood Products
-(EWP).
+---
 
-Primarily programmed and commossioned
-systems using Rockwell/Allen-Bradley
-PLCs and Delta RMC motion controllers
-using Ethernet/IP across multi-layered
-networks. High amount of on-site work
-for installation and commissioning of
-new equipment as well as internal
-research and development intended to
-improve/standardize existing products.
+### eBechtle, LLC.
 
-Assisted in mechanical and electrical
-work as needed to support trades or for
-independent troubleshooting.
-
-### EBechtle, LLC.
-
-- Greater Atlanta Area, Georgia, USA
-- Sankt Leon-Rot, Baden-Württemberg, DE
-- Fort Worth, TX, USA
+_Greater Atlanta Area, GA, USA · Sankt Leon-Rot, Baden-Württemberg, DE · Fort Worth, TX, USA_
 
 #### Project Engineer
+Aug 2016 – Jun 2018
 
-Aug 2016 - Jun 2018
+- Programmed and commissioned control systems for medical device manufacturing (contact lenses, IOLs) using TwinCAT 3, Zenon HMI, and Beckhoff hardware
+- On-site installation, testing, and commissioning, often as sole company representative
+- Provided technical training and ongoing customer support
 
-Controls and Software Engineering/Programming for industrial automation systems in the medical devices industry. Job responsibilities include process programming, commissioning, installation, testing, and training. Primarily dealing with TwinCAT 3 and Beckhoff equipment for motion control of servos, steppers, and cylinders as well as integration with other control systems.
+---
 
-### Allison Smith Company, LLC.
+### Allison-Smith, LLC.
 
-- Greater Atlanta Area, Georgia, USA
+_Greater Atlanta Area, Georgia, USA_
 
 #### Project Manager
+May 2013 – Jul 2016
 
-May 2013 - Jul 2016
+- Managed electrical projects and coordinated scheduling/resources for commercial datacenter projects ranging from $500K to $10M+
+- Developed PLC software (Schneider Unity Pro/IEC 61131-3) for complex electrical switchgear control systems
 
-Worked on a team of project managers dealing primarily with data center facility construction, maintenance, and retrofitting. Roles varied depending on the project between estimating, contracting, scheduling, programming, overseeing work, etc.
+---
 
-Some projects required my abilities in PLC programming (Schneider, Unity Pro/IEC 61131-3, Vijeo Designer) for complex control schemes of electrical switchgear.
+### Hewlett Packard
 
-### Hewlett-Packard
+_Houston, Texas, USA_
 
-- Houston, Texas, USA
+#### Co-op Intern, iLO Embedded Server Management Group
+May 2011 – May 2012
 
-#### Co-op Intern
-
-May 2011 - May 2012
-
-Integrated Lights-out (iLO) embedded
-server management group. Operated as
-part of a team to design and develop
-several utilities for internal testing
-as well as software for improvement of
-technical support quality and speed.
-
-Primarily worked in .NET C# for windows
-application development with some minor
-web-based projects.
+- Developed Windows applications (.NET/C#) to improve tech support efficiency and quality
 
 ---
 
@@ -138,28 +156,48 @@ web-based projects.
 
 ### The University of Alabama
 
-- Bachelors – 2009 - 2014
-  - **Major:** Electrical Engineering (Computer Engineering Focus) & Mathematics
-  - **Minor:** Computer-based Honors (Randall Research Scholars)
-  - **Activities and Societies:**
-    - University Honors
-    - Circle K International
-    - Million Dollar Band
+_Bachelors – 2009–2014_
+
+- **Major:** Electrical Engineering (Computer Engineering Focus) & Mathematics
+- **Minor:** Computer-based Honors (Randall Research Scholars)
+- **Activities:** University Honors, Circle K International, Million Dollar Band
+
+---
+
+## Hobbies & Interests
+
+Music & music electronics, 3D printing, CNC machining, software development, data structures & algorithms, amateur radio (K5MME), improv comedy, photography
 
 ---
 
 ## Publications
 
+### Design, Fabrication, and Assembly of the SPARC Toroidal Field Model Coil
+
+- _IEEE Transactions on Applied Superconductivity_, vol. 34, no. 2, March 2024
+- **Authors:** R. F. Vieira et al.
+- **DOI:** [10.1109/TASC.2024.3356571](https://doi.org/10.1109/TASC.2024.3356571)
+
+### Building the Runway: A New Superconducting Magnet Test Facility Made for the SPARC Toroidal Field Model Coil
+
+- _IEEE Transactions on Applied Superconductivity_, vol. 34, no. 2, March 2024
+- **Authors:** T. Golfinopoulos et al.
+- **DOI:** [10.1109/TASC.2024.3352395](https://doi.org/10.1109/TASC.2024.3352395)
+
 ### The SPARC Toroidal Field Model Coil Program
 
-- _IEEE Transactions on Applied Superconductivity_
-- **Date:** 01 NOV 2023
-- **Authors:** Zachary Hartwig, et. al.
+- _IEEE Transactions on Applied Superconductivity_, vol. 34, no. 2, March 2024
+- **Authors:** Z. S. Hartwig et al.
 - **DOI:** [10.1109/TASC.2023.3332613](https://doi.org/10.1109/TASC.2023.3332613)
 
-### RF hand gesture sensor for monitoring of cigarette smoking
+### Development of a High Current Density, High Temperature Superconducting Cable for Pulsed Magnets
 
-- _2011 Fifth International Conference on Sensing Technology_
-- **Date:** 28 NOV 2011
-- **Authors:** Edward Sazonov, et. al.
+- _Superconductor Science and Technology_, vol. 37, no. 11, October 2024
+- **Authors:** Charlie Sanabria et al.
+- **DOI:** [10.1088/1361-6668/ad7efc](https://doi.org/10.1088/1361-6668/ad7efc)
+
+### RF Hand Gesture Sensor for Monitoring of Cigarette Smoking
+
+- _2011 Fifth International Conference on Sensing Technology_, Palmerston North, New Zealand
+- **Authors:** E. Sazonov, K. Metcalfe, P. Lopez-Meyer, S. Tiffany
 - **DOI:** [10.1109/ICSensT.2011.6137014](https://doi.org/10.1109/ICSensT.2011.6137014)
