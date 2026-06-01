@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1o5sn4oqry7v"]
+
+[ext_resource type="Script" path="res://agent.gd" id="1_uwp3k"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ep1pc"]
+
+[node name="Agent" type="RigidBody2D" groups=["Agents"]]
+position = Vector2(2.08165e-12, 2.08165e-12)
+collision_layer = 2
+script = ExtResource("1_uwp3k")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ep1pc")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 10.0
+offset_bottom = 10.0
+color = Color(1, 0.192157, 0.247059, 1)
