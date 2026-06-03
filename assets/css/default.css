@@ -17,11 +17,11 @@
 :root {
   --font-size: 20px;
   --double-height: calc(var(--font-size) * 2);
-  --overall-width: 40ch;
+  --overall-width: 80ch;
 
   --font: Bedstead-Extended, Mode7, "Courier New", Courier, monospace, fixed;
-  --dh-font: Bedstead-ExtraCondensed, Mode7, "Courier New", Courier, monospace,
-    fixed;
+  --dh-font:
+    Bedstead-ExtraCondensed, Mode7, "Courier New", Courier, monospace, fixed;
   /* Teletext color palette  */
   --white: #ffffff;
   --light-gray: #c0c0c0;
